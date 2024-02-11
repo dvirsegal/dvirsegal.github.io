@@ -36,5 +36,33 @@
       <guid>http://dvirsegal.github.io/tags/yaml/</guid>
       <description></description>
     </item>
+    <item>
+      <title>leadership</title>
+      <link>http://dvirsegal.github.io/tags/leadership/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/leadership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>productivity</title>
+      <link>http://dvirsegal.github.io/tags/productivity/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>software-engineering</title>
+      <link>http://dvirsegal.github.io/tags/software-engineering/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>time-management</title>
+      <link>http://dvirsegal.github.io/tags/time-management/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/time-management/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
