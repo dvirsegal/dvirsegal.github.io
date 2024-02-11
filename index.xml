@@ -6,8 +6,15 @@
     <description>Recent content on dvirsegal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://dvirsegal.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A brief introduction to YAML</title>
+      <link>http://dvirsegal.github.io/posts/are-we-all-yaml-engineers-now-538j/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/are-we-all-yaml-engineers-now-538j/</guid>
+      <description>What is YAML? And how it works?&#xD;Link to heading&#xD;Recently I switched jobs, and as part of this change, I’ve been introduced to a whole new tech stack. RabbitMQ 🐰, Java Spring, Docker, etc. (meaning more subjects to write about 😂). Most of the technologies I use on a daily basis consume YAML as their configuration. In this post, I’ll try to illustrate what I’ve learned (and from where) while trying to understand this new world.</description>
+    </item>
     <item>
       <title>A letter to the lonely developer</title>
       <link>http://dvirsegal.github.io/posts/a-letter-to-the-lonely-developer-458f/</link>
