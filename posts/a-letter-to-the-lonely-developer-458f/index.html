@@ -25,7 +25,7 @@ Don’t give up, keep up with your efforts to find other ways to understand the 
 <meta property="og:description" content="Me against a bug, reminding myself how to solve any defectLink to headingDear developer,
 Don’t give up, keep up with your efforts to find other ways to understand the bug’s root cause. I know it can be frustrating. The agonies with the process can be ruff. But, you’ve got it, you solved many in the past, and you will solve this one too. It is part of your job." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.example.com/posts/a-letter-to-the-lonely-developer-458f/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://dvirsegal.github.io/posts/a-letter-to-the-lonely-developer-458f/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-09-03T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-09-03T00:00:00+00:00" />
 
@@ -33,7 +33,7 @@ Don’t give up, keep up with your efforts to find other ways to understand the 
 
 
 
-<link rel="canonical" href="http://www.example.com/posts/a-letter-to-the-lonely-developer-458f/">
+<link rel="canonical" href="http://dvirsegal.github.io/posts/a-letter-to-the-lonely-developer-458f/">
 
 
 <link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -63,9 +63,9 @@ Don’t give up, keep up with your efforts to find other ways to understand the 
 
 
 
-<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
-<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/svg+xml" href="/dvir_animated.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="16x16">
 
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -134,7 +134,7 @@ Don’t give up, keep up with your efforts to find other ways to understand the 
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="http://www.example.com/posts/a-letter-to-the-lonely-developer-458f/">
+            <a class="title-link" href="http://dvirsegal.github.io/posts/a-letter-to-the-lonely-developer-458f/">
               A letter to the lonely developer
             </a>
           </h1>
@@ -174,8 +174,15 @@ Don’t give up, keep up with your efforts to find other ways to understand the 
 </h4>
 <p>Dear developer,</p>
 <p>Don’t give up, keep up with your efforts to find other ways to understand the bug’s root cause. I know it can be frustrating. The agonies with the process can be ruff. But, you’ve got it, you solved many in the past, and you will solve this one too. It is part of your job.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/614/1*ldXebu55vPs_GfTMLjkWFA.png" alt="5 stages of debugging" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>5 stages of debugging</em></p>
+</div>
+
 <h4 id="investigate-the-crime-scene-">
   Investigate the crime scene 🕵️
   <a class="heading-link" href="#investigate-the-crime-scene-">
@@ -198,12 +205,28 @@ Don’t give up, keep up with your efforts to find other ways to understand the 
     <span class="sr-only">Link to heading</span>
   </a>
 </h4>
-<!-- raw HTML omitted -->
-<p>Try creative ways to solve it. If you find yourself struggling, go to the framework API documentation (such as <a href="https://docs.microsoft.com/en-us/dotnet/api/"  class="external-link" target="_blank" rel="noopener">Microsoft docs</a>) or read trough your project <strong>design documents</strong> , both might reveal the hidden parts.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/493/1*NtY-e53ZzDoHDbx9vKUATw.png" alt="Found it!" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Found it!</em></p>
+</div>
+
+<p>Try creative ways to solve it. If you find yourself struggling, go to the framework API documentation (such as <a href="https://docs.microsoft.com/en-us/dotnet/api/"  class="external-link" target="_blank" rel="noopener">Microsoft docs</a>) or read through your project <strong>design documents</strong> , both might reveal the hidden parts.</p>
 <p><strong>Search for similar solutions</strong> using your favorite search engine (e.g., <a href="https://duckduckgo.com/"  class="external-link" target="_blank" rel="noopener">DuckDuckGo</a>), filter relevant results — you might find blogs, books, and tons of information on related subjects. It is not a shame to read answers in <a href="https://stackoverflow.com/"  class="external-link" target="_blank" rel="noopener">StackOverflow</a>, so use it wisely.</p>
 <p>Apply various techniques, such as registering to main flow events, adding helpful log printouts, reading the framework’s source code (in case <a href="https://referencesource.microsoft.com/"  class="external-link" target="_blank" rel="noopener">available</a>). Consider if <strong>refactoring</strong> is needed to reduce coupling, don’t just fix a bug, fix the entire class, so you’ll never be able to create similar bugs again.</p>
-<!-- raw HTML omitted -->
-<p>One last thing, it’s a kind of an overkill, but if all odds are against you, use a reflector (it depends on the language), which enables debugging without source code (unless not allowed — <a href="https://en.wikipedia.org/wiki/Obfuscated_code"  class="external-link" target="_blank" rel="noopener">obfuscation</a>) to pinpoint the issue. I highly recommend using <strong>dnSpy</strong> , which I previously <a href="https://medium.com/@dvirsegal/when-in-doubt-reverse-engineer-it-4ad4c4a707e2"  class="external-link" target="_blank" rel="noopener">blogged</a> about.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/492/1*EaOXnS72a7xPEPUKt7nGpA.png" alt="overkill" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>overkill</em></p>
+</div>
+
+<p>One last thing, it’s a kind of an overkill, but if all odds are against you, use a reflector (it depends on the language), which enables debugging without source code (unless not allowed — <a href="https://en.wikipedia.org/wiki/Obfuscated_code"  class="external-link" target="_blank" rel="noopener">obfuscation</a>) to pinpoint the issue. I highly recommend using <strong>dnSpy</strong> , which I previously <a href="https://medium.com/@dvirsegal/when-in-doubt-reverse-engineer-it-4ad4c4a707e2"  class="external-link" target="_blank" rel="noopener">blogged</a>.</p>
 <h4 id="managed-to-fix-it-">
   Managed to fix it? 🧩
   <a class="heading-link" href="#managed-to-fix-it-">
@@ -211,7 +234,15 @@ Don’t give up, keep up with your efforts to find other ways to understand the 
     <span class="sr-only">Link to heading</span>
   </a>
 </h4>
-<!-- raw HTML omitted -->
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/401/1*uV8k54K5-An8fsSsufGmlQ.gif" alt="Done" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Done</em></p>
+</div>
+
 <p>The battle hasn’t finished —  <strong>add unit tests</strong> to prevent a “make a fix, cause a problem elsewhere” situation. Update the <strong>design document</strong> if needed, run automatic or manual <strong>sanity tests</strong> to verify the fix. Add code <strong>comments</strong> to explain the context (the “why”) of the fix (more on <a href="https://medium.com/dev-genius/code-comments-are-your-code-autobiography-7202c45b5e37"  class="external-link" target="_blank" rel="noopener">that</a>).</p>
 <p>Question your methods, you may be able to <strong>learn and get better</strong> , so ask yourself:</p>
 <ul>
@@ -235,30 +266,7 @@ Your future-self</p>
         
 
 
-        <div id="disqus_thread"></div>
-<script>
-  window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-    
-    document.addEventListener('themeChanged', function (e) { 
-        if (document.readyState == 'complete') {
-          DISQUS.reset({ reload: true, config: disqus_config });
-        }
-    });
-</script>
+        
         
         
         

@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dvirsegal</title>
-    <link>http://www.example.com/</link>
+    <link>http://dvirsegal.github.io/</link>
     <description>Recent content on dvirsegal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dvirsegal.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A letter to the lonely developer</title>
-      <link>http://www.example.com/posts/a-letter-to-the-lonely-developer-458f/</link>
+      <link>http://dvirsegal.github.io/posts/a-letter-to-the-lonely-developer-458f/</link>
       <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.example.com/posts/a-letter-to-the-lonely-developer-458f/</guid>
+      <guid>http://dvirsegal.github.io/posts/a-letter-to-the-lonely-developer-458f/</guid>
       <description>Me against a bug, reminding myself how to solve any defect&#xD;Link to heading&#xD;Dear developer,&#xA;Don’t give up, keep up with your efforts to find other ways to understand the bug’s root cause. I know it can be frustrating. The agonies with the process can be ruff. But, you’ve got it, you solved many in the past, and you will solve this one too. It is part of your job.</description>
+    </item>
+    <item>
+      <title>DVIR SEGAL</title>
+      <link>http://dvirsegal.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/about/</guid>
+      <description>Hey, I’m Dvir 🙋🏻‍♂️&#xA;nI’m curious by nature. I love reading and learning new stuff, mainly about SW development. It feels like I’m on a sort of a quest for knowledge.&#xA;I genuinely believe there’s no such thing as a stupid question. If you have one? don’t hesitate to reach out; my Twitter DM is open 🍻</description>
     </item>
   </channel>
 </rss>
