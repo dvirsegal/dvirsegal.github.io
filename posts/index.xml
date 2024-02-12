@@ -37,18 +37,18 @@
       <description>You can achieve almost anything by teamwork. Listening is a vital characteristic of a leader. Effectively communicating your thoughts is essential, as well. How you interact can positively and negatively affect the relationships you have in your work (and personal life too).&#xA;Effective communication is defined by various articles (#1, #2, #3, and more), and I challenge myself not to repeat them. I would like to give a different perspective on the matter.</description>
     </item>
     <item>
-      <title>Code comments are your code autobiography</title>
-      <link>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</link>
-      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</guid>
-      <description>Writing about your code is redundant; the code is all you need. I can invest my time on unit tests or develop other features, and other excuses of why writing code comments is a waste of time. It’s a common belief among developers.&#xA;Well, you’ve invested all your efforts in cultivating the design of your code, why should you comment it, right? As a result, code documentation is either absent or useless.</description>
-    </item>
-    <item>
       <title>Arrange your time and your mind will follow</title>
       <link>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</guid>
       <description>Being productive by taking control of your time&#xD;Link to heading&#xD;A gym workout, a reminder to walk the dog, meeting with your colleagues on that project presentation, a dentist appointment — are all on the same page. You can’t separate artificially between your work and personal calendars. Why? Because that’s how your life works. The goal is to see what your actual day looks like, to blend between work and personal life for finding the right balance that fits you.</description>
+    </item>
+    <item>
+      <title>Code comments are your code autobiography</title>
+      <link>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</guid>
+      <description>Writing about your code is redundant; the code is all you need. I can invest my time on unit tests or develop other features, and other excuses of why writing code comments is a waste of time. It’s a common belief among developers.&#xA;Well, you’ve invested all your efforts in cultivating the design of your code, why should you comment it, right? As a result, code documentation is either absent or useless.</description>
     </item>
   </channel>
 </rss>

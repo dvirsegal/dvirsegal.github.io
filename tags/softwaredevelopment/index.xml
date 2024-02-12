@@ -18,7 +18,7 @@
     <item>
       <title>Code comments are your code autobiography</title>
       <link>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</link>
-      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</guid>
       <description>Writing about your code is redundant; the code is all you need. I can invest my time on unit tests or develop other features, and other excuses of why writing code comments is a waste of time. It’s a common belief among developers.&#xA;Well, you’ve invested all your efforts in cultivating the design of your code, why should you comment it, right? As a result, code documentation is either absent or useless.</description>
     </item>
