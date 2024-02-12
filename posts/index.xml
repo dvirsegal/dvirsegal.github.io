@@ -37,6 +37,13 @@
       <description>Me against a bug, reminding myself how to solve any defect&#xD;Link to heading&#xD;Dear developer,&#xA;Don’t give up, keep up with your efforts to find other ways to understand the bug’s root cause. I know it can be frustrating. The agonies with the process can be ruff. But, you’ve got it, you solved many in the past, and you will solve this one too. It is part of your job.</description>
     </item>
     <item>
+      <title>Diving into the deep code waters</title>
+      <link>http://dvirsegal.github.io/posts/diving-into-the-deep-code-waters-57p9/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/diving-into-the-deep-code-waters-57p9/</guid>
+      <description>Tools and techniques for exploring an unknown (large) codebase&#xD;Link to heading&#xD;You’ve received a new responsibility or walked into a new job where there is existing code to work with. The source control has been introduced to you, realizing you have a lot to learn. Now what? Asking yourself, how should I become acquainted with the new codebase? Which for some, may be intimidating. Below I’ll attempt to illustrate my techniques for getting familiarity with the code, leading to structured knowledge.</description>
+    </item>
+    <item>
       <title>Code review guidelines light the way</title>
       <link>http://dvirsegal.github.io/posts/code-review-guidelines-light-the-way-1e4/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
