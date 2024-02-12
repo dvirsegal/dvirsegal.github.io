@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>clipboard on dvirsegal</title>
+    <link>http://dvirsegal.github.io/tags/clipboard/</link>
+    <description>Recent content in clipboard on dvirsegal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 16 May 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://dvirsegal.github.io/tags/clipboard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ditto, the clipboard manager that saved me</title>
+      <link>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</guid>
+      <description>Copy-pasting is one of those things that you do every day while working on a computer. By doing so, each time you invest a small portion of your daily routine.&#xA;Say you want to share a photo\text\whatever with a friend from a website, you copy it, either by right-clicking on it and copying it to the clipboard or using Ctrl+C and then paste it to your favorite sharing application and after doing so, you’ve realized you want to share it again with another person.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Ditto, the clipboard manager that saved me · dvirsegal
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Dvir Segal">
+<meta name="description" content="Copy-pasting is one of those things that you do every day while working on a computer. By doing so, each time you invest a small portion of your daily routine.
+Say you want to share a photo\text\whatever with a friend from a website, you copy it, either by right-clicking on it and copying it to the clipboard or using Ctrl&#43;C and then paste it to your favorite sharing application and after doing so, you’ve realized you want to share it again with another person.">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Ditto, the clipboard manager that saved me"/>
+<meta name="twitter:description" content="Copy-pasting is one of those things that you do every day while working on a computer. By doing so, each time you invest a small portion of your daily routine.
+Say you want to share a photo\text\whatever with a friend from a website, you copy it, either by right-clicking on it and copying it to the clipboard or using Ctrl&#43;C and then paste it to your favorite sharing application and after doing so, you’ve realized you want to share it again with another person."/>
+
+<meta property="og:title" content="Ditto, the clipboard manager that saved me" />
+<meta property="og:description" content="Copy-pasting is one of those things that you do every day while working on a computer. By doing so, each time you invest a small portion of your daily routine.
+Say you want to share a photo\text\whatever with a friend from a website, you copy it, either by right-clicking on it and copying it to the clipboard or using Ctrl&#43;C and then paste it to your favorite sharing application and after doing so, you’ve realized you want to share it again with another person." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-05-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-05-16T00:00:00+00:00" />
+
+
+
+
+
+<link rel="canonical" href="https://medium.com/@dvirsegal/ditto-the-clipboard-manager-that-saved-me-967c6dd7651a">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.577e3c5ead537873430da16f0964b754a120fd87c4e2203a00686e7c75b51378.css" integrity="sha256-V348Xq1TeHNDDaFvCWS3VKEg/YfE4iA6AGhufHW1E3g=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      dvirsegal
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/">
+              Ditto, the clipboard manager that saved me
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2019-05-16T00:00:00Z">
+                May 16, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/dvir-segal/">Dvir Segal</a></div>
+
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/productivity/">productivity</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/software-development/">software-development</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/clipboard/">clipboard</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/windows/">windows</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+          <img src="https://cdn-images-1.medium.com/max/2560/1*gQcQ6CZezlsCWPOOGxnn1Q.png" alt="Featured image"/>
+        
+        <p>Copy-pasting is one of those things that you do every day while working on a computer. By doing so, each time you invest a small portion of your daily routine.</p>
+<p>Say you want to share a photo\text\whatever with a friend from a website, you copy it, either by right-clicking on it and copying it to the clipboard or using Ctrl+C and then paste it to your favorite sharing application and after doing so, you’ve realized you want to share it again with another person. Unfortunately, the data is no longer at your clipboard, and now you have to annoyingly crawl your way back to the webpage again to do the whole thing all over again. I’m sure you familiar with that situation.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/800/0*UWZyPY_V2vKOyqZB.jpg" alt="Copy and paste again" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Copy and paste again</em></p>
+</div>
+
+<p>Here comes <a href="https://ditto-cp.sourceforge.io/"  class="external-link" target="_blank" rel="noopener"><em>Ditto</em></a>  to the rescue. An open sourced <em>super</em> tool, hosted at <a href="https://sourceforge.net/projects/ditto-cp/"  class="external-link" target="_blank" rel="noopener">SourceForge</a> that saved me <strong>A LOT</strong> of time by collecting my clipboard history. It enhances the Windows clipboard copy-pasting experience with various capabilities, and if you make sure to incorporate them into your daily routine, you can boost your productivity.</p>
+<p>Alternatively, as mentioned on Ditto’s home page:</p>
+<blockquote>
+<p>Ditto is an extension to the standard windows clipboard. It saves each item placed on the clipboard allowing you access to any of those items at a later time. Ditto allows you to save any type of information that can be put on the clipboard, text, images, HTML, custom formats…</p>
+</blockquote>
+<h4 id="getting-started">
+  Getting started
+  <a class="heading-link" href="#getting-started">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Just <a href="https://sourceforge.net/projects/ditto-cp/files/Ditto/3.22.20.0/DittoSetup_3_22_20_0.exe/download"  class="external-link" target="_blank" rel="noopener">download</a> and install Ditto. The tool runs in the background, and while copy things to the clipboard using Windows copy capabilities, Ditto gathers all copied data into its log.</p>
+<p>Then, open Ditto by clicking its icon in the system tray or by pressing the predefined hotkey (by default it is configured to Crtl + `).</p>
+<p>When opened double click or press Enter on the selected item from the list you would like to paste into the proper scope of your work, as can be seen in the below GIF:</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/800/1*kU49yEVLNGtnofIj7RORjA.gif" alt="Ditto in action" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Ditto in action</em></p>
+</div>
+
+<h4 id="daily-usage-andfeatures">
+  Daily usage and features
+  <a class="heading-link" href="#daily-usage-andfeatures">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>The list of features as noted by <a href="https://sourceforge.net/u/sabrogden/profile/"  class="external-link" target="_blank" rel="noopener">sabrogden</a>, Ditto’s developer:</p>
+<ul>
+<li>Search and paste previous copy entries</li>
+<li>Keep multiple computer’s clipboards in sync</li>
+<li>Data is encrypted when sent over the network</li>
+<li>Accessed from tray icon or global hotkey</li>
+<li>Select entry by double click, enter key or drag drop</li>
+<li>Paste into any window that excepts standard copy/paste entries</li>
+<li>Display thumbnail of copied images in the list</li>
+<li>Full Unicode support (foreign display characters)</li>
+<li>UTF-8 support for language files (create language files in any language)</li>
+<li>Uses SQLite database (<a href="http://www.sqlite.org/"  class="external-link" target="_blank" rel="noopener">www.sqlite.org</a>)</li>
+</ul>
+<p>My favorite feature is using the search option; you can look for text contained in each record or use a wildcard and even using a regular expression (for the braves among us) is supported; I use it daily.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/800/0*MFQwryVQ3QLi-YKE.jpg" alt="Regex magician" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Regex magician</em></p>
+</div>
+
+<p>Furthermore, I reconfigured the default hotkey into (Win key +`), which I’ve found more comfortable and proper use of the Win key.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/800/1*dgVrGKVl4keAydtM68t3UQ.png" alt="Keyboard shortcuts" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Keyboard shortcuts</em></p>
+</div>
+
+<p>Ditto allows configuring the max number of saved copies, the expiration time for copied entries and basically, you can tweak its behavior for your needs. I love the dark theme and the option to choose any font (I use the <a href="https://sourcefoundry.org/hack/"  class="external-link" target="_blank" rel="noopener">hack</a> font) for the displayed text.</p>
+<p>Furthermore, an advanced user can configure sharing his clipboard items between computers on the same network using IP or Computer names. Another useful feature is the option to mark a record as a sticky clip, in such way you’ll keep the most important ones at the top\bottom; defining a hotkey for that purpose is helpful. Group copy is supported too; you can group several clips and add a predefined shortcut to copy them at once.</p>
+<p>One of the tool caveats is when using a password manager, even a one that makes sure to delete clipboard right after copy-pasting a password. It means any copied passwords are being kept in Ditto’s log until explicitly deleting them, either by manually removing them or by reaching the number of saved copies. Mitigation for that risk is to prevent Ditto from accessing the network by blocking its traffic via the Windows’s firewall configuration.</p>
+<p>Overall, If you’re looking to boost your typing productivity then install Ditto, you won’t regret it.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Dvir Segal 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
