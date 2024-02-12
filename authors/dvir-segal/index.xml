@@ -6,14 +6,28 @@
     <description>Recent content in Dvir Segal on dvirsegal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://dvirsegal.github.io/authors/dvir-segal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developer story: Getting used to macOS as a long-time Windows user</title>
+      <link>http://dvirsegal.github.io/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</link>
+      <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</guid>
+      <description>It&amp;rsquo;s like learning to ride bicycles whole over again&#xD;Link to heading&#xD;As long as I recall my relationship with computers, I’ve been using Windows. I customized everything to the perfection that fits my needs. Whether it&amp;rsquo;s keyboard shortcuts, specific applications (like this one) that helped do my work, scripts, and more. If it can be modded or automated — I’ve done it.&#xA;Recently it all changed. 😱😱😱&#xA;I decided to take a new position.</description>
+    </item>
     <item>
       <title>A brief introduction to YAML</title>
       <link>http://dvirsegal.github.io/posts/are-we-all-yaml-engineers-now-538j/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/are-we-all-yaml-engineers-now-538j/</guid>
       <description>What is YAML? And how it works?&#xD;Link to heading&#xD;Recently I switched jobs, and as part of this change, I’ve been introduced to a whole new tech stack. RabbitMQ 🐰, Java Spring, Docker, etc. (meaning more subjects to write about 😂). Most of the technologies I use on a daily basis consume YAML as their configuration. In this post, I’ll try to illustrate what I’ve learned (and from where) while trying to understand this new world.</description>
+    </item>
+    <item>
+      <title>Congratulations and welcome aboard!</title>
+      <link>http://dvirsegal.github.io/posts/congratulations-and-welcome-aboard-3iba/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/congratulations-and-welcome-aboard-3iba/</guid>
+      <description>The importance of a well crafted, humane onboarding process&#xD;Link to heading&#xD;You’ve prepared a new resume, searched for challenging positions, submitted your CV to various companies, participated in many interviews, asked your interviewers about the working environment, considered your culture fit. Eventually, you’ve received several job offers, prioritized and weigh them down …. and finally, you’ve agreed to take one. 🤗&#xA;Found a new job, yay&#xA;The exciting day has arrived — your first day on the job.</description>
     </item>
     <item>
       <title>A letter to the lonely developer</title>
