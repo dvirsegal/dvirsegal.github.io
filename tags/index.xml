@@ -37,6 +37,34 @@
       <description></description>
     </item>
     <item>
+      <title>best-practices</title>
+      <link>http://dvirsegal.github.io/tags/best-practices/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>code-review</title>
+      <link>http://dvirsegal.github.io/tags/code-review/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/code-review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>documentation</title>
+      <link>http://dvirsegal.github.io/tags/documentation/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/documentation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>software-engineering</title>
+      <link>http://dvirsegal.github.io/tags/software-engineering/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>developers</title>
       <link>http://dvirsegal.github.io/tags/developers/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
@@ -65,17 +93,31 @@
       <description></description>
     </item>
     <item>
+      <title>cleancode</title>
+      <link>http://dvirsegal.github.io/tags/cleancode/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/cleancode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>refactoring</title>
+      <link>http://dvirsegal.github.io/tags/refactoring/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/refactoring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>softwareengineering</title>
+      <link>http://dvirsegal.github.io/tags/softwareengineering/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/softwareengineering/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>productivity</title>
       <link>http://dvirsegal.github.io/tags/productivity/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/tags/productivity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>software-engineering</title>
-      <link>http://dvirsegal.github.io/tags/software-engineering/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/software-engineering/</guid>
       <description></description>
     </item>
     <item>

@@ -15,5 +15,12 @@
       <guid>http://dvirsegal.github.io/posts/are-we-all-yaml-engineers-now-538j/</guid>
       <description>What is YAML? And how it works?&#xD;Link to heading&#xD;Recently I switched jobs, and as part of this change, I’ve been introduced to a whole new tech stack. RabbitMQ 🐰, Java Spring, Docker, etc. (meaning more subjects to write about 😂). Most of the technologies I use on a daily basis consume YAML as their configuration. In this post, I’ll try to illustrate what I’ve learned (and from where) while trying to understand this new world.</description>
     </item>
+    <item>
+      <title>Code comments are your code autobiography</title>
+      <link>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</guid>
+      <description>Writing about your code is redundant; the code is all you need. I can invest my time on unit tests or develop other features, and other excuses of why writing code comments is a waste of time. It’s a common belief among developers.&#xA;Well, you’ve invested all your efforts in cultivating the design of your code, why should you comment it, right? As a result, code documentation is either absent or useless.</description>
+    </item>
   </channel>
 </rss>

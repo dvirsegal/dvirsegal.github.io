@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>code-review on dvirsegal</title>
+    <link>http://dvirsegal.github.io/tags/code-review/</link>
+    <description>Recent content in code-review on dvirsegal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://dvirsegal.github.io/tags/code-review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code review guidelines light the way</title>
+      <link>http://dvirsegal.github.io/posts/code-review-guidelines-light-the-way-1e4/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/code-review-guidelines-light-the-way-1e4/</guid>
+      <description>My humble opinion on the necessity of a check-in process&#xD;Link to heading&#xD;Are you familiar with the situation of getting a code review that is being delayed by your peer reviewer’s nitpicking for filling his code perfection aspirations? Unable to commit due to build server failure? Personal preferences overruled over technical facts?&#xA;Let me see your unit tests&#xA;All the above are examples of the necessity of a well-defined procedure, guiding us in various situations we encounter daily.</description>
+    </item>
+  </channel>
+</rss>

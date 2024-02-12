@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Code comments are your code autobiography · dvirsegal
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Dvir Segal">
+<meta name="description" content="Writing about your code is redundant; the code is all you need. I can invest my time on unit tests or develop other features, and other excuses of why writing code comments is a waste of time. It’s a common belief among developers.
+Well, you’ve invested all your efforts in cultivating the design of your code, why should you comment it, right? As a result, code documentation is either absent or useless.">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Code comments are your code autobiography"/>
+<meta name="twitter:description" content="Writing about your code is redundant; the code is all you need. I can invest my time on unit tests or develop other features, and other excuses of why writing code comments is a waste of time. It’s a common belief among developers.
+Well, you’ve invested all your efforts in cultivating the design of your code, why should you comment it, right? As a result, code documentation is either absent or useless."/>
+
+<meta property="og:title" content="Code comments are your code autobiography" />
+<meta property="og:description" content="Writing about your code is redundant; the code is all you need. I can invest my time on unit tests or develop other features, and other excuses of why writing code comments is a waste of time. It’s a common belief among developers.
+Well, you’ve invested all your efforts in cultivating the design of your code, why should you comment it, right? As a result, code documentation is either absent or useless." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-12-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-12-08T00:00:00+00:00" />
+
+
+
+
+
+<link rel="canonical" href="https://medium.com/@dvirsegal/code-comments-are-your-code-autobiography-7202c45b5e37">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.577e3c5ead537873430da16f0964b754a120fd87c4e2203a00686e7c75b51378.css" integrity="sha256-V348Xq1TeHNDDaFvCWS3VKEg/YfE4iA6AGhufHW1E3g=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      dvirsegal
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/">
+              Code comments are your code autobiography
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2019-12-08T00:00:00Z">
+                December 8, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/dvir-segal/">Dvir Segal</a></div>
+
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/softwaredevelopment/">softwaredevelopment</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/softwareengineering/">softwareengineering</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/cleancode/">cleancode</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/refactoring/">refactoring</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+          <img src="https://cdn-images-1.medium.com/max/1200/0*pnowXdHHLnnyjagr" alt="Featured image"/>
+        
+        <!-- raw HTML omitted -->
+<p>Writing about your code is redundant; the code is all you need. I can invest my time on unit tests or develop other features, and other <strong>excuses</strong> of why writing code comments is a waste of time. It’s a common belief among developers.</p>
+<p>Well, you’ve invested all your efforts in cultivating the design of your code, why should you comment it, right? As a result, code documentation is either absent or useless.</p>
+<p><img src="https://storage.googleapis.com/screenshotguru/twitter/1014165500056596481.png?GoogleAccessId=uploader%40screenshot-guru.iam.gserviceaccount.com&amp;Expires=1652474018541&amp;Signature=mIDJh5%2BwkW8T8%2FReDZ5l5mDv7g4NPFeyNzRGO2vKHUNYE9tlAO7%2BHdgS435xqwHBT%2B%2BdaXgjS7xAWhcI6slZ3cU2ZQb6zS6rNIjlmYYLZdNz7n%2BIl%2BcjiJzd%2BCfRrXZXmANys1GMwP1bBYGPxpzTXQ3vFRgqxMVcsEgkNEA1ThF3ZO1G%2BLRMH7JgGNrW6t88pEGx1HgBzgSvrc2zEh9qNLDBRvx8ClSzbZ5JLEXT7Qzf01BMIjGAWzyG%2Finkjo7V2p5W4252SkC6%2BCXcGdT%2BMAu5A65KpbtZXCh%2FYB2Imb0k6DzJ%2BqCq3kagm8m1W1JN6Uvj6ivZOV0ThZ8T5Hll2w%3D%3D" alt=""></p>
+<p>While in some cases, it is true that writing code comments can be counterproductive. Yet, we are the only ones who can benefit the most out of it if being done right.</p>
+<h4 id="code-comments-as-acontract">
+  Code comments as a contract
+  <a class="heading-link" href="#code-comments-as-acontract">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>A self-documented code doesn’t exist. You can write meaningful variables names, methods, classes, etc. but as good as it gets, it doesn’t make your code automatically describe the meaning of it.</p>
+<p><img src="https://storage.googleapis.com/screenshotguru/twitter/1095721294216089600.png?GoogleAccessId=uploader%40screenshot-guru.iam.gserviceaccount.com&amp;Expires=1652474458999&amp;Signature=dPbsd%2FWbCLtD1aXa4z%2B1jJtjLLAkA2QhHEZq%2FFVQh7V%2BFXnxiKj47F1fZGgWo%2B0qip8UPyZBbe9wBHQIAPYCAh82xjOq8Ixoh2aHfrneaFyUa73Yv2YypkNcmzzkW0AlBXA%2F34POz6ZMyX1uWtKAOT%2FBFrldPsgmXiFns3xxP8t4hWtVkN%2BrQxRaHcg0fiWUcJXqKbCtqaSt06qGLBk04Dt6UrWu9pClZq0eYzTMvbwTWaijX0pzVyLQpN7wh%2FPUyHBK5OA59D81fs8gMhljyiBd1pfAjmJA5AvNDNstnxRCPPqp4F00cHvBsfVzVeX6TdJ%2FsE9kTO2%2FwqaQq9wuPQ%3D%3D" alt=""></p>
+<p>Yes, sure during the implementation while sharpening it to perfection, you are in the context of it, but what would happen in a month from now? How much will you remember? Can you trust your future self to be in the same mindset when approaching it?</p>
+<p>Realizing what you thought when you wrote this piece of code would assist you in the time ahead. Proper code documentation is making a contract with the maintainer to be, which is probably you.</p>
+<h4 id="code-comments-are-an-inherent-part-of-cleancode">
+  Code comments are an inherent part of clean code
+  <a class="heading-link" href="#code-comments-are-an-inherent-part-of-cleancode">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>In some cases, code comments can point on code smells. If you find yourself writing that the method does this “and” that while writing your method’s code documentation. You probably should refactor the method, since it has to do one thing and one thing only. Therefore, break the code into two methods and immediately mend the code comments to fit the change. In such way, you adhere to a clear code concept.</p>
+<p>Furthermore, digging into the code to better understand the context of the method is an unnecessary waste of time, while you could easily read the method header and quickly recall the <em>what (obvious) and why parts of the method and in particular focus on the how it does what it was written for.</em></p>
+<p>Take for the example the comment in the below gist, it just states the obvious and tells what it does — basically, it repeats the property’s name, which makes it redundant. While removing it will have the same effect as not writing it in the first place:</p>
+<script src="https://gist.github.com/dvirsegal/afacd23028e2911684280fcaa6f07d0d.js"></script>
+
+<p>A better comment will have more details which state what the code can’t tell us. Well, you can say — why should I write it? The property’s name and logic are straightforward; it just returns <em>weight</em>. But hey, nothing is ever simple in software. A useful comment can save us the time and cognitive efforts of digging deeper into the code for the method’s context, as can be seen below:</p>
+<script src="https://gist.github.com/dvirsegal/3791b967b9eebd5de2a78688ac633865.js"></script>
+
+<p>This approach has a different mindset that you should adopt. Each method has something to tell, at least one new detail that the code doesn’t state, whether it’s a side effect, restriction, or any other abnormality. Writing about these detail will lead the developer to confront with the hidden details of its implementation and in times refactor the <em>“code smell”</em> parts. Thus, not only it helps the future readers of the code but also assists the writer to gain a better understanding of its implementation and improve it.</p>
+<h4 id="code-never-lies-comments-sometimes-doronjeffrieshttpswwwazquotescomauthor30249-ron_jeffries">
+  “Code never lies, comments sometimes do.” — <a href="https://www.azquotes.com/author/30249-Ron_Jeffries"  class="external-link" target="_blank" rel="noopener"><strong>Ron Jeffries</strong></a>
+  <a class="heading-link" href="#code-never-lies-comments-sometimes-doronjeffrieshttpswwwazquotescomauthor30249-ron_jeffries">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Have you ever heard that sentence? Indeed, comments get outdated when the code changes. The fact they do is because they are not considered as part of the code itself while they should. The code comments are coupled to it. It is in the developer’s responsibility to update it too. A fact should be checked during a code review.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/800/0*Ni2scXEd6h8tvBkH" alt="Self-documenting code by geekandpoke" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Self-documenting code</em></p>
+</div>
+
+<p>One last thing, the scope of the code is not relevant whether you should or shouldn’t put a comment on it. By that I mean, private access modified code should be documented too. Otherwise, we neglect the actual users of it, ourselves.</p>
+<p>Without a doubt, for some developers, it will take time, practice, and getting used to this new way of thinking. But, in the long run, you’ll reap the rewards — in terms of code quality and a better understanding of your code circumstances, and eventually, your code will tell his story, its autobiography.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Dvir Segal 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
