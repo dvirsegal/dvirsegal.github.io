@@ -6,8 +6,15 @@
     <description>Recent content in software-development on dvirsegal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://dvirsegal.github.io/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Effort estimation — it’s complicated</title>
+      <link>http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/</guid>
+      <description>Effort estimation — it’s complicated&#xD;Link to heading&#xD;On the dilemma of evaluating software development effort&#xD;Link to heading&#xD;For the past few months, estimating effort, a long-standing dilemma of the software industry, bothers me. How should we, as SW engineers, deal with the accuracy of effort estimations? The answer is complicated and has implications over developers’ career growth, having an impact on personal development. There is much at stake.</description>
+    </item>
     <item>
       <title>Ditto, the clipboard manager that saved me</title>
       <link>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</link>

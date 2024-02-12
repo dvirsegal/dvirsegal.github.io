@@ -86,6 +86,27 @@
       <description></description>
     </item>
     <item>
+      <title>bandwagoneffect</title>
+      <link>http://dvirsegal.github.io/tags/bandwagoneffect/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/bandwagoneffect/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>cargocult</title>
+      <link>http://dvirsegal.github.io/tags/cargocult/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/cargocult/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>softwareengineering</title>
+      <link>http://dvirsegal.github.io/tags/softwareengineering/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/softwareengineering/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>bestpractices</title>
       <link>http://dvirsegal.github.io/tags/bestpractices/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
@@ -100,10 +121,31 @@
       <description></description>
     </item>
     <item>
-      <title>softwareengineering</title>
-      <link>http://dvirsegal.github.io/tags/softwareengineering/</link>
-      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/softwareengineering/</guid>
+      <title>noestimates</title>
+      <link>http://dvirsegal.github.io/tags/noestimates/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/noestimates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>software-development</title>
+      <link>http://dvirsegal.github.io/tags/software-development/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/software-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>software-engineering</title>
+      <link>http://dvirsegal.github.io/tags/software-engineering/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>time-management</title>
+      <link>http://dvirsegal.github.io/tags/time-management/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/time-management/</guid>
       <description></description>
     </item>
     <item>
@@ -125,13 +167,6 @@
       <link>http://dvirsegal.github.io/tags/documentation/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/tags/documentation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>software-engineering</title>
-      <link>http://dvirsegal.github.io/tags/software-engineering/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/software-engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -184,13 +219,6 @@
       <description></description>
     </item>
     <item>
-      <title>time-management</title>
-      <link>http://dvirsegal.github.io/tags/time-management/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/time-management/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>cleancode</title>
       <link>http://dvirsegal.github.io/tags/cleancode/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
@@ -205,17 +233,38 @@
       <description></description>
     </item>
     <item>
+      <title>deep-learning</title>
+      <link>http://dvirsegal.github.io/tags/deep-learning/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>machine-learning</title>
+      <link>http://dvirsegal.github.io/tags/machine-learning/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>openpose</title>
+      <link>http://dvirsegal.github.io/tags/openpose/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/openpose/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tensorflow</title>
+      <link>http://dvirsegal.github.io/tags/tensorflow/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>clipboard</title>
       <link>http://dvirsegal.github.io/tags/clipboard/</link>
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/tags/clipboard/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>software-development</title>
-      <link>http://dvirsegal.github.io/tags/software-development/</link>
-      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/software-development/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Effort estimation — it’s complicated · dvirsegal
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Dvir Segal">
+<meta name="description" content="Effort estimation — it’s complicatedLink to headingOn the dilemma of evaluating software development effortLink to headingFor the past few months, estimating effort, a long-standing dilemma of the software industry, bothers me. How should we, as SW engineers, deal with the accuracy of effort estimations? The answer is complicated and has implications over developers’ career growth, having an impact on personal development. There is much at stake.">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Effort estimation — it’s complicated"/>
+<meta name="twitter:description" content="Effort estimation — it’s complicatedLink to headingOn the dilemma of evaluating software development effortLink to headingFor the past few months, estimating effort, a long-standing dilemma of the software industry, bothers me. How should we, as SW engineers, deal with the accuracy of effort estimations? The answer is complicated and has implications over developers’ career growth, having an impact on personal development. There is much at stake."/>
+
+<meta property="og:title" content="Effort estimation — it’s complicated" />
+<meta property="og:description" content="Effort estimation — it’s complicatedLink to headingOn the dilemma of evaluating software development effortLink to headingFor the past few months, estimating effort, a long-standing dilemma of the software industry, bothers me. How should we, as SW engineers, deal with the accuracy of effort estimations? The answer is complicated and has implications over developers’ career growth, having an impact on personal development. There is much at stake." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-05-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-05-12T00:00:00+00:00" />
+
+
+
+
+
+<link rel="canonical" href="https://medium.com/@dvirsegal/effort-estimation-its-complicated-8e1c77bf572c">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.577e3c5ead537873430da16f0964b754a120fd87c4e2203a00686e7c75b51378.css" integrity="sha256-V348Xq1TeHNDDaFvCWS3VKEg/YfE4iA6AGhufHW1E3g=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/custom.min.0c266ef02d8b41f01746f0dd720ba3e239e36a974a63641bee33b0bdddb6b287.css" integrity="sha256-DCZu8C2LQfAXRvDdcguj4jnjapdKY2Qb7jOwvd22soc=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      dvirsegal
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/">
+              Effort estimation — it’s complicated
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2020-05-12T00:00:00Z">
+                May 12, 2020
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              5-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/dvir-segal/">Dvir Segal</a></div>
+
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/software-development/">software-development</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/software-engineering/">software-engineering</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/time-management/">time-management</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/noestimates/">noestimates</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+          <img src="https://cdn-images-1.medium.com/max/1024/0*TZhxsd2wzYBOei5Y" alt="Featured image"/>
+        
+        <h3 id="effort-estimationits-complicated">
+  Effort estimation — it’s complicated
+  <a class="heading-link" href="#effort-estimationits-complicated">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<h4 id="on-the-dilemma-of-evaluating-software-development-effort">
+  On the dilemma of evaluating software development effort
+  <a class="heading-link" href="#on-the-dilemma-of-evaluating-software-development-effort">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>For the past few months, estimating effort, a long-standing dilemma of the software industry, bothers me. How should we, as SW engineers, deal with the accuracy of effort estimations? The answer is complicated and has implications over developers’ career growth, having an impact on personal development. There is much at stake.</p>
+<p><img src="https://storage.googleapis.com/screenshotguru/twitter/1220749391172120577.png?GoogleAccessId=uploader%40screenshot-guru.iam.gserviceaccount.com&amp;Expires=1652476464750&amp;Signature=obdvUOZpbHmEdZhGk9U%2B861uOYnPRQTk1qZ44v8jLNm1clq%2FA2pz0JdLBkcVUehln%2FlBwKq7%2BjuEo0uIOPzPqQgQhvLiZCTenzfxSVw63X%2FjIP%2F5L2%2FaVIC9NeK5x2lp43arSplhoBGTXnL6N601H8gzBrNqce4vJWRNU%2BRxVvTT68BwiH85ZvbV3XO9kL9kNAdFBAjrWa%2BWw9K3OsLQD7%2BPCpFZScPQMn2iB5xa7iewmXS6TOhTcAI%2BHSRGJrNMMwmgh7HfB%2Bg7GGHKEl29Yg9WP85BCQpkh7JiRsTWvBcpFAImmIGOoRDcvs9G2uxU8JWxlXKT4H9J2uNuzxAo7w%3D%3D" alt=""></p>
+<p>So, I felt the urge to take action. I decided to share my doubts about it over twitter.</p>
+<p><img src="https://storage.googleapis.com/screenshotguru/twitter/1236979823098109953.png?GoogleAccessId=uploader%40screenshot-guru.iam.gserviceaccount.com&amp;Expires=1652476521408&amp;Signature=JmGN8yV2IM9T38CELrhrOjioCGhoOTq9rc1v2OkAdwRK0KDLELgBqxC3JSSi7JKuEFDDseVHZEHbXYAhqJKjWTBrbajmF73BoiOj%2BFOloqZaX4mMWN%2F65IGOse4c0S3uc2K48HOkZ%2BM0jsjybAB7DGgURXkiHsLTzaejYojYRhFV7hki%2FG0%2Fc3WEPs8tUGI12KMp%2FT0FQs5mQeBRYrIMja%2Fy18cVMShkP9ZLV7TrxVp%2BFRLL9A2Rc2DAP8y8TDMxt8FzeeSDktt1nlTbRPfq7hmxBMQLoLc2aycXALqjqVAFx%2FEa0aG%2ByKVeSeKchIoKQ%2BrDoS7PagLbIvGf78JgaA%3D%3D" alt=""></p>
+<p>Which led to an interesting (IMHO) debate over this subject. Below I’ll try to outline the various arguments.</p>
+<h4 id="no-silver-bullet-estimation-is-hard">
+  No Silver Bullet, Estimation is hard.
+  <a class="heading-link" href="#no-silver-bullet-estimation-is-hard">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>First, I’ll start with <a href="https://twitter.com/MichaelShpilt"  class="external-link" target="_blank" rel="noopener">Michael Shpilt</a>’s reply, saying that effort estimation is probably one of the hardest things in software, he’s right. Suggesting that to reduce the risk of failing to estimate accurately, one should be knowledgeable about the application’s domain.</p>
+<p>Besides, the estimator should choose ahead of time who are the developers that going to participate in the required feature development. Stating that choosing the best-fitted team-members based on their codebase familiarity will help in reducing the risk.</p>
+<p>I tend to agree on the necessity of specific knowledge in the application’s domain, as without it, things might go the wrong way; it is crucial to the success of the development.</p>
+<p>As for choosing specific people, it is a task that should be done gently, estimations shouldn’t be based on particular people’s involvement. It may result in a lack of motivation among the team because only specified individuals get specific assignments. Feelings should be considered too, we are not machines. If you insist on proceeding with this procedure, make sure to communicate why to soften the message.</p>
+<p>Furthermore, as broader the unknown, the higher chance a senior developer will be able to mitigate the risk. Leading to the point that inexperienced engineers won’t be able to gain knowledge about unfamiliar parts of the system. I guess the truth is somewhere in between.</p>
+<p><a href="https://twitter.com/TalJoffe"  class="external-link" target="_blank" rel="noopener">Tal Joffe</a> mentioned the excellent [talk] (<a href="https://summit2019.reversim.com/session/5c7859231503d900172c583e.html%29%28in"  class="external-link" target="_blank" rel="noopener">https://summit2019.reversim.com/session/5c7859231503d900172c583e.html)(in</a> Hebrew) given by <a href="https://twitter.com/pembleton"  class="external-link" target="_blank" rel="noopener">Itay Maman</a> on <a href="https://summit2019.reversim.com/"  class="external-link" target="_blank" rel="noopener">Reversim 2019 summit</a>. Itay has made his <a href="https://docs.google.com/presentation/d/1oW6l71Pl8eFS4v_iQQ%5c_-Y2Zf3NqBdhxQyd4g9NmP0Y4/edit"  class="external-link" target="_blank" rel="noopener">slides</a> available (🙏), which may assist for non-Hebrew speakers.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/UMZnZBJ28ew" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>In his talk, various points are being raised, helping to lower a few of the risks mentioned above. Tal’s takeaways summarized it well. He says that the lecture’s main delivered message is the need to focus on high-level estimation.</p>
+<p>Meaning tasks should be broken into buckets of effort — a few hours/one day/few days/more. The “More” is Tal’s version for tasks that take longer than a few days, forcing him to break them down to smaller tasks and repeat the process.</p>
+<p>I tend to agree with him. Smaller tasks allow accurate estimates and create opportunities to share the development effort between team members, including the inexperienced engineers (and as a by-product gain knowledge and mentor them).</p>
+<p>However, Itay has pointed out that it will only shift the estimation’s difficulty to the challenge of identifying the smaller chunks, making it work only in theory. There is no <em>panacea</em> here - It’s harder than you think (IHTYT).</p>
+<h4 id="is-noestimates-the-answer">
+  Is #NoEstimates the answer?
+  <a class="heading-link" href="#is-noestimates-the-answer">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/1024/0*PWscJKhELnIKMR1X.png" alt="NoEstimates as summarized by Magnus Dahlgren" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>NoEstimates as summarized by Magnus Dahlgren</em></p>
+</div>
+
+<p>As stated by <a href="https://twitter.com/GalZellermayer"  class="external-link" target="_blank" rel="noopener">Gal Zellermayer</a>, you should start with the why? It will help you understand the need, forcing you to adjust your estimation methodology accordingly.</p>
+<blockquote>
+<p>Some are very thoughtful, others are guesstimates. Some are detailed oriented, others are high level. Maybe it is just for self-improvement, or maybe you don’t need it.</p>
+</blockquote>
+<p>This approach is especially true when there is no baseline to compare with.</p>
+<p>Another essential fact raised by <a href="https://medium.com/u/42fc817eddb"  class="external-link" target="_blank" rel="noopener">Ophir Harran</a> as a reply to Gal’s tweet. In his words, accepting failed estimation is vital over time to improve accuracy; otherwise, you buffer 3x to mitigate, and that cripples teams.</p>
+<p>Couldn’t agree more on that, it may lead to the false perception that effort estimation == duration, which is the root of all evils 👹.</p>
+<p>It creates the impression that teams should finish their development tasks based on a given number. Without considering it was an estimate (which might be inaccurate depending on the number of unknown factors). Moreover, it <em>might</em> start a blame game (Also mentioned by Itay) between team members on who should take responsibility for the delay\failure to deliver. Resulting in, paying the price of quality hit and surging technical debt, leading to customer dissatisfaction.</p>
+<p><a href="https://twitter.com/omerraviv"  class="external-link" target="_blank" rel="noopener">Omer Raviv</a> joined both of them in recommending <a href="https://twitter.com/WoodyZuill"  class="external-link" target="_blank" rel="noopener">Woody Zuill</a>’s approach, #NoEstimates. If you haven’t watched his talk, go ahead and watch it. It’s a must.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/159496089" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+<p>Omer said that it may sound dramatic at first. Still, it might be just a call to explore other ways to solve things without asking how long will it take while avoiding spending time overestimations.</p>
+<p>In his talk, Woody suggests to select the most essential feature, break it down into a smaller neutral piece of work, develop. Iterate till you ship it or until it is no longer critical.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/1024/0*d32gmyWKzH8BmL-v" alt="NoEstimates in a nutshell" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>NoEstimates in a nutshell</em></p>
+</div>
+
+<p>He even replied to my tweet. Explaining that in his talk, he shares how he works without estimates. But does not insist that it is the only way to work without estimates, or as <a href="https://martinfowler.com/"  class="external-link" target="_blank" rel="noopener">Martin Fowler</a> said in his <a href="https://martinfowler.com/bliki/PurposeOfEstimation.html"  class="external-link" target="_blank" rel="noopener">blog</a>:</p>
+<blockquote>
+<p>If they are going to affect significant decisions, then go ahead and make the best estimates you can.</p>
+</blockquote>
+<h4 id="overall">
+  Overall
+  <a class="heading-link" href="#overall">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>My main takeaway is that as SW engineers, we should always question the practices we use, be open-minded about it. If we’ll say “<em>It’s always been done that way”,</em> we won’t progress. Having doubts over our work procedures will push us forward, making us a bit better every time.</p>
+<p>This reminds me that software is made by humans, so consider it when you take any action.</p>
+<p>AHA and, don’t assume! define metrics, measure, and then forecast.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/640/1*xWal5O4ohzvPlapVxU-USw.gif" alt="Assumptions" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Assumptions</em></p>
+</div>
+
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Dvir Segal 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  <script data-goatcounter="https://dvirsegal.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

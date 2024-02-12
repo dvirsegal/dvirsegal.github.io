@@ -37,11 +37,25 @@
       <description>Me against a bug, reminding myself how to solve any defect&#xD;Link to heading&#xD;Dear developer,&#xA;Don’t give up, keep up with your efforts to find other ways to understand the bug’s root cause. I know it can be frustrating. The agonies with the process can be ruff. But, you’ve got it, you solved many in the past, and you will solve this one too. It is part of your job.</description>
     </item>
     <item>
+      <title>Everybody was cargo culting</title>
+      <link>http://dvirsegal.github.io/posts/everybody-was-cargo-culting-46n5/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/everybody-was-cargo-culting-46n5/</guid>
+      <description>My personal experience to jump off the bandwagon (effect)&#xD;Link to heading&#xD;Imagine the following situation. One of your experienced colleagues talks about doing some work, which she’s passionate about and sure it will provide better results for the team. She has fire in her eyes when she talks about replacing technology X with Y.&#xA;You feel it right into your heart. Your colleagues seem to agree with her. She’s so right.</description>
+    </item>
+    <item>
       <title>Diving into the deep code waters</title>
       <link>http://dvirsegal.github.io/posts/diving-into-the-deep-code-waters-57p9/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/diving-into-the-deep-code-waters-57p9/</guid>
       <description>Tools and techniques for exploring an unknown (large) codebase&#xD;Link to heading&#xD;You’ve received a new responsibility or walked into a new job where there is existing code to work with. The source control has been introduced to you, realizing you have a lot to learn. Now what? Asking yourself, how should I become acquainted with the new codebase? Which for some, may be intimidating. Below I’ll attempt to illustrate my techniques for getting familiarity with the code, leading to structured knowledge.</description>
+    </item>
+    <item>
+      <title>Effort estimation — it’s complicated</title>
+      <link>http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/</guid>
+      <description>Effort estimation — it’s complicated&#xD;Link to heading&#xD;On the dilemma of evaluating software development effort&#xD;Link to heading&#xD;For the past few months, estimating effort, a long-standing dilemma of the software industry, bothers me. How should we, as SW engineers, deal with the accuracy of effort estimations? The answer is complicated and has implications over developers’ career growth, having an impact on personal development. There is much at stake.</description>
     </item>
     <item>
       <title>Code review guidelines light the way</title>
@@ -77,6 +91,13 @@
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</guid>
       <description>Writing about your code is redundant; the code is all you need. I can invest my time on unit tests or develop other features, and other excuses of why writing code comments is a waste of time. It’s a common belief among developers.&#xA;Well, you’ve invested all your efforts in cultivating the design of your code, why should you comment it, right? As a result, code documentation is either absent or useless.</description>
+    </item>
+    <item>
+      <title>Estimating partial human poses</title>
+      <link>http://dvirsegal.github.io/posts/estimating-partial-human-poses-178n/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/estimating-partial-human-poses-178n/</guid>
+      <description>A lot has been said on OpenPose. This real-time multi-person groundbreaking keypoints detection method has many features, along with:&#xA;2D real-time multi-person keypoint detection 3D real-time single-person keypoint detection Calibration toolbox Single-person tracking Supporting Python API, Unity Plugin, Cuda, OpenCL, and CPU only Moreover, more features are in the works by the team (Gines Hidalgo, Zhe Cao, Tomas Simon, Shih-En Wei, Hanbyul Joo, Yaser Sheikh, and Yaadhav Raaj) at Carnegie Mellon University.</description>
     </item>
     <item>
       <title>Ditto, the clipboard manager that saved me</title>
