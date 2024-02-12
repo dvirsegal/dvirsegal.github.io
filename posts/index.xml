@@ -16,6 +16,27 @@
       <description>How we used integration tests to improve confidence in our code&#xD;Link to heading&#xD;Picture this: your product owner brings you a set of new requirements, and together you review them. After some preparation and initial work, you get your design reviewed and approved by relevant stakeholders. Then, you enter your focus zone and start implementing it. While doing so, you want to gain confidence, so you add tons of unit tests to cover it, manually test it, and refactor your code based on your tests&amp;rsquo; results until you feel comfortable with the outcome.</description>
     </item>
     <item>
+      <title>How to use docker-compose, volumes, networks, and more</title>
+      <link>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</link>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</guid>
+      <description>This is the last post in the simplify docker series ( if you haven&amp;rsquo;t read the previous ones, go ahead and read them, it will make more sense afterward — part I &amp;amp; part II). This time I’ll cover networks, docker-compose, docker volumes, and more.&#xA;What is it all about with docker-compose?&#xD;Link to heading&#xD;Docker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML here).</description>
+    </item>
+    <item>
+      <title>How to run, delete a Docker image</title>
+      <link>http://dvirsegal.github.io/posts/how-to-run-delete-a-docker-image-52dm/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/how-to-run-delete-a-docker-image-52dm/</guid>
+      <description>I covered the basics of creating and building Docker images in part I (if you haven’t read that yet, I would recommend it since this part is based on it). In this part, I’ll explain how to run and delete an image of the container you’ve built.&#xA;let’s continue&#xA;Running an image is as simple as docker run -it image_name:tag . Let’s break it down; tag is the one you set when building it; note that if you remove it, then docker assumes you point to the latest.</description>
+    </item>
+    <item>
+      <title>How to create &amp; build a Docker image</title>
+      <link>http://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3/</guid>
+      <description>I’ve heard a lot about dockers, even had some experience with it as part of my graduate degree. Still, as the old saying goes, learning is by doing. By doing, I mean using the stuff you want to learn as part of your daily work (instead of using it as part of a course in a semester since it will be forgotten). Actually, this is a technology that, in my perspective, should be in some familiarity level in each software engineer’s tech stack.</description>
+    </item>
+    <item>
       <title>Developer story: Getting used to macOS as a long-time Windows user</title>
       <link>http://dvirsegal.github.io/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</link>
       <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
@@ -28,6 +49,13 @@
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/are-we-all-yaml-engineers-now-538j/</guid>
       <description>What is YAML? And how it works?&#xD;Link to heading&#xD;Recently I switched jobs, and as part of this change, I’ve been introduced to a whole new tech stack. RabbitMQ 🐰, Java Spring, Docker, etc. (meaning more subjects to write about 😂). Most of the technologies I use on a daily basis consume YAML as their configuration. In this post, I’ll try to illustrate what I’ve learned (and from where) while trying to understand this new world.</description>
+    </item>
+    <item>
+      <title>How to cope with a difficult colleague</title>
+      <link>http://dvirsegal.github.io/posts/how-to-cope-with-a-difficult-colleague-456/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/how-to-cope-with-a-difficult-colleague-456/</guid>
+      <description>It’s complicated; Dealing with workplace drama.&#xD;Link to heading&#xD;Everybody, at some point, will encounter a challenging colleague. Being able to deal with a person like that is part of developing conflict resolution skills and learning to overcome those setbacks.&#xA;In the following paragraphs, I will try to illustrate how I deal with these situations.&#xA;What do you mean by difficult people? 🤔&#xD;Link to heading&#xD;To be honest, we have to know that not everyone we struggle with is someone who tries to give us a hard time, as every relationship will have friction moments.</description>
     </item>
     <item>
       <title>How demo-oriented programming makes you better</title>

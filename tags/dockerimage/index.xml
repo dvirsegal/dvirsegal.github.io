@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dockerimage on dvirsegal</title>
+    <link>http://dvirsegal.github.io/tags/dockerimage/</link>
+    <description>Recent content in dockerimage on dvirsegal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://dvirsegal.github.io/tags/dockerimage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to run, delete a Docker image</title>
+      <link>http://dvirsegal.github.io/posts/how-to-run-delete-a-docker-image-52dm/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/how-to-run-delete-a-docker-image-52dm/</guid>
+      <description>I covered the basics of creating and building Docker images in part I (if you haven’t read that yet, I would recommend it since this part is based on it). In this part, I’ll explain how to run and delete an image of the container you’ve built.&#xA;let’s continue&#xA;Running an image is as simple as docker run -it image_name:tag . Let’s break it down; tag is the one you set when building it; note that if you remove it, then docker assumes you point to the latest.</description>
+    </item>
+  </channel>
+</rss>

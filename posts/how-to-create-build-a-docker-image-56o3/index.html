@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  How to create &amp; build a Docker image · dvirsegal
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Dvir Segal">
+<meta name="description" content="I’ve heard a lot about dockers, even had some experience with it as part of my graduate degree. Still, as the old saying goes, learning is by doing. By doing, I mean using the stuff you want to learn as part of your daily work (instead of using it as part of a course in a semester since it will be forgotten). Actually, this is a technology that, in my perspective, should be in some familiarity level in each software engineer’s tech stack.">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="How to create &amp; build a Docker image"/>
+<meta name="twitter:description" content="I’ve heard a lot about dockers, even had some experience with it as part of my graduate degree. Still, as the old saying goes, learning is by doing. By doing, I mean using the stuff you want to learn as part of your daily work (instead of using it as part of a course in a semester since it will be forgotten). Actually, this is a technology that, in my perspective, should be in some familiarity level in each software engineer’s tech stack."/>
+
+<meta property="og:title" content="How to create &amp; build a Docker image" />
+<meta property="og:description" content="I’ve heard a lot about dockers, even had some experience with it as part of my graduate degree. Still, as the old saying goes, learning is by doing. By doing, I mean using the stuff you want to learn as part of your daily work (instead of using it as part of a course in a semester since it will be forgotten). Actually, this is a technology that, in my perspective, should be in some familiarity level in each software engineer’s tech stack." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-07-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-07-12T00:00:00+00:00" />
+
+
+
+
+
+<link rel="canonical" href="https://dvirsegal.medium.com/how-to-create-build-a-docker-image-75f10891e320">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.577e3c5ead537873430da16f0964b754a120fd87c4e2203a00686e7c75b51378.css" integrity="sha256-V348Xq1TeHNDDaFvCWS3VKEg/YfE4iA6AGhufHW1E3g=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/custom.min.0c266ef02d8b41f01746f0dd720ba3e239e36a974a63641bee33b0bdddb6b287.css" integrity="sha256-DCZu8C2LQfAXRvDdcguj4jnjapdKY2Qb7jOwvd22soc=" crossorigin="anonymous" media="screen" />
+  
+
+  
+    
+    <link rel="stylesheet" href="/css/font.min.227f65169235f7e8ae52f7f3199c2b98c67c043c04c31c46e7b18bb3f78c2bfd.css" integrity="sha256-In9lFpI19&#43;iuUvfzGZwrmMZ8BDwEwxxG57GLs/eMK/0=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      dvirsegal
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3/">
+              How to create &amp; build a Docker image
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2021-07-12T00:00:00Z">
+                July 12, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              5-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/dvir-segal/">Dvir Segal</a></div>
+
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/softwaredevelopment/">softwaredevelopment</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/docker/">docker</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/dockerfiles/">dockerfiles</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/devops/">devops</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        
+
+
+
+<div style="text-align: center;">
+    <img src="https://media.giphy.com/media/rCQTCy4rvuxR6/source.gif" alt="" style="display: block; margin: 0 auto;" />
+    
+</div>
+
+<p>I’ve heard a lot about dockers, even had some experience with it as part of my graduate degree. Still, as the old saying goes, learning is by doing. By doing, I mean using the stuff you want to learn as part of your daily work (instead of using it as part of a course in a semester since it will be forgotten). Actually, this is a technology that, in my perspective, should be in some familiarity level in each software engineer’s tech stack.</p>
+<p>This is the first part in a series about simplifying Docker usage. In this blog post, I’ll talk about Docker, a container platform that allows to create containers’ images, build them, and more. Duly note that Docker is not unique, you can find <a href="https://containerd.io/"  class="external-link" target="_blank" rel="noopener">containerd</a>, <a href="https://github.com/rkt/rkt"  class="external-link" target="_blank" rel="noopener">rkt</a> , <a href="https://linuxcontainers.org/lxd/introduction/"  class="external-link" target="_blank" rel="noopener">lxd</a>, and others, but it is one of the popular container platforms out there.</p>
+<h4 id="ok-im-convinced-whats-a-container">
+  Ok, I’m convinced— what’s a container?
+  <a class="heading-link" href="#ok-im-convinced-whats-a-container">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/1024/1*En3LUQ2ei15EWrIKz58q2A.png" alt="container magic" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>container magic</em></p>
+</div>
+
+<p>Containers are software units that package up code and its dependencies so that applications can run quickly and efficiently across different environments. Wait? Some would read it and say that I’m talking about a virtual machine. While it may sound the same, they are different in their purpose. A container is mobile and light. It abstracts the application layer while a VM takes more space, and its whole purpose is to virtualize physical hardware, as can be seen in the image below:</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/1024/1*puMh0o5ddAMK3l97USd1kA.png" alt="Container vs. VM" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Container vs. VM</em></p>
+</div>
+
+<p>Basically, the container solves the “it works on my machine” syndrome.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/460/0*fbPOfRYEKp9xAB3n.jpg" alt="It works on my machine" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>It works on my machine</em></p>
+</div>
+
+<h4 id="getting-started">
+  Getting started
+  <a class="heading-link" href="#getting-started">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>First, install docker from here <a href="https://docs.docker.com/get-docker/"  class="external-link" target="_blank" rel="noopener">Get Docker</a></p>
+<p>Now, when dealing with docker, there are two essential terms, <strong>image,</strong> and <strong>container</strong>. To create a new container, one should write a Dockerfile (I learned the hard way the d should be a capital letter), and it describes how the container will be built. Using docker build an image will be generated out of it. This <strong>image</strong> can be moved from place to place; it is ready to use as is. Image can be a building block for other Dockerfiles.</p>
+<p>For using the image, we’ll do docker run which creates a <strong>container</strong> out of the image. It is possible to run multiple instances of the container.</p>
+<h4 id="dockerfile-a-recipe-for-an-image">
+  Dockerfile a recipe for an image
+  <a class="heading-link" href="#dockerfile-a-recipe-for-an-image">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<pre tabindex="0"><code>FROM ubuntu:latest
+RUN apt-get update &amp;&amp; apt-get -y install sysstat
+ENTRYPOINT [“/bin/bash/”]
+</code></pre><p>In the first line, the FROM states the image on which our image relies; we can start from scratch too, but it is more common to point to a specific operating system. This is why it is called a base image. Here its ubuntu:latest.</p>
+<p>In the second line, the RUN is used. Its purpose is to run a command while the image is being built. In my example, it will run an update of apt-get and then installs <a href="https://github.com/sysstat/sysstat"  class="external-link" target="_blank" rel="noopener">sysstat</a>. This command always creates a new intermediate image layer on top of the previous ones. That’s why it is always recommended to chain all the RUN commands together.</p>
+<p>Lastly, ENTRYPOINT will run a command in command-line (with arguments as opposed to CMD command — more on that on part II). In this case, it will run bin/bash Meaning once the image is up, we will get a bash terminal open and running.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/300/0*wzpfDbImuEiJ4QEa" alt="now what?!" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>now what?!</em></p>
+</div>
+
+<h4 id="so-how-can-we-use-it">
+  So, how can we use it?!
+  <a class="heading-link" href="#so-how-can-we-use-it">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>We will use a docker command. Each starts with docker and for building the recipe we’ve just created, we’ll do docker build -t image_name:tag_name path_to_Dockerfile, the <a href="https://stackoverflow.com/questions/30137135/confused-about-docker-t-option-to-allocate-a-pseudo-tty"  class="external-link" target="_blank" rel="noopener">-t</a> flag adds a terminal driver for outputting the stdout to the terminal. In the GIF below,image_name is my app and tag is 1.0 and right after appears a dot (oh, the mighty dot), which is there for a reason (not a typo), meaning path_to_Dockerfileis the current location. BTW, you don’t have to set a tag; docker will mark it as latest automatically. Tags provide a versioning mechanism for the same image recipe.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/1024/1*8z1T48nvOVphGtxLnpSPpw.gif" alt="" style="display: block; margin: 0 auto;" />
+    
+</div>
+
+<p>After it finished, we can run docker images, and we’ll see the following output contains the name, tag, the unique image ID, date, and size:</p>
+<pre tabindex="0"><code>REPOSITORY TAG IMAGE ID CREATED SIZE
+my_app 1.0 875ae82e46c7 39 minutes ago 105MB
+</code></pre><p>If I rerun the command without the tag, docker will recognize it as the same image (by the ID) and mark it with the latest tag:</p>
+<pre tabindex="0"><code>REPOSITORY TAG IMAGE ID CREATED SIZE
+my_app 1.0 875ae82e46c7 47 minutes ago 105MB
+my_app latest 875ae82e46c7 47 minutes ago 105MB
+</code></pre><p>Again? It will show that Docker is smart enough to identify that no change was done, resulting in the same image version. It can be inferred based on the creation time, which we’ve built the initial image.</p>
+<p>To delete, simply run docker rmi my-app:1.0, then the list will show only one image. Another critical point to understand is what happens when you create an image with the same name and tag with new logic. The old one is set with<!-- raw HTML omitted --> value in name and tag, but the ID is kept the same.</p>
+<pre tabindex="0"><code>REPOSITORY TAG IMAGE ID CREATED SIZE
+my_app latest ab422fb19450 4 seconds ago 105MB
+&lt;none&gt; &lt;none&gt; 875ae82e46c7 7 hours ago 105MB
+</code></pre><p>This state is called <em>dangling</em> (between life and death).</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/638/0*iruNdFEHD5s20vH5.jpg" alt="Dangling images" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Dangling images</em></p>
+</div>
+
+<p>To delete the dangling images, just do docker image prune.</p>
+<p>That’s it for this part; I hope you’ve found it relevant and as simplified as it can be. More on running images, using docker repository, etc. on <a href="https://dvirsegal.github.io/posts/how-to-run-delete-a-docker-image-52dm"  class="external-link" target="_blank" rel="noopener">part II</a></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Dvir Segal 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  <script data-goatcounter="https://dvirsegal.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

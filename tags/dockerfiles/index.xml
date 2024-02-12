@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dockerfiles on dvirsegal</title>
+    <link>http://dvirsegal.github.io/tags/dockerfiles/</link>
+    <description>Recent content in dockerfiles on dvirsegal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://dvirsegal.github.io/tags/dockerfiles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to create &amp; build a Docker image</title>
+      <link>http://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3/</guid>
+      <description>I’ve heard a lot about dockers, even had some experience with it as part of my graduate degree. Still, as the old saying goes, learning is by doing. By doing, I mean using the stuff you want to learn as part of your daily work (instead of using it as part of a course in a semester since it will be forgotten). Actually, this is a technology that, in my perspective, should be in some familiarity level in each software engineer’s tech stack.</description>
+    </item>
+  </channel>
+</rss>

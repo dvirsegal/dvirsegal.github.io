@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  How to use docker-compose, volumes, networks, and more · dvirsegal
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Dvir Segal">
+<meta name="description" content="This is the last post in the simplify docker series ( if you haven&rsquo;t read the previous ones, go ahead and read them, it will make more sense afterward — part I &amp; part II). This time I’ll cover networks, docker-compose, docker volumes, and more.
+What is it all about with docker-compose?Link to headingDocker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML here).">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="How to use docker-compose, volumes, networks, and more"/>
+<meta name="twitter:description" content="This is the last post in the simplify docker series ( if you haven&rsquo;t read the previous ones, go ahead and read them, it will make more sense afterward — part I &amp; part II). This time I’ll cover networks, docker-compose, docker volumes, and more.
+What is it all about with docker-compose?Link to headingDocker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML here)."/>
+
+<meta property="og:title" content="How to use docker-compose, volumes, networks, and more" />
+<meta property="og:description" content="This is the last post in the simplify docker series ( if you haven&rsquo;t read the previous ones, go ahead and read them, it will make more sense afterward — part I &amp; part II). This time I’ll cover networks, docker-compose, docker volumes, and more.
+What is it all about with docker-compose?Link to headingDocker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML here)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-08-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-08-30T00:00:00+00:00" />
+
+
+
+
+
+<link rel="canonical" href="https://dvirsegal.medium.com/how-to-use-docker-compose-volumes-networks-and-more-24f82169c077">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.577e3c5ead537873430da16f0964b754a120fd87c4e2203a00686e7c75b51378.css" integrity="sha256-V348Xq1TeHNDDaFvCWS3VKEg/YfE4iA6AGhufHW1E3g=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/custom.min.0c266ef02d8b41f01746f0dd720ba3e239e36a974a63641bee33b0bdddb6b287.css" integrity="sha256-DCZu8C2LQfAXRvDdcguj4jnjapdKY2Qb7jOwvd22soc=" crossorigin="anonymous" media="screen" />
+  
+
+  
+    
+    <link rel="stylesheet" href="/css/font.min.227f65169235f7e8ae52f7f3199c2b98c67c043c04c31c46e7b18bb3f78c2bfd.css" integrity="sha256-In9lFpI19&#43;iuUvfzGZwrmMZ8BDwEwxxG57GLs/eMK/0=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      dvirsegal
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/">
+              How to use docker-compose, volumes, networks, and more
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2021-08-30T00:00:00Z">
+                August 30, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              5-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/dvir-segal/">Dvir Segal</a></div>
+
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/devops/">devops</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/docker/">docker</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/softwaredevelopment/">softwaredevelopment</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/dockercompose/">dockercompose</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+          <img src="https://cdn-images-1.medium.com/max/1024/0*IZVKutGhWqgryKGy" alt="Featured image"/>
+        
+        <p>This is the last post in the simplify docker series ( if you haven&rsquo;t read the previous ones, go ahead and read them, it will make more sense afterward — <a href="https://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3"  class="external-link" target="_blank" rel="noopener">part I</a> &amp; <a href="https://dvirsegal.github.io/posts/how-to-run-delete-a-docker-image-52dm"  class="external-link" target="_blank" rel="noopener">part II</a>). This time I’ll cover networks, docker-compose, docker volumes, and more.</p>
+<h4 id="what-is-it-all-about-with-docker-compose">
+  What is it all about with docker-compose?
+  <a class="heading-link" href="#what-is-it-all-about-with-docker-compose">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Docker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML <a href="https://dev.to/dejavo/are-we-all-yaml-engineers-now-538j"  class="external-link" target="_blank" rel="noopener">here</a>). Afterward, you can start all the services your configuration created with just a single command.</p>
+<p>The following example is from <a href="https://gitlab.com/nanuchi/techworld-js-docker-demo-app"  class="external-link" target="_blank" rel="noopener">TechWorld with Nana</a> GitLab. BTW, Nana’s youtube channel is highly recommended. Below is her docker’s tutorial:</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/3c-iBn73dDE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>In the below example, We would like to run a MongoDB container along with a mongo-express container. As we’ve seen in previous posts, the (longer) way to do it is:</p>
+<pre tabindex="0"><code>docker run -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password --name mongodb mongo
+
+docker run -d -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=password -e ME_CONFIG_MONGODB_SERVER=mongodb --name mongo-express mongo-express
+</code></pre><p>The equivalent YAML compose version is cleaner and readable:</p>
+<pre tabindex="0"><code>version: &#39;3&#39;
+services:
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=password
+  mongo-express:
+    image: mongo-express
+    ports:
+      - 8080:8081
+    environment:
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=password
+      - ME_CONFIG_MONGODB_SERVER=mongodb
+</code></pre><p>To use, simply run: <code>docker-compose -f filename.yaml up</code> , to delete it, replace up argument with down .</p>
+<h4 id="turn-the-volume-up">
+  Turn the volume up
+  <a class="heading-link" href="#turn-the-volume-up">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://c.tenor.com/kzh2aQrTOMAAAAAC/seinfeld-volume.gif" alt="Seinfeld Volume GIF" style="display: block; margin: 0 auto;" />
+    
+</div>
+
+<p>Each docker has a different file system, separated from the hosting environment. As we previously saw, when exiting a container, most of its files are deleted (unless you use the <a href="https://docs.docker.com/engine/reference/commandline/commit/"  class="external-link" target="_blank" rel="noopener">commit</a> command). So, you can use volumes to save the files or point to files in your local system to be used within the container. To do so, you need to connect between both files systems as follows:</p>
+<pre tabindex="0"><code>docker run -v /path/in/host:/path/in/container -it image_name
+</code></pre><p>The above command will run a container that /path/in/container is mapped to /path/in/host in our local file systems. Another option is to use a unique named volume, where the docker sets the local file system location and the user sets the location in the container as follows:</p>
+<pre tabindex="0"><code>docker run -v name:/path/in/container -it image_name
+</code></pre><p>To get the information of the named volume, we can use the command<br>
+<code>docker volume inspect volume_name</code> and for removing it do: <code>docker volume rm volume_name</code> . A direct follow-up is how to copy to and from the container (the COPY command that we saw earlier is not the answer, it only copies to the image and not the running container). The below command is used to copy into the container:</p>
+<pre tabindex="0"><code>docker cp &lt;src_path&gt; &lt;container&gt;:&lt;dest_path&gt;
+
+* container - the ID or name of the container 
+</code></pre><p>Where the following is used to copy from the container:</p>
+<pre tabindex="0"><code>docker cp &lt;container&gt;:&lt;src_path&gt; &lt;dest_path&gt;
+
+* container - the ID or name of the container
+</code></pre><h4 id="be-connected">
+  Be connected
+  <a class="heading-link" href="#be-connected">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/1000/0*_bZZWh2_ZBUgLy1x" alt="Communicate with each other" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Communicate with each other</em></p>
+</div>
+
+<p>Another essential concept is networks; you can create an isolated network for several containers. By default, Docker creates one for each docker run. Still, in some situations, you would like to name it and set the same network for more than the container; thus, they will be able to communicate with each other.</p>
+<p>To see all the created network run the command:</p>
+<pre tabindex="0"><code>docker network ls
+</code></pre><p>To create a network:</p>
+<pre tabindex="0"><code>docker network create network_name
+</code></pre><p>And finally, to fire a container with this network:</p>
+<pre tabindex="0"><code>docker run --net network_name -it image_name
+</code></pre><p>Another useful command is to run a container based on a different container’s network to enable communication between the two, just pass the container id or name to the&ndash;net flag. We have seen how containers communicate with each other so far, but what if you want to share data from an external source? For this case, we will define the internal ports that the container listens to. In <code>docker run -p 5050:80 image_name</code> command, it defines that the hosting system port 5050 is bonded to the container’s port 80.</p>
+<h4 id="docker-image-size-diet">
+  Docker image size diet
+  <a class="heading-link" href="#docker-image-size-diet">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/610/0*4k1oV9hWwFbtRssf" alt="reduce image size" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>reduce image size</em></p>
+</div>
+
+<p>Docker image size can quickly inflate to 2,5 and even 15GB. A best practice is to reduce it for a couple of reasons:</p>
+<ul>
+<li>Smaller size means easier to move from place to place</li>
+<li>Less space on the local file system</li>
+<li>Usually, images are stored in a cloud repository. Meaning the smaller their size, the lower it costs</li>
+<li>Security — install only what you need</li>
+</ul>
+<p>So how can you do an image’s size diet?</p>
+<ul>
+<li>Multi-stage meaning multiple images (“FROM”) on the same Dockerfile and define which one to build on the build command. To do so, it is highly recommended to name each layer (using the “AS” command) and then choose which layer to build using:<br>
+docker build — target=target_name -t container_name .</li>
+<li>Base your images on smaller size images. You can use distribution such as the <a href="https://hub.docker.com/_/alpine/"  class="external-link" target="_blank" rel="noopener">alpine</a> Linux or Google’s <a href="https://github.com/GoogleContainerTools/distroless"  class="external-link" target="_blank" rel="noopener">distroless</a>.</li>
+</ul>
+<h4 id="image-investigator">
+  Image investigator
+  <a class="heading-link" href="#image-investigator">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>One last thing before wrapping this guide, I would like to recommend an open-source utility named <a href="https://github.com/wagoodman/dive"  class="external-link" target="_blank" rel="noopener">Dive</a>. Among its many features, you can explore each layer&rsquo;s content, file sizes, and more. Basically, It helps you analyze docker images. Eventually, providing enough info to think of ways to reduce image sizes.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/1024/0*p5AcMAbKX0g_hPA3.gif" alt="Animated GIF" style="display: block; margin: 0 auto;" />
+    
+</div>
+
+<h4 id="to-conclude">
+  To conclude
+  <a class="heading-link" href="#to-conclude">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>This post and previous ones are just the tip of the iceberg of what Docker can do. I hope I simplified it enough, and if you made it this far, you should have the basic skills to get started.</p>
+<p>Enjoy!</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Dvir Segal 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  <script data-goatcounter="https://dvirsegal.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
