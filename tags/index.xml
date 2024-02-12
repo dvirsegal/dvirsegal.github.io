@@ -6,8 +6,36 @@
     <description>Recent content in Tags on dvirsegal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://dvirsegal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>codequality</title>
+      <link>http://dvirsegal.github.io/tags/codequality/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/codequality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>integrationtest</title>
+      <link>http://dvirsegal.github.io/tags/integrationtest/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/integrationtest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>softwareengineering</title>
+      <link>http://dvirsegal.github.io/tags/softwareengineering/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/softwareengineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sofwaredevelopment</title>
+      <link>http://dvirsegal.github.io/tags/sofwaredevelopment/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/sofwaredevelopment/</guid>
+      <description></description>
+    </item>
     <item>
       <title>developertools</title>
       <link>http://dvirsegal.github.io/tags/developertools/</link>
@@ -65,6 +93,20 @@
       <description></description>
     </item>
     <item>
+      <title>demo</title>
+      <link>http://dvirsegal.github.io/tags/demo/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/demo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>programming</title>
+      <link>http://dvirsegal.github.io/tags/programming/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>careerdevelopment</title>
       <link>http://dvirsegal.github.io/tags/careerdevelopment/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
@@ -97,13 +139,6 @@
       <link>http://dvirsegal.github.io/tags/cargocult/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/tags/cargocult/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>softwareengineering</title>
-      <link>http://dvirsegal.github.io/tags/softwareengineering/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/softwareengineering/</guid>
       <description></description>
     </item>
     <item>
@@ -195,6 +230,34 @@
       <link>http://dvirsegal.github.io/tags/tips/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/tags/tips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>personal-development</title>
+      <link>http://dvirsegal.github.io/tags/personal-development/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/personal-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>csharp</title>
+      <link>http://dvirsegal.github.io/tags/csharp/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/csharp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>debugging</title>
+      <link>http://dvirsegal.github.io/tags/debugging/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/debugging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>dotnet</title>
+      <link>http://dvirsegal.github.io/tags/dotnet/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/dotnet/</guid>
       <description></description>
     </item>
     <item>

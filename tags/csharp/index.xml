@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>csharp on dvirsegal</title>
+    <link>http://dvirsegal.github.io/tags/csharp/</link>
+    <description>Recent content in csharp on dvirsegal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://dvirsegal.github.io/tags/csharp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fusion Log Viewer: The binocular to assembly binding</title>
+      <link>http://dvirsegal.github.io/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</guid>
+      <description>Investigating .NET assembly loading (binding) issues&#xD;Link to heading&#xD;Once in a while, you encounter that peculiar problem when you run your application and receive an exception saying TypeLoadException or FileNotFoundException even though the DLLs that your application relies on, are right there!&#xA;The first suspect that may jump to your head is an assembly binding issue since it happens at the moment you run your application. It might be a mix of old DLLs with new ones, mismatch in version numbers or cultures, missing assemblies at the application’s folder, or even a probing failure, either of each — fusion log viewer can assist in identifying the case.</description>
+    </item>
+  </channel>
+</rss>

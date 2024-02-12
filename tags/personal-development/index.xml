@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personal-development on dvirsegal</title>
+    <link>http://dvirsegal.github.io/tags/personal-development/</link>
+    <description>Recent content in personal-development on dvirsegal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://dvirsegal.github.io/tags/personal-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Every code has its audience</title>
+      <link>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</guid>
+      <description>My humble opinion on who should be included in your code review&#xD;Link to heading&#xD;An educated guess that from time to time, you’ve encountered the question of who should be involved in code reviews. Well, my colleagues and I found ourselves dealing with it, and the arguments about what’s the proper way, go in various directions; Hence I’ve decided to get to the bottom of this critical subject and write my views.</description>
+    </item>
+  </channel>
+</rss>

@@ -6,8 +6,15 @@
     <description>Recent content in Posts on dvirsegal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://dvirsegal.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Failing fast to increase feedback loops</title>
+      <link>http://dvirsegal.github.io/posts/failing-fast-to-increase-feedback-loops-6d08f013fa9b/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/failing-fast-to-increase-feedback-loops-6d08f013fa9b/</guid>
+      <description>How we used integration tests to improve confidence in our code&#xD;Link to heading&#xD;Picture this: your product owner brings you a set of new requirements, and together you review them. After some preparation and initial work, you get your design reviewed and approved by relevant stakeholders. Then, you enter your focus zone and start implementing it. While doing so, you want to gain confidence, so you add tons of unit tests to cover it, manually test it, and refactor your code based on your tests&amp;rsquo; results until you feel comfortable with the outcome.</description>
+    </item>
     <item>
       <title>Developer story: Getting used to macOS as a long-time Windows user</title>
       <link>http://dvirsegal.github.io/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</link>
@@ -21,6 +28,13 @@
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/are-we-all-yaml-engineers-now-538j/</guid>
       <description>What is YAML? And how it works?&#xD;Link to heading&#xD;Recently I switched jobs, and as part of this change, I’ve been introduced to a whole new tech stack. RabbitMQ 🐰, Java Spring, Docker, etc. (meaning more subjects to write about 😂). Most of the technologies I use on a daily basis consume YAML as their configuration. In this post, I’ll try to illustrate what I’ve learned (and from where) while trying to understand this new world.</description>
+    </item>
+    <item>
+      <title>How demo-oriented programming makes you better</title>
+      <link>http://dvirsegal.github.io/posts/how-demo-oriented-programming-makes-you-better-44mo/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/how-demo-oriented-programming-makes-you-better-44mo/</guid>
+      <description>On the focused effort of making a working prototype&#xD;Link to heading&#xD;There are many ways you can determine whether a new feature will add value to the product or turn out to be a complete waste of time. For instance, you can undertake user research, analyze the demands of the market, and study existing solutions. However, we (developers) have a fantastic tool in our sleeves: Developing a running project that demonstrates the proposed solution’s key ideas is your optimal option — in my opinion.</description>
     </item>
     <item>
       <title>Congratulations and welcome aboard!</title>
@@ -70,6 +84,20 @@
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/building-trust-through-effective-communication-208c/</guid>
       <description>You can achieve almost anything by teamwork. Listening is a vital characteristic of a leader. Effectively communicating your thoughts is essential, as well. How you interact can positively and negatively affect the relationships you have in your work (and personal life too).&#xA;Effective communication is defined by various articles (#1, #2, #3, and more), and I challenge myself not to repeat them. I would like to give a different perspective on the matter.</description>
+    </item>
+    <item>
+      <title>Every code has its audience</title>
+      <link>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</guid>
+      <description>My humble opinion on who should be included in your code review&#xD;Link to heading&#xD;An educated guess that from time to time, you’ve encountered the question of who should be involved in code reviews. Well, my colleagues and I found ourselves dealing with it, and the arguments about what’s the proper way, go in various directions; Hence I’ve decided to get to the bottom of this critical subject and write my views.</description>
+    </item>
+    <item>
+      <title>Fusion Log Viewer: The binocular to assembly binding</title>
+      <link>http://dvirsegal.github.io/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</guid>
+      <description>Investigating .NET assembly loading (binding) issues&#xD;Link to heading&#xD;Once in a while, you encounter that peculiar problem when you run your application and receive an exception saying TypeLoadException or FileNotFoundException even though the DLLs that your application relies on, are right there!&#xA;The first suspect that may jump to your head is an assembly binding issue since it happens at the moment you run your application. It might be a mix of old DLLs with new ones, mismatch in version numbers or cultures, missing assemblies at the application’s folder, or even a probing failure, either of each — fusion log viewer can assist in identifying the case.</description>
     </item>
     <item>
       <title>Digital Notes are your life dashboard</title>

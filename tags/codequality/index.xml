@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>codequality on dvirsegal</title>
+    <link>http://dvirsegal.github.io/tags/codequality/</link>
+    <description>Recent content in codequality on dvirsegal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://dvirsegal.github.io/tags/codequality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Failing fast to increase feedback loops</title>
+      <link>http://dvirsegal.github.io/posts/failing-fast-to-increase-feedback-loops-6d08f013fa9b/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/failing-fast-to-increase-feedback-loops-6d08f013fa9b/</guid>
+      <description>How we used integration tests to improve confidence in our code&#xD;Link to heading&#xD;Picture this: your product owner brings you a set of new requirements, and together you review them. After some preparation and initial work, you get your design reviewed and approved by relevant stakeholders. Then, you enter your focus zone and start implementing it. While doing so, you want to gain confidence, so you add tons of unit tests to cover it, manually test it, and refactor your code based on your tests&amp;rsquo; results until you feel comfortable with the outcome.</description>
+    </item>
+  </channel>
+</rss>

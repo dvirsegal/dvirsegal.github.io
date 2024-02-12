@@ -15,5 +15,12 @@
       <guid>http://dvirsegal.github.io/posts/code-review-guidelines-light-the-way-1e4/</guid>
       <description>My humble opinion on the necessity of a check-in process&#xD;Link to heading&#xD;Are you familiar with the situation of getting a code review that is being delayed by your peer reviewer’s nitpicking for filling his code perfection aspirations? Unable to commit due to build server failure? Personal preferences overruled over technical facts?&#xA;Let me see your unit tests&#xA;All the above are examples of the necessity of a well-defined procedure, guiding us in various situations we encounter daily.</description>
     </item>
+    <item>
+      <title>Every code has its audience</title>
+      <link>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</guid>
+      <description>My humble opinion on who should be included in your code review&#xD;Link to heading&#xD;An educated guess that from time to time, you’ve encountered the question of who should be involved in code reviews. Well, my colleagues and I found ourselves dealing with it, and the arguments about what’s the proper way, go in various directions; Hence I’ve decided to get to the bottom of this critical subject and write my views.</description>
+    </item>
   </channel>
 </rss>

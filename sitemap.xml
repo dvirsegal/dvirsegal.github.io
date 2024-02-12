@@ -3,7 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://dvirsegal.github.io/authors/</loc>
-    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/codequality/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/authors/dvir-segal/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/failing-fast-to-increase-feedback-loops-6d08f013fa9b/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/integrationtest/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/softwareengineering/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/sofwaredevelopment/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/</loc>
+    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</loc>
     <lastmod>2021-06-04T00:00:00+00:00</lastmod>
@@ -11,22 +38,10 @@
     <loc>http://dvirsegal.github.io/tags/developertools/</loc>
     <lastmod>2021-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/authors/dvir-segal/</loc>
-    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/</loc>
-    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://dvirsegal.github.io/tags/macos/</loc>
     <lastmod>2021-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/</loc>
-    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://dvirsegal.github.io/tags/productivity/</loc>
-    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/</loc>
     <lastmod>2021-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/windows/</loc>
@@ -46,6 +61,15 @@
   </url><url>
     <loc>http://dvirsegal.github.io/tags/yaml/</loc>
     <lastmod>2021-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/demo/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/how-demo-oriented-programming-makes-you-better-44mo/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/programming/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/careerdevelopment/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
@@ -69,9 +93,6 @@
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/posts/everybody-was-cargo-culting-46n5/</loc>
-    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/softwareengineering/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/bestpractices/</loc>
@@ -124,6 +145,24 @@
   </url><url>
     <loc>http://dvirsegal.github.io/tags/tips/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/personal-development/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/csharp/</loc>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/debugging/</loc>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/dotnet/</loc>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</loc>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/posts/digital-notes-are-your-life-dashboard-2ep9/</loc>
     <lastmod>2020-01-14T00:00:00+00:00</lastmod>

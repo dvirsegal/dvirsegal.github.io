@@ -16,6 +16,13 @@
       <description>What is YAML? And how it works?&#xD;Link to heading&#xD;Recently I switched jobs, and as part of this change, I’ve been introduced to a whole new tech stack. RabbitMQ 🐰, Java Spring, Docker, etc. (meaning more subjects to write about 😂). Most of the technologies I use on a daily basis consume YAML as their configuration. In this post, I’ll try to illustrate what I’ve learned (and from where) while trying to understand this new world.</description>
     </item>
     <item>
+      <title>How demo-oriented programming makes you better</title>
+      <link>http://dvirsegal.github.io/posts/how-demo-oriented-programming-makes-you-better-44mo/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/how-demo-oriented-programming-makes-you-better-44mo/</guid>
+      <description>On the focused effort of making a working prototype&#xD;Link to heading&#xD;There are many ways you can determine whether a new feature will add value to the product or turn out to be a complete waste of time. For instance, you can undertake user research, analyze the demands of the market, and study existing solutions. However, we (developers) have a fantastic tool in our sleeves: Developing a running project that demonstrates the proposed solution’s key ideas is your optimal option — in my opinion.</description>
+    </item>
+    <item>
       <title>Congratulations and welcome aboard!</title>
       <link>http://dvirsegal.github.io/posts/congratulations-and-welcome-aboard-3iba/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>

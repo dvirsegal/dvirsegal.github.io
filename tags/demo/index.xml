@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>demo on dvirsegal</title>
+    <link>http://dvirsegal.github.io/tags/demo/</link>
+    <description>Recent content in demo on dvirsegal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://dvirsegal.github.io/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How demo-oriented programming makes you better</title>
+      <link>http://dvirsegal.github.io/posts/how-demo-oriented-programming-makes-you-better-44mo/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/how-demo-oriented-programming-makes-you-better-44mo/</guid>
+      <description>On the focused effort of making a working prototype&#xD;Link to heading&#xD;There are many ways you can determine whether a new feature will add value to the product or turn out to be a complete waste of time. For instance, you can undertake user research, analyze the demands of the market, and study existing solutions. However, we (developers) have a fantastic tool in our sleeves: Developing a running project that demonstrates the proposed solution’s key ideas is your optimal option — in my opinion.</description>
+    </item>
+  </channel>
+</rss>
