@@ -32,6 +32,18 @@
     <loc>http://dvirsegal.github.io/tags/</loc>
     <lastmod>2022-11-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://dvirsegal.github.io/tags/cohesion/</loc>
+    <lastmod>2022-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</loc>
+    <lastmod>2022-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/softwaredesign/</loc>
+    <lastmod>2022-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/softwaredevelopment/</loc>
+    <lastmod>2022-10-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://dvirsegal.github.io/tags/devops/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -42,9 +54,6 @@
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</loc>
-    <lastmod>2021-08-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/softwaredevelopment/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/dockerimage/</loc>
@@ -82,6 +91,15 @@
   </url><url>
     <loc>http://dvirsegal.github.io/tags/yaml/</loc>
     <lastmod>2021-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/requirements/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/scopecreep/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/careeradvice/</loc>
     <lastmod>2021-02-09T00:00:00+00:00</lastmod>

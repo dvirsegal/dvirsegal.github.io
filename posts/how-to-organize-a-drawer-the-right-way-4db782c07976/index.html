@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  How to organize a drawer the right way? · dvirsegal
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Dvir Segal">
+<meta name="description" content="Or let’s talk about cohesionLink to headingTL;DR To make a system cohesive, you must ensure that the parts that go together are close to one another.
+I sometimes find that the cohesion (and coupling) concept is often considered way too academic, and developers tend to talk about other well-known concepts, such as DRY, YAGNI, KISS, and SRP. The list is long, and I can continue with more acronyms all day 😂 So, I’ve chosen to challenge myself and simplify it.">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="How to organize a drawer the right way?"/>
+<meta name="twitter:description" content="Or let’s talk about cohesionLink to headingTL;DR To make a system cohesive, you must ensure that the parts that go together are close to one another.
+I sometimes find that the cohesion (and coupling) concept is often considered way too academic, and developers tend to talk about other well-known concepts, such as DRY, YAGNI, KISS, and SRP. The list is long, and I can continue with more acronyms all day 😂 So, I’ve chosen to challenge myself and simplify it."/>
+
+<meta property="og:title" content="How to organize a drawer the right way?" />
+<meta property="og:description" content="Or let’s talk about cohesionLink to headingTL;DR To make a system cohesive, you must ensure that the parts that go together are close to one another.
+I sometimes find that the cohesion (and coupling) concept is often considered way too academic, and developers tend to talk about other well-known concepts, such as DRY, YAGNI, KISS, and SRP. The list is long, and I can continue with more acronyms all day 😂 So, I’ve chosen to challenge myself and simplify it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://dvirsegal.github.io/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-10-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-10-30T00:00:00+00:00" />
+
+
+
+
+
+<link rel="canonical" href="https://dvirsegal.medium.com/how-to-organize-a-drawer-the-right-way-4db782c07976">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.577e3c5ead537873430da16f0964b754a120fd87c4e2203a00686e7c75b51378.css" integrity="sha256-V348Xq1TeHNDDaFvCWS3VKEg/YfE4iA6AGhufHW1E3g=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/custom.min.0c266ef02d8b41f01746f0dd720ba3e239e36a974a63641bee33b0bdddb6b287.css" integrity="sha256-DCZu8C2LQfAXRvDdcguj4jnjapdKY2Qb7jOwvd22soc=" crossorigin="anonymous" media="screen" />
+  
+
+  
+    
+    <link rel="stylesheet" href="/css/font.min.227f65169235f7e8ae52f7f3199c2b98c67c043c04c31c46e7b18bb3f78c2bfd.css" integrity="sha256-In9lFpI19&#43;iuUvfzGZwrmMZ8BDwEwxxG57GLs/eMK/0=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      dvirsegal
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://dvirsegal.github.io/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/">
+              How to organize a drawer the right way?
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2022-10-30T00:00:00Z">
+                October 30, 2022
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/dvir-segal/">Dvir Segal</a></div>
+
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/softwaredevelopment/">softwaredevelopment</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/cohesion/">cohesion</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/softwareengineering/">softwareengineering</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/softwaredesign/">softwaredesign</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+          <img src="https://cdn-images-1.medium.com/max/1024/0*feDfU6lJBAaHu4Mj" alt="Featured image"/>
+        
+        <h4 id="or-lets-talk-about-cohesion">
+  Or let’s talk about cohesion
+  <a class="heading-link" href="#or-lets-talk-about-cohesion">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>TL;DR To make a system cohesive, you <strong>must</strong> ensure that the parts that go together are close to one another.</p>
+<p>I sometimes find that the cohesion (and coupling) concept is often considered way too academic, and developers tend to talk about other well-known concepts, such as <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"  class="external-link" target="_blank" rel="noopener">DRY</a>, <a href="https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it"  class="external-link" target="_blank" rel="noopener">YAGNI</a>, <a href="https://en.wikipedia.org/wiki/KISS_principle"  class="external-link" target="_blank" rel="noopener">KISS</a>, and <a href="https://en.wikipedia.org/wiki/Single-responsibility_principle"  class="external-link" target="_blank" rel="noopener">SRP</a>. The list is long, and I can continue with more acronyms all day 😂 So, I’ve chosen to challenge myself and simplify it.</p>
+<p>I hope I succeeded.</p>
+<p>Have you decided to continue reading?<br>
+Let’s talk about why it’s crucial or, in <a href="https://medium.com/u/a8ff3eaa42c"  class="external-link" target="_blank" rel="noopener">Kent Beck’s</a> words:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Coupling vs cohesion. <br><br>Coupling:<br>  • Can be hard to find<br>  • Can be really hard &amp;/| expensive to eliminate. <br><br>Cohesive sub-elements are:<br>  • Usually easy to find<br>  • Cheap to achieve, &amp;<br>  • Help you find de-coupling.</p>&mdash; Kent Beck 🌻 (@KentBeck) <a href="https://twitter.com/KentBeck/status/1322545224220991488?ref_src=twsrc%5Etfw">October 31, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>You wanna strive for higher cohesion which reduces the coupling and complexity of the systems. What 😱? Let’s be formal for a moment:</p>
+<blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Cohesion_%5c%28computer_science%5c%29"  class="external-link" target="_blank" rel="noopener"><em>Cohesion</em></a> is the degree to which the elements inside a module belong together.</p>
+</blockquote>
+<blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Coupling_%5c%28computer_programming%5c%29"  class="external-link" target="_blank" rel="noopener"><em>Coupling</em></a> is the degree of interdependence between software modules.</p>
+</blockquote>
+<p>Now it’s time for an analogy. Imagine you’re in the kitchen, it’s cold outside, and you wanna make a hot choco, so you open the silverware drawer, and it’s a total mess. Not only will it be hard to organize, but it’s not clear what belongs where and how to find it.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/634/0*BwTEHzJUrJyjl96E" alt="" style="display: block; margin: 0 auto;" />
+    
+</div>
+
+<p>On the contrary, when everything is in its place, you can easily find a knife if needed or store a new spoon. In my eyes, that’s cohesion, lowering the general mess.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/670/0*w1CQpbqPkOrI7e9P" alt="" style="display: block; margin: 0 auto;" />
+    
+</div>
+
+<p>The terms cohesion and coupling are tightly related. They are often considered opposites, which isn’t accurate. Coupling is about <em>connections; cohesion</em> is about <em>belonging together</em>. The challenge is that cohesion is <em>discovered in a context</em> and cannot be created initially, meaning — you keep refactoring your code to keep objects in context.</p>
+<p>The ideal scenario (also visible in the picture above) is when objects are arranged by functionality, or in other words, in a domain-driven context. When done correctly, it will result in loose coupling (there is no direct connection between a fork and knife besides the fact they are kitchenware).</p>
+<p>Now… if you’ve reached this point, some code examples can be helpful. Let’s start with coupling:</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/1024/1*edRVyH-9TRTISpYl7sbsPA.png" alt="Tight Coupling" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Tight Coupling</em></p>
+</div>
+
+<p>When running the snippet above, the output is ID is null. You can run it yourself <a href="https://replit.com/@dejavo/TightCoupling?v=1"  class="external-link" target="_blank" rel="noopener">here</a>.</p>
+<p>So what’s going on? Each of the validity checks is being bypassed since Student and School classes are tightly coupled in such a way that School has intimate knowledge of Student’s internals and can set its data members. This design could be better. A quick solution will be declaring studentId with private access, forcing other classes to call the public getter and setter methods to access it, as follows:</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/1024/1*xekdWkrcnM1ir-awYHjPjw.png" alt="Loose Coupling" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Loose Coupling</em></p>
+</div>
+
+<p>In this case, the output is (run it from <a href="https://replit.com/@dejavo/LooseCoupling?v=1"  class="external-link" target="_blank" rel="noopener">here</a>):</p>
+<pre tabindex="0"><code>You can&#39;t initialize studentId to a null
+ID is not initialized
+</code></pre><p>But how does all of that relate to cohesion 🤷🏻‍♂️ ?</p>
+<p>Let’s get back to the Student and School example. If a class does all the work at once (God object), it results from high cohesion (and high coupling). Basically, there is a strong connection between the object in the same context.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/1024/1*1U2SDmyeZc8hp_Db3-OZdQ.png" alt="Low Cohesion" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Low Cohesion</em></p>
+</div>
+
+<p>While trying to adhere to the single responsibility (or separation of concerns) principle, the interface should be broken into several <em>classes</em>, each targeting different functionality (domain-driven), making it easier to maintain and update.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/1024/1*4LpKxxAmnyq9u0U3jc7yRw.png" alt="High Cohesion" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>High Cohesion</em></p>
+</div>
+
+<h4 id="conclusion">
+  Conclusion
+  <a class="heading-link" href="#conclusion">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Simply put, <strong>cohesion</strong> means that a <em>class</em> should represent a single concept. However, remember that achieving full decoupling is only possible with damaging cohesion and vice versa.</p>
+<p>A system architecture that is easy to understand, easy to change, easy to maintain, and to test, is characterized by high cohesion and loose coupling. This combination contributes to the reduction of accidental complexity and enables the creation of well-defined modules.</p>
+<p>Ultimately, I want readers to take away that following those principles leads to a system that is easier to maintain and refactor in the future. This is where the actual value lies, and that’s why you should care about cohesion.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Dvir Segal 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  <script data-goatcounter="https://dvirsegal.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

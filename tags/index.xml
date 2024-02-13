@@ -37,6 +37,27 @@
       <description></description>
     </item>
     <item>
+      <title>cohesion</title>
+      <link>http://dvirsegal.github.io/tags/cohesion/</link>
+      <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/cohesion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>softwaredesign</title>
+      <link>http://dvirsegal.github.io/tags/softwaredesign/</link>
+      <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/softwaredesign/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>softwaredevelopment</title>
+      <link>http://dvirsegal.github.io/tags/softwaredevelopment/</link>
+      <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/softwaredevelopment/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>devops</title>
       <link>http://dvirsegal.github.io/tags/devops/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
@@ -55,13 +76,6 @@
       <link>http://dvirsegal.github.io/tags/dockercompose/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/tags/dockercompose/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>softwaredevelopment</title>
-      <link>http://dvirsegal.github.io/tags/softwaredevelopment/</link>
-      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/softwaredevelopment/</guid>
       <description></description>
     </item>
     <item>
@@ -118,6 +132,20 @@
       <link>http://dvirsegal.github.io/tags/yaml/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/tags/yaml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>requirements</title>
+      <link>http://dvirsegal.github.io/tags/requirements/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/requirements/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>scopecreep</title>
+      <link>http://dvirsegal.github.io/tags/scopecreep/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/scopecreep/</guid>
       <description></description>
     </item>
     <item>
