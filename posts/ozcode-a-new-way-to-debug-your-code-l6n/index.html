@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  OzCode: A New Way to Debug Your Code · dvirsegal
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Dvir Segal">
+<meta name="description" content="Back in 2016, I saw a demo at a conference about a new visual studio extension that presumes to change the way an engineer debugs, they called it, magic debugging. Little that I know, it turned my debugging way of thinking upside down, indeed a magical approach.
+Before I’ll continue, I owe a disclaimer for the readers. A previous colleague of mine is one of OzCode’s co-founders (Omer Raviv). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓.">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="OzCode: A New Way to Debug Your Code"/>
+<meta name="twitter:description" content="Back in 2016, I saw a demo at a conference about a new visual studio extension that presumes to change the way an engineer debugs, they called it, magic debugging. Little that I know, it turned my debugging way of thinking upside down, indeed a magical approach.
+Before I’ll continue, I owe a disclaimer for the readers. A previous colleague of mine is one of OzCode’s co-founders (Omer Raviv). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓."/>
+
+<meta property="og:title" content="OzCode: A New Way to Debug Your Code" />
+<meta property="og:description" content="Back in 2016, I saw a demo at a conference about a new visual studio extension that presumes to change the way an engineer debugs, they called it, magic debugging. Little that I know, it turned my debugging way of thinking upside down, indeed a magical approach.
+Before I’ll continue, I owe a disclaimer for the readers. A previous colleague of mine is one of OzCode’s co-founders (Omer Raviv). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-12-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-12-24T00:00:00+00:00" />
+
+
+
+
+
+<link rel="canonical" href="https://medium.com/@dvirsegal/ozcode-a-new-way-to-debug-your-code-25e39b22b8f6">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.577e3c5ead537873430da16f0964b754a120fd87c4e2203a00686e7c75b51378.css" integrity="sha256-V348Xq1TeHNDDaFvCWS3VKEg/YfE4iA6AGhufHW1E3g=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/custom.min.0c266ef02d8b41f01746f0dd720ba3e239e36a974a63641bee33b0bdddb6b287.css" integrity="sha256-DCZu8C2LQfAXRvDdcguj4jnjapdKY2Qb7jOwvd22soc=" crossorigin="anonymous" media="screen" />
+  
+
+  
+    
+    <link rel="stylesheet" href="/css/font.min.227f65169235f7e8ae52f7f3199c2b98c67c043c04c31c46e7b18bb3f78c2bfd.css" integrity="sha256-In9lFpI19&#43;iuUvfzGZwrmMZ8BDwEwxxG57GLs/eMK/0=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      dvirsegal
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/">
+              OzCode: A New Way to Debug Your Code
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2019-12-24T00:00:00Z">
+                December 24, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/dvir-segal/">Dvir Segal</a></div>
+
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/software-development/">software-development</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/csharp/">csharp</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/visual-studio/">visual-studio</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/debugging/">debugging</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+          <img src="https://cdn-images-1.medium.com/max/1024/0*uOFT-wtFb3pW_hLi" alt="Featured image"/>
+        
+        <p>Back in 2016, I saw a demo at a conference about a new visual studio extension that presumes to change the way an engineer debugs, they called it, magic debugging. Little that I know, it turned my debugging way of thinking upside down, indeed a magical approach.</p>
+<p>Before I’ll continue, I owe a <strong><em>disclaimer</em></strong> for the readers. A previous colleague of mine is one of OzCode’s co-founders (<a href="https://twitter.com/omerraviv"  class="external-link" target="_blank" rel="noopener">Omer Raviv</a>). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓. My goal is to share with you my perspective on some of OzCode’s helpful features and why you should try it out too.</p>
+<h3 id="what-can-ozcode-do">
+  What can OzCode do?
+  <a class="heading-link" href="#what-can-ozcode-do">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>The primary purpose of this visual studio extension is to help you debug code and find the root cause of problems, a sort of <strong><em>online</em></strong> <a href="https://www.jetbrains.com/resharper/"  class="external-link" target="_blank" rel="noopener">ReSharper</a>. In the next paragraphs, I write about my favorite features, yet OzCode has more to offer.</p>
+<h4 id="datatip">
+  DataTip
+  <a class="heading-link" href="#datatip">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>One of the valuable features is the DataTip; it replaces the dole visual studio tool-tip with much information, and it helped me in various defect debugging situations.</p>
+<p>It contains a swift <strong>search</strong> functionally. It will go through any object’s fields and values and into several levels in the object’s hierarchy. Note that you can define as many levels as you want.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/588/1*mvdKWBsA3aznEOEgziWp9Q.gif" alt="How useful is that, aha?" style="display: block; margin: 0 auto;" />
+    
+</div>
+
+<p>Each item is presented by the <em>ToString()</em> implementation of the class (<em>seen as OzCodeDemo.Customer</em> in the gif below_)_, but here comes OzCode to the rescue with the neat feature —  <strong>reveal</strong>. By staring properties, you’ll be able to the ones that interest you the most.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/634/1*iKA2udmMqecwR4jUVIaPJA.gif" alt="Reveal, adding most interesting fields" style="display: block; margin: 0 auto;" />
+    
+</div>
+
+<p>Another useful option is the Export feature. You can extract each object internal into JSON/XML/C#, a helpful capability for creating mocked objects during unit testing, which saved me time. Also, the basic VS functionality is not neglect, you can instantly copy value or add a quick watch.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/FODiFeh4HYc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h4 id="linq-debugging">
+  LINQ Debugging
+  <a class="heading-link" href="#linq-debugging">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>LINQ is one of the used features in C#, while one of his pitfalls is when debugging it. Developers have tried to overcome this by evaluating part of the query using Visual Studio’s QuickWatch window, placing (conditional) breakpoints in the lambda expressions for assessing each element individually, or by logging your progress. As you can see, it’s pretty cumbersome to debug it, so OzCode solves that exact need.</p>
+<p>When hovering over LINQ expressions, you’ll see bubbles containing numbers. You can click on each bubble to analyze the evaluated LINQ expressions, each term in his stage. Combine it with the <strong>Reveal</strong> feature, and you are a rockstar.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://thepracticaldev.s3.amazonaws.com/i/218gyxp67lja2bie1h5o.gif" alt="LINQ expression debugging" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>LINQ expression debugging</em></p>
+</div>
+
+<h4 id="time-travel">
+  Time Travel
+  <a class="heading-link" href="#time-travel">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/850/1*iMIs0kbdYkeSYKE8R_oRQQ.gif" alt="Time travel — jump into specific iteration" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Time travel — jump into specific iteration</em></p>
+</div>
+
+<p>OzCode simulates the results of future code execution without actually running it. In such a way, you’ll be able to detect bugs by jumping into specific loop iteration to the exact moment of failure without the need to step over your code in real-time. Using the <strong>heads up display</strong> feature that highlights the evaluated value of your code, a powerful feature by itself (extremely UX-oriented), you can investigate what happened. It saves you time for re-running a defect’s scenario multiple times while hunting for root-cause.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/ipcXvAKDd48" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>Note that time travel doesn’t work when accessing external resources such as a database or native code since it can’t be simulated without affecting the application’s state.</p>
+<h4 id="tracepoints">
+  Tracepoints
+  <a class="heading-link" href="#tracepoints">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Another useful feature is Tracepoints, which allows logging your debugging scenario into the editor’s viewer. Thus, quickly analyze any issue, even a multi-threaded one, as can be seen in the image below where different messages arrive from various processes and threads’ Ids.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://thepracticaldev.s3.amazonaws.com/i/dtooad98lf0pt1xerc41.gif" alt="Tracepoint viewer — demonstrate multithreaded info" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Tracepoint viewer — demonstrate multithreaded info</em></p>
+</div>
+
+<h4 id="compare">
+  Compare
+  <a class="heading-link" href="#compare">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>You can even compare objects and collections in memory. One excellent option is to take a snapshot and compare the same object across different points in time.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/896/1*B6onNt0MpCOOEwtogRoUCg.gif" alt="Compare in action" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Compare in action</em></p>
+</div>
+
+<h4 id="exception-trail-and-prediction">
+  Exception trail and prediction
+  <a class="heading-link" href="#exception-trail-and-prediction">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>This feature has proved himself as valuable (for me) over and over again. It allows you to view all relevant exception information. Furthermore, inner-exception can navigate easily along the StackTrace, all in an interactive and clean UI.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/888/1*FiCNzPZwdQCm2OKWau8gUw.png" alt="Exception trail" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Exception trail</em></p>
+</div>
+
+<p>Using the heads-up display, you get an alert that an exception is going to happen. When encountered, you can quickly skip and ignore it for smooth debugging or decide to handle it.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/1024/1*oWFB2_shx7iiAEYxzinnNA.png" alt="An exception is about to happen" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>An exception is about to happen</em></p>
+</div>
+
+<h4 id="show-all-instances">
+  Show all instances
+  <a class="heading-link" href="#show-all-instances">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Search for any object in memory. That simple.<br>
+It might be used to understand if an object is still alive and why.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/KCraeS3afnw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>There are more features in OzCode, which I’ve not described, such as — quick attach to process, custom expressions, quicker breakpoints, and more. That being said, one can leverage his debugging skills and bring more value efficiently while using it, making OzCode a must-have tool in any C# developer’s toolbox.</p>
+<p>Note that, a free trial can be downloaded from <a href="https://oz-code.com/download/"  class="external-link" target="_blank" rel="noopener">here</a></p>
+<p>Furthermore, OzCode team made sure to create a digital walk-through of all their features (which I’ve used as part of writing this blog-post), accessible here: <a href="https://github.com/oz-code/OzCodeDemo"  class="external-link" target="_blank" rel="noopener">https://github.com/oz-code/OzCodeDemo</a></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Dvir Segal 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  <script data-goatcounter="https://dvirsegal.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

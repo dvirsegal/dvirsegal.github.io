@@ -6,8 +6,15 @@
     <description>Recent content in software-development on dvirsegal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://dvirsegal.github.io/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preserve, Protect &amp; Defend Your Code</title>
+      <link>http://dvirsegal.github.io/posts/preserve-protect-defend-your-code-1d5k/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/preserve-protect-defend-your-code-1d5k/</guid>
+      <description>Considering security measures through development stages&#xD;Link to heading&#xD;Software development is a complicated task that balance business and technical needs. Furthermore, the organization has to ensure the product complies with laws, regulations, and customer’s requirements while presenting robustness to cyber-attacks based on the customer’s risk-taking willingness.&#xA;Hence, I found it important and relevant than ever before based on the growing risks to develop while security in your mind. Nowadays, the accepted approach integrates security measures through all the product development through different stages.</description>
+    </item>
     <item>
       <title>Effort estimation — it’s complicated</title>
       <link>http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/</link>
@@ -28,6 +35,13 @@
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</guid>
       <description>Investigating .NET assembly loading (binding) issues&#xD;Link to heading&#xD;Once in a while, you encounter that peculiar problem when you run your application and receive an exception saying TypeLoadException or FileNotFoundException even though the DLLs that your application relies on, are right there!&#xA;The first suspect that may jump to your head is an assembly binding issue since it happens at the moment you run your application. It might be a mix of old DLLs with new ones, mismatch in version numbers or cultures, missing assemblies at the application’s folder, or even a probing failure, either of each — fusion log viewer can assist in identifying the case.</description>
+    </item>
+    <item>
+      <title>OzCode: A New Way to Debug Your Code</title>
+      <link>http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/</guid>
+      <description>Back in 2016, I saw a demo at a conference about a new visual studio extension that presumes to change the way an engineer debugs, they called it, magic debugging. Little that I know, it turned my debugging way of thinking upside down, indeed a magical approach.&#xA;Before I’ll continue, I owe a disclaimer for the readers. A previous colleague of mine is one of OzCode’s co-founders (Omer Raviv). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓.</description>
     </item>
     <item>
       <title>Ditto, the clipboard manager that saved me</title>

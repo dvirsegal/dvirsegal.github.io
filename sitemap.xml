@@ -62,6 +62,27 @@
     <loc>http://dvirsegal.github.io/posts/in-the-quest-for-growth-material-1mfk/</loc>
     <lastmod>2022-03-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://dvirsegal.github.io/tags/automation/</loc>
+    <lastmod>2022-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/automationtesting/</loc>
+    <lastmod>2022-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/should-devs-write-automation-tests-5fb4/</loc>
+    <lastmod>2022-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/softwaretesting/</loc>
+    <lastmod>2022-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/careeradvice/</loc>
+    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/careergrowth/</loc>
+    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</loc>
+    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://dvirsegal.github.io/tags/devops/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -131,9 +152,6 @@
     <loc>http://dvirsegal.github.io/tags/scopecreep/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/careeradvice/</loc>
-    <lastmod>2021-02-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://dvirsegal.github.io/posts/how-to-cope-with-a-difficult-colleague-456/</loc>
     <lastmod>2021-02-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -194,16 +212,25 @@
     <loc>http://dvirsegal.github.io/posts/diving-into-the-deep-code-waters-57p9/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://dvirsegal.github.io/posts/preserve-protect-defend-your-code-1d5k/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/security/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/software-development/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/software-engineering/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/software-life-cycle/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/noestimates/</loc>
-    <lastmod>2020-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/software-development/</loc>
-    <lastmod>2020-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/software-engineering/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/time-management/</loc>
@@ -266,10 +293,19 @@
     <loc>http://dvirsegal.github.io/tags/time-management-tips/</loc>
     <lastmod>2020-01-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/</loc>
+    <lastmod>2019-12-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/visual-studio/</loc>
+    <lastmod>2019-12-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/career-ladder/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/habit-building/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/individual-contribut/</loc>
@@ -282,6 +318,9 @@
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/senior-engineer/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/small-wins-matter-1b9o/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/software-team/</loc>
@@ -304,6 +343,18 @@
   </url><url>
     <loc>http://dvirsegal.github.io/tags/refactoring/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/open-source/</loc>
+    <lastmod>2019-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/snoop-around-your-visual-tree-c6c/</loc>
+    <lastmod>2019-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/software-developing/</loc>
+    <lastmod>2019-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/wpf/</loc>
+    <lastmod>2019-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/deep-learning/</loc>
     <lastmod>2019-05-31T00:00:00+00:00</lastmod>

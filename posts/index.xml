@@ -37,6 +37,20 @@
       <description>Various methods I use to gain new knowledge&#xD;Link to heading&#xD;A few years ago, I started my journey; picture this, a recent undergraduate SW engineer on his first full-time day job. My team mainly consisted of seniors; I saw those “giants” that both have vast product knowledge and tons of it in software development. They even found the time to be up to date with general tech news. I thought to myself, how do they do that?</description>
     </item>
     <item>
+      <title>Should Devs Write Automation Tests?</title>
+      <link>http://dvirsegal.github.io/posts/should-devs-write-automation-tests-5fb4/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/should-devs-write-automation-tests-5fb4/</guid>
+      <description>In every team I was part of, a debate started on this point: should the developers write automation tests as part of the development process? They’ve just finished implementing the requirements and wrote some unit tests; now, should they also write automated tests?&#xA;Well, the answer, “it depends”.&#xA;Depending on the people’s skillset, teams’ structure. When you have manual/exploratory testers with no skills/time/resources/etc. to write automated tests, you can rely on developers.</description>
+    </item>
+    <item>
+      <title>Switch Tech Stacks: Boost Your Career Growth</title>
+      <link>http://dvirsegal.github.io/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</guid>
+      <description>My humble effort on managing your career&#xD;Link to heading&#xD;A few months ago, I switched jobs. As part of this move, I have changed my daily programming language from C#, which I have been using for over eight years, to Java. It might confuse some people and raise a few eyebrows here and there asking why I would drop my experience just to start with a new language.</description>
+    </item>
+    <item>
       <title>How to use docker-compose, volumes, networks, and more</title>
       <link>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
@@ -142,6 +156,13 @@
       <description>Tools and techniques for exploring an unknown (large) codebase&#xD;Link to heading&#xD;You’ve received a new responsibility or walked into a new job where there is existing code to work with. The source control has been introduced to you, realizing you have a lot to learn. Now what? Asking yourself, how should I become acquainted with the new codebase? Which for some, may be intimidating. Below I’ll attempt to illustrate my techniques for getting familiarity with the code, leading to structured knowledge.</description>
     </item>
     <item>
+      <title>Preserve, Protect &amp; Defend Your Code</title>
+      <link>http://dvirsegal.github.io/posts/preserve-protect-defend-your-code-1d5k/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/preserve-protect-defend-your-code-1d5k/</guid>
+      <description>Considering security measures through development stages&#xD;Link to heading&#xD;Software development is a complicated task that balance business and technical needs. Furthermore, the organization has to ensure the product complies with laws, regulations, and customer’s requirements while presenting robustness to cyber-attacks based on the customer’s risk-taking willingness.&#xA;Hence, I found it important and relevant than ever before based on the growing risks to develop while security in your mind. Nowadays, the accepted approach integrates security measures through all the product development through different stages.</description>
+    </item>
+    <item>
       <title>Effort estimation — it’s complicated</title>
       <link>http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
@@ -184,6 +205,13 @@
       <description>As time goes by, I’ve started to find myself overwhelmed with things I would like to achieve. I looked for a solution to track my progress and goals. I tried various tools and found that writing each item and organize them in lists works for me. I felt immediate relief and “in-control” of my things. Curios of the reason why — it has drawn me to read about it and realizing that when writing things down, it frees your mind, clear space for more important topics.</description>
     </item>
     <item>
+      <title>OzCode: A New Way to Debug Your Code</title>
+      <link>http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/</guid>
+      <description>Back in 2016, I saw a demo at a conference about a new visual studio extension that presumes to change the way an engineer debugs, they called it, magic debugging. Little that I know, it turned my debugging way of thinking upside down, indeed a magical approach.&#xA;Before I’ll continue, I owe a disclaimer for the readers. A previous colleague of mine is one of OzCode’s co-founders (Omer Raviv). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓.</description>
+    </item>
+    <item>
       <title>Arrange your time and your mind will follow</title>
       <link>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
@@ -205,11 +233,25 @@
       <description>The differences between being a tech lead and a senior engineer&#xD;Link to heading&#xD;At the time, being an entry-level SW engineer, my colleagues and I were curious about the individual contributor career path. There are many questions to be answered, but some repeated frequently. Among them were — What is the meaning of being a tech lead? How’s it different from being an experienced team member who is familiar with all the bits and bytes of the language, framework, and domain that he uses daily?</description>
     </item>
     <item>
+      <title>Small Wins Matter</title>
+      <link>http://dvirsegal.github.io/posts/small-wins-matter-1b9o/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/small-wins-matter-1b9o/</guid>
+      <description>Collect the small wins along the way&#xA;Boost motivation, productivity, and creativity by celebrating daily progress&#xD;Link to heading&#xD;Teams must celebrate the small wins. It’s easy to forget there were probably more than a few minor achievements along the way that led to larger ones. We all have been there, caught up in what wasn’t achieved, or focusing on the big “accomplished” picture, eventually forgetting the path to getting there.</description>
+    </item>
+    <item>
       <title>Code comments are your code autobiography</title>
       <link>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</guid>
       <description>Writing about your code is redundant; the code is all you need. I can invest my time on unit tests or develop other features, and other excuses of why writing code comments is a waste of time. It’s a common belief among developers.&#xA;Well, you’ve invested all your efforts in cultivating the design of your code, why should you comment it, right? As a result, code documentation is either absent or useless.</description>
+    </item>
+    <item>
+      <title>Snoop Around Your Visual Tree</title>
+      <link>http://dvirsegal.github.io/posts/snoop-around-your-visual-tree-c6c/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/snoop-around-your-visual-tree-c6c/</guid>
+      <description>Binding issues? Struggle with that hard to solve UI bug? Trying to understand how to fit the entire string into TextBox’s dimensions? These situations and many others are common for us, .NET and WPF developers.&#xA;Most of the times, issues, as mentioned above, are solved by using a debugger.&#xA;Imagine it; you want to change the size of a specific graphic element. Well, you open the relevant project (using Everything tool 😉) in your favorite IDE, make some changes, compile, deploy, and rerun the application.</description>
     </item>
     <item>
       <title>Estimating partial human poses</title>

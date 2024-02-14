@@ -86,6 +86,41 @@
       <description></description>
     </item>
     <item>
+      <title>automation</title>
+      <link>http://dvirsegal.github.io/tags/automation/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>automationtesting</title>
+      <link>http://dvirsegal.github.io/tags/automationtesting/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/automationtesting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>softwaretesting</title>
+      <link>http://dvirsegal.github.io/tags/softwaretesting/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/softwaretesting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>careeradvice</title>
+      <link>http://dvirsegal.github.io/tags/careeradvice/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/careeradvice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>careergrowth</title>
+      <link>http://dvirsegal.github.io/tags/careergrowth/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/careergrowth/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>devops</title>
       <link>http://dvirsegal.github.io/tags/devops/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
@@ -198,13 +233,6 @@
       <description></description>
     </item>
     <item>
-      <title>careeradvice</title>
-      <link>http://dvirsegal.github.io/tags/careeradvice/</link>
-      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/careeradvice/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>toxic</title>
       <link>http://dvirsegal.github.io/tags/toxic/</link>
       <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
@@ -289,24 +317,38 @@
       <description></description>
     </item>
     <item>
-      <title>noestimates</title>
-      <link>http://dvirsegal.github.io/tags/noestimates/</link>
-      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/noestimates/</guid>
+      <title>security</title>
+      <link>http://dvirsegal.github.io/tags/security/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/security/</guid>
       <description></description>
     </item>
     <item>
       <title>software-development</title>
       <link>http://dvirsegal.github.io/tags/software-development/</link>
-      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/tags/software-development/</guid>
       <description></description>
     </item>
     <item>
       <title>software-engineering</title>
       <link>http://dvirsegal.github.io/tags/software-engineering/</link>
-      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>software-life-cycle</title>
+      <link>http://dvirsegal.github.io/tags/software-life-cycle/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/software-life-cycle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>noestimates</title>
+      <link>http://dvirsegal.github.io/tags/noestimates/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/noestimates/</guid>
       <description></description>
     </item>
     <item>
@@ -415,10 +457,24 @@
       <description></description>
     </item>
     <item>
+      <title>visual-studio</title>
+      <link>http://dvirsegal.github.io/tags/visual-studio/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/visual-studio/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>career-ladder</title>
       <link>http://dvirsegal.github.io/tags/career-ladder/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/tags/career-ladder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>habit-building</title>
+      <link>http://dvirsegal.github.io/tags/habit-building/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/habit-building/</guid>
       <description></description>
     </item>
     <item>
@@ -475,6 +531,27 @@
       <link>http://dvirsegal.github.io/tags/refactoring/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/tags/refactoring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>open-source</title>
+      <link>http://dvirsegal.github.io/tags/open-source/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>software-developing</title>
+      <link>http://dvirsegal.github.io/tags/software-developing/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/software-developing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>wpf</title>
+      <link>http://dvirsegal.github.io/tags/wpf/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/wpf/</guid>
       <description></description>
     </item>
     <item>
