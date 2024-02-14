@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  The Burden of Software Design · dvirsegal
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Dvir Segal">
+<meta name="description" content="The aspects of code complexity are broad; one of them result from the design of our code. Design weight is the cognitive effort reading and maintaining your code — a metaphor used for emphasizing how it weighs down your progress.
+The main symptom (as I encountered) is code that forces you to remember specific areas to connect the dots between them. While relying on your memory has its benefits but also a capacity, leading to losing details, causing you to re-read with an effort to memorize it, reducing motivation to be engaged with the product.">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="The Burden of Software Design"/>
+<meta name="twitter:description" content="The aspects of code complexity are broad; one of them result from the design of our code. Design weight is the cognitive effort reading and maintaining your code — a metaphor used for emphasizing how it weighs down your progress.
+The main symptom (as I encountered) is code that forces you to remember specific areas to connect the dots between them. While relying on your memory has its benefits but also a capacity, leading to losing details, causing you to re-read with an effort to memorize it, reducing motivation to be engaged with the product."/>
+
+<meta property="og:title" content="The Burden of Software Design" />
+<meta property="og:description" content="The aspects of code complexity are broad; one of them result from the design of our code. Design weight is the cognitive effort reading and maintaining your code — a metaphor used for emphasizing how it weighs down your progress.
+The main symptom (as I encountered) is code that forces you to remember specific areas to connect the dots between them. While relying on your memory has its benefits but also a capacity, leading to losing details, causing you to re-read with an effort to memorize it, reducing motivation to be engaged with the product." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://dvirsegal.github.io/posts/the-burden-of-software-design-3cbj/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-07-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-07-21T00:00:00+00:00" />
+
+
+
+
+
+<link rel="canonical" href="https://medium.com/@dvirsegal/the-burden-of-software-design-689407880c61">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.577e3c5ead537873430da16f0964b754a120fd87c4e2203a00686e7c75b51378.css" integrity="sha256-V348Xq1TeHNDDaFvCWS3VKEg/YfE4iA6AGhufHW1E3g=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/custom.min.0c266ef02d8b41f01746f0dd720ba3e239e36a974a63641bee33b0bdddb6b287.css" integrity="sha256-DCZu8C2LQfAXRvDdcguj4jnjapdKY2Qb7jOwvd22soc=" crossorigin="anonymous" media="screen" />
+  
+
+  
+    
+    <link rel="stylesheet" href="/css/font.min.227f65169235f7e8ae52f7f3199c2b98c67c043c04c31c46e7b18bb3f78c2bfd.css" integrity="sha256-In9lFpI19&#43;iuUvfzGZwrmMZ8BDwEwxxG57GLs/eMK/0=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      dvirsegal
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://dvirsegal.github.io/posts/the-burden-of-software-design-3cbj/">
+              The Burden of Software Design
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2020-07-21T00:00:00Z">
+                July 21, 2020
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/dvir-segal/">Dvir Segal</a></div>
+
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/domaindrivendesign/">domaindrivendesign</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/designweight/">designweight</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/softwaredesign/">softwaredesign</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/softwareengineering/">softwareengineering</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+          <img src="https://cdn-images-1.medium.com/max/1024/0*srQym-UIzd5sSucS" alt="Featured image"/>
+        
+        <p>The aspects of code complexity are broad; one of them result from the design of our code. <strong>Design weight</strong> is the cognitive effort reading and maintaining your code — a metaphor used for emphasizing how it weighs down your progress.</p>
+<p>The main symptom (as I encountered) is code that forces you to remember specific areas to connect the dots between them. While relying on your memory has its benefits but also a capacity, leading to losing details, causing you to re-read with an effort to memorize it, reducing motivation to be engaged with the product.</p>
+<blockquote>
+<p><em>“Keep it simple, as simple as possible, but not simpler.”</em> — Albert Einstein</p>
+</blockquote>
+<p>In an analogy, simple code is like bicycles, while a complex code is like a jet plane. The bikes are simple to use, once you’ve learned to balance yourself, you’ve basically mastered the whole thing, while the jet takes extensive training to use and understand. You have to go back and forth until you gain knowledge and enough confidence to use it.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/724/0*nXyGH6zFQkklVkCT.png" alt="KISS" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>KISS</em></p>
+</div>
+
+<p>KISS (Keep It Simple, Stupid), I bet you’ve heard it in the past (and keep forgetting it). It’s one of those sentences that are easier to say than done. In the following paragraphs, I’ll try to illustrate six principles in which adhering to them may assist you to apply simplification:</p>
+<h4 id="1-refactor-is-an-ongoing-activity">
+  1. Refactor is an ongoing activity
+  <a class="heading-link" href="#1-refactor-is-an-ongoing-activity">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Use YAGNI heuristic — an acronym stands for “You Aren’t Gonna Need It” (coming from <a href="https://en.wikipedia.org/wiki/Extreme_programming"  class="external-link" target="_blank" rel="noopener">extreme programming</a>). Reduce costly design elements based on future benefits. Also, pay attention to “emergent design” — meaning improve code structure consistently. Don’t forget to use unit tests and automated regression tests as a robust safety net to make rapid changes.</p>
+<h4 id="2-challenge-complex-features">
+  2. Challenge complex features
+  <a class="heading-link" href="#2-challenge-complex-features">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Set a dedicated meeting with the product manager, UX designer, SW architect, and other project key players. Share with them your concerns and check the possibility for change, you’ll be surprised how random some of the requirements may be.</p>
+<h4 id="3-apishttpsessentialsxebiacomapis-are-forever-like-diamonds-are-forever">
+  3. <a href="https://essentials.xebia.com/apis-are-forever/"  class="external-link" target="_blank" rel="noopener">APIs</a>, like diamonds, are forever
+  <a class="heading-link" href="#3-apishttpsessentialsxebiacomapis-are-forever-like-diamonds-are-forever">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://media.giphy.com/media/EkDhogNB3yo3C/giphy.gif" alt="Forever ever" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Forever ever</em></p>
+</div>
+
+<p>You can always add functionality to your software, but the other way around isn’t so simple. Skimp with requirements. Before implementation, perform a requirements review meeting with all the project’s stakeholders and delete the less valuable ones. Otherwise, you find yourself with a lot of code to maintain, among with public APIs, which make it difficult to make changes.</p>
+<h4 id="4-occams-razormore-facts-fewer-assumptions">
+  4. Occam’s Razor — more facts, fewer assumptions
+  <a class="heading-link" href="#4-occams-razormore-facts-fewer-assumptions">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Make as few assumptions as you can (as <a href="http://michaellant.com/2010/08/10/occams-razor-and-the-art-of-software-design/"  class="external-link" target="_blank" rel="noopener">explained</a> by <a href="https://twitter.com/MichaelLant"  class="external-link" target="_blank" rel="noopener">Michael Lant</a>), avoid basing your design on them. Ask as early as you can, “Are you certain that everything you are doing is truly being done in support of the project objectives?”</p>
+<p>In the case of some, the answer will be no; remove anything that doesn’t support the project’s goals. According to Michael, choosing which assumption to use is based on your experience. This is where the real work gets started.</p>
+<h4 id="5-end-of-life">
+  5. End Of Life
+  <a class="heading-link" href="#5-end-of-life">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/1024/0*oe9WhV5qHdT1SIdy" alt="EOL" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>EOL</em></p>
+</div>
+
+<p>Find what’s not necessary anymore and retire it. Perform user research to have a better understanding of used features and concepts. Identify the unused ones and remove them.</p>
+<h4 id="6-domain-driven-design-ddd">
+  6. Domain-Driven Design (DDD)
+  <a class="heading-link" href="#6-domain-driven-design-ddd">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>This notable approach by <a href="https://twitter.com/ericevans0"  class="external-link" target="_blank" rel="noopener">Eric Evans</a> (as published in his <a href="https://www.amazon.com/Eric-Evans/e/B001KDCO2I/ref=ntt_athr_dp_pel_1"  class="external-link" target="_blank" rel="noopener">book</a> with the same name) comes to the rescue. Evans suggests a way to deal with the bias created when requirements from the domain expert (DE) are going into a specification by simplification chain.</p>
+<p>From the DE to PM/Marketing/PO, each modifies the requirements to professional language. Then the Architect/Tech Lead does the shift to the system’s infrastructures for the SW engineers, which “now understand” and can do the work.</p>
+<p>Well, that’s true on theory. In real-life scenarios, it may go the wrong way. Where information is being lost, and details are being filled naturally by our educational guess instincts.</p>
+<p>In DDD, creating a <a href="https://martinfowler.com/bliki/UbiquitousLanguage.html"  class="external-link" target="_blank" rel="noopener">ubiquitous language</a> for all stakeholders is a must. Using it, everyone can understand each other, for creating an accurate conceptual model. Thus, investing in deeply learning the domain, classify objects into Entities (usually <a href="https://en.wikipedia.org/wiki/Unified_Modeling_Language"  class="external-link" target="_blank" rel="noopener">UML</a> is being used) along with identifying entities’ patterns to aggregate them by context. Eventually, reducing any future mistakes that may increase complexity.</p>
+<p>If you’d like to go deeper on that, head to <a href="https://dev.to/saramiteva"  class="external-link" target="_blank" rel="noopener">Sara Miteva</a>’s blog-post:</p>
+<p><a href="https://dev.to/microtica/the-concept-of-domain-driven-design-explained-1ccn"  class="external-link" target="_blank" rel="noopener">https://dev.to/microtica/the-concept-of-domain-driven-design-explained-1ccn</a></p>
+<h4 id="to-conclude">
+  To conclude
+  <a class="heading-link" href="#to-conclude">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Simplicity has its price. Invest your efforts, and you’ll profit a maintainable product and happy teams. Eventually, it’s all about people and continuous improvement.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Dvir Segal 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  <script data-goatcounter="https://dvirsegal.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

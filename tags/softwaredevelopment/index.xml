@@ -6,8 +6,15 @@
     <description>Recent content in softwaredevelopment on dvirsegal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jun 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://dvirsegal.github.io/tags/softwaredevelopment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Power of the Unit Tests</title>
+      <link>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</link>
+      <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</guid>
+      <description>A humoristic post generated with the help of ChatGPT&#xD;Link to heading&#xD;Do you wanna see me test? U wanna see me unit test?&#xD;Link to heading&#xD;In the world of software development, unit testing is an essential process that ensures our code behaves precisely as we expect. But let’s be honest; unit testing is not the most glamorous part of coding. It’s the backstage crew, the hidden orchestrators behind a great performance.</description>
+    </item>
     <item>
       <title>Navigating through the job search</title>
       <link>http://dvirsegal.github.io/posts/navigating-through-the-job-search-599b1bc4221f/</link>

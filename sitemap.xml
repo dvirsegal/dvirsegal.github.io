@@ -3,13 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://dvirsegal.github.io/authors/</loc>
-    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/authors/dvir-segal/</loc>
-    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/</loc>
-    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/humor/</loc>
+    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/</loc>
+    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/softwaredevelopment/</loc>
+    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/softwareengineering/</loc>
+    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/</loc>
+    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</loc>
+    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/unittesting/</loc>
+    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/interview/</loc>
     <lastmod>2023-04-10T00:00:00+00:00</lastmod>
@@ -18,18 +39,6 @@
     <lastmod>2023-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/posts/navigating-through-the-job-search-599b1bc4221f/</loc>
-    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/posts/</loc>
-    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/softwaredevelopment/</loc>
-    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/softwareengineering/</loc>
-    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/</loc>
     <lastmod>2023-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/codequality/</loc>
@@ -202,6 +211,15 @@
   </url><url>
     <loc>http://dvirsegal.github.io/posts/everybody-was-cargo-culting-46n5/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/designweight/</loc>
+    <lastmod>2020-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/domaindrivendesign/</loc>
+    <lastmod>2020-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/the-burden-of-software-design-3cbj/</loc>
+    <lastmod>2020-07-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/bestpractices/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>

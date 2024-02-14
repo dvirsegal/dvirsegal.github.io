@@ -6,8 +6,15 @@
     <description>Recent content in Posts on dvirsegal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jun 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://dvirsegal.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Power of the Unit Tests</title>
+      <link>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</link>
+      <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</guid>
+      <description>A humoristic post generated with the help of ChatGPT&#xD;Link to heading&#xD;Do you wanna see me test? U wanna see me unit test?&#xD;Link to heading&#xD;In the world of software development, unit testing is an essential process that ensures our code behaves precisely as we expect. But let’s be honest; unit testing is not the most glamorous part of coding. It’s the backstage crew, the hidden orchestrators behind a great performance.</description>
+    </item>
     <item>
       <title>Navigating through the job search</title>
       <link>http://dvirsegal.github.io/posts/navigating-through-the-job-search-599b1bc4221f/</link>
@@ -147,6 +154,13 @@
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/everybody-was-cargo-culting-46n5/</guid>
       <description>My personal experience to jump off the bandwagon (effect)&#xD;Link to heading&#xD;Imagine the following situation. One of your experienced colleagues talks about doing some work, which she’s passionate about and sure it will provide better results for the team. She has fire in her eyes when she talks about replacing technology X with Y.&#xA;You feel it right into your heart. Your colleagues seem to agree with her. She’s so right.</description>
+    </item>
+    <item>
+      <title>The Burden of Software Design</title>
+      <link>http://dvirsegal.github.io/posts/the-burden-of-software-design-3cbj/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/the-burden-of-software-design-3cbj/</guid>
+      <description>The aspects of code complexity are broad; one of them result from the design of our code. Design weight is the cognitive effort reading and maintaining your code — a metaphor used for emphasizing how it weighs down your progress.&#xA;The main symptom (as I encountered) is code that forces you to remember specific areas to connect the dots between them. While relying on your memory has its benefits but also a capacity, leading to losing details, causing you to re-read with an effort to memorize it, reducing motivation to be engaged with the product.</description>
     </item>
     <item>
       <title>Diving into the deep code waters</title>
