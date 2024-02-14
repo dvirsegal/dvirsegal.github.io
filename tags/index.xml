@@ -6,8 +6,36 @@
     <description>Recent content in Tags on dvirsegal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://dvirsegal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>interview</title>
+      <link>http://dvirsegal.github.io/tags/interview/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/interview/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>joboffer</title>
+      <link>http://dvirsegal.github.io/tags/joboffer/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/joboffer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>softwaredevelopment</title>
+      <link>http://dvirsegal.github.io/tags/softwaredevelopment/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/softwaredevelopment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>softwareengineering</title>
+      <link>http://dvirsegal.github.io/tags/softwareengineering/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/softwareengineering/</guid>
+      <description></description>
+    </item>
     <item>
       <title>codequality</title>
       <link>http://dvirsegal.github.io/tags/codequality/</link>
@@ -20,13 +48,6 @@
       <link>http://dvirsegal.github.io/tags/integrationtest/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/tags/integrationtest/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>softwareengineering</title>
-      <link>http://dvirsegal.github.io/tags/softwareengineering/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/softwareengineering/</guid>
       <description></description>
     </item>
     <item>
@@ -48,13 +69,6 @@
       <link>http://dvirsegal.github.io/tags/softwaredesign/</link>
       <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/tags/softwaredesign/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>softwaredevelopment</title>
-      <link>http://dvirsegal.github.io/tags/softwaredevelopment/</link>
-      <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/softwaredevelopment/</guid>
       <description></description>
     </item>
     <item>
@@ -401,6 +415,55 @@
       <description></description>
     </item>
     <item>
+      <title>career-ladder</title>
+      <link>http://dvirsegal.github.io/tags/career-ladder/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/career-ladder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>individual-contribut</title>
+      <link>http://dvirsegal.github.io/tags/individual-contribut/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/individual-contribut/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>senior-engineer</title>
+      <link>http://dvirsegal.github.io/tags/senior-engineer/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/senior-engineer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>software-team</title>
+      <link>http://dvirsegal.github.io/tags/software-team/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/software-team/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>team</title>
+      <link>http://dvirsegal.github.io/tags/team/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/team/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>teamwork</title>
+      <link>http://dvirsegal.github.io/tags/teamwork/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/teamwork/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tech-lead</title>
+      <link>http://dvirsegal.github.io/tags/tech-lead/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/tech-lead/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>cleancode</title>
       <link>http://dvirsegal.github.io/tags/cleancode/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
@@ -447,6 +510,13 @@
       <link>http://dvirsegal.github.io/tags/clipboard/</link>
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/tags/clipboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>machinelearning</title>
+      <link>http://dvirsegal.github.io/tags/machinelearning/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/tags/machinelearning/</guid>
       <description></description>
     </item>
     <item>

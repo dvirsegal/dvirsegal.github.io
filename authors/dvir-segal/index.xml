@@ -6,8 +6,15 @@
     <description>Recent content in Dvir Segal on dvirsegal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://dvirsegal.github.io/authors/dvir-segal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Navigating through the job search</title>
+      <link>http://dvirsegal.github.io/posts/navigating-through-the-job-search-599b1bc4221f/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/navigating-through-the-job-search-599b1bc4221f/</guid>
+      <description>Essential tips and resources for a successful job hunt&#xD;Link to heading&#xD;I was laid off from my previous job. It came out of nowhere; I decided to take this change as an opportunity and make the best of it. Luckily, I received incredible support from my connections, and I want to give back by sharing some valuable lessons and resources I’ve gathered along my job search journey.&#xA;This blog post is based on a Twitter (Hebrew) thread I created, detailing my experience and offering practical advice to fellow software engineers (and not only) facing a similar situation.</description>
+    </item>
     <item>
       <title>Failing fast to increase feedback loops</title>
       <link>http://dvirsegal.github.io/posts/failing-fast-to-increase-feedback-loops-6d08f013fa9b/</link>
@@ -100,6 +107,13 @@
       <description>On the focused effort of making a working prototype&#xD;Link to heading&#xD;There are many ways you can determine whether a new feature will add value to the product or turn out to be a complete waste of time. For instance, you can undertake user research, analyze the demands of the market, and study existing solutions. However, we (developers) have a fantastic tool in our sleeves: Developing a running project that demonstrates the proposed solution’s key ideas is your optimal option — in my opinion.</description>
     </item>
     <item>
+      <title>Look into the past, improve the future</title>
+      <link>http://dvirsegal.github.io/posts/look-into-the-past-improve-the-future-4jbk/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/look-into-the-past-improve-the-future-4jbk/</guid>
+      <description>Why a retrospective meeting is a best practice for any team&#xD;Link to heading&#xD;Does the team complain about bottlenecks that slow them down? The same things happen over and over again? Luckily there is a simple practice that, in my experience, can help instantly. What I actually mean is, does your team take part in a retrospective meeting? No?! 😱 Make sure to adapt it ASAP, no matter which software development methodology you follow.</description>
+    </item>
+    <item>
       <title>Congratulations and welcome aboard!</title>
       <link>http://dvirsegal.github.io/posts/congratulations-and-welcome-aboard-3iba/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
@@ -177,6 +191,20 @@
       <description>Being productive by taking control of your time&#xD;Link to heading&#xD;A gym workout, a reminder to walk the dog, meeting with your colleagues on that project presentation, a dentist appointment — are all on the same page. You can’t separate artificially between your work and personal calendars. Why? Because that’s how your life works. The goal is to see what your actual day looks like, to blend between work and personal life for finding the right balance that fits you.</description>
     </item>
     <item>
+      <title>Leading with no authority</title>
+      <link>http://dvirsegal.github.io/posts/leading-with-no-authority-khl/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/leading-with-no-authority-khl/</guid>
+      <description>As individual contributors, occasionally we encounter various situations where we need to lead without formal authority (sometimes we’ve been asked to). Formal training on leading others without the power to do so is rare. The fact, finding the right candidates for this critical task is challenging for any management, doesn’t assist much in the circumstances. The root cause relies on the required skill set for being one since a potential candidate doesn’t follow typical hiring procedures and job description.</description>
+    </item>
+    <item>
+      <title>On the differences between being a tech lead and a senior engineer</title>
+      <link>http://dvirsegal.github.io/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</guid>
+      <description>The differences between being a tech lead and a senior engineer&#xD;Link to heading&#xD;At the time, being an entry-level SW engineer, my colleagues and I were curious about the individual contributor career path. There are many questions to be answered, but some repeated frequently. Among them were — What is the meaning of being a tech lead? How’s it different from being an experienced team member who is familiar with all the bits and bytes of the language, framework, and domain that he uses daily?</description>
+    </item>
+    <item>
       <title>Code comments are your code autobiography</title>
       <link>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
@@ -196,6 +224,13 @@
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</guid>
       <description>Copy-pasting is one of those things that you do every day while working on a computer. By doing so, each time you invest a small portion of your daily routine.&#xA;Say you want to share a photo\text\whatever with a friend from a website, you copy it, either by right-clicking on it and copying it to the clipboard or using Ctrl+C and then paste it to your favorite sharing application and after doing so, you’ve realized you want to share it again with another person.</description>
+    </item>
+    <item>
+      <title>ML.NET: Heart disease prediction</title>
+      <link>http://dvirsegal.github.io/posts/ml-net-heart-disease-prediction-11n8/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/ml-net-heart-disease-prediction-11n8/</guid>
+      <description>Microsoft announced ML.NET last May, and as an advocate user of the .NET framework with experience in Machine Learning, I knew that I’d have to give it a try knowingly that Python various frameworks (such as scikit-learn) rule this domain.&#xA;ML.NET is a free, cross-platform, open source machine learning framework explicitly made for .NET developers. The preview release includes learners to handle binary classification, multi-class classification, and regression tasks. Additional ML tasks like a recommendation system, clustering, anomaly detection, ranking models, and deep learning architectures have been added.</description>
     </item>
     <item>
       <title>It’s all about Everything</title>

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  ML.NET: Heart disease prediction · dvirsegal
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Dvir Segal">
+<meta name="description" content="Microsoft announced ML.NET last May, and as an advocate user of the .NET framework with experience in Machine Learning, I knew that I’d have to give it a try knowingly that Python various frameworks (such as scikit-learn) rule this domain.
+ML.NET is a free, cross-platform, open source machine learning framework explicitly made for .NET developers. The preview release includes learners to handle binary classification, multi-class classification, and regression tasks. Additional ML tasks like a recommendation system, clustering, anomaly detection, ranking models, and deep learning architectures have been added.">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="ML.NET: Heart disease prediction"/>
+<meta name="twitter:description" content="Microsoft announced ML.NET last May, and as an advocate user of the .NET framework with experience in Machine Learning, I knew that I’d have to give it a try knowingly that Python various frameworks (such as scikit-learn) rule this domain.
+ML.NET is a free, cross-platform, open source machine learning framework explicitly made for .NET developers. The preview release includes learners to handle binary classification, multi-class classification, and regression tasks. Additional ML tasks like a recommendation system, clustering, anomaly detection, ranking models, and deep learning architectures have been added."/>
+
+<meta property="og:title" content="ML.NET: Heart disease prediction" />
+<meta property="og:description" content="Microsoft announced ML.NET last May, and as an advocate user of the .NET framework with experience in Machine Learning, I knew that I’d have to give it a try knowingly that Python various frameworks (such as scikit-learn) rule this domain.
+ML.NET is a free, cross-platform, open source machine learning framework explicitly made for .NET developers. The preview release includes learners to handle binary classification, multi-class classification, and regression tasks. Additional ML tasks like a recommendation system, clustering, anomaly detection, ranking models, and deep learning architectures have been added." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://dvirsegal.github.io/posts/ml-net-heart-disease-prediction-11n8/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-04-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-04-11T00:00:00+00:00" />
+
+
+
+
+
+<link rel="canonical" href="https://medium.com/@dvirsegal/ml-net-heart-disease-prediction-6fd73a274eec">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.577e3c5ead537873430da16f0964b754a120fd87c4e2203a00686e7c75b51378.css" integrity="sha256-V348Xq1TeHNDDaFvCWS3VKEg/YfE4iA6AGhufHW1E3g=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/custom.min.0c266ef02d8b41f01746f0dd720ba3e239e36a974a63641bee33b0bdddb6b287.css" integrity="sha256-DCZu8C2LQfAXRvDdcguj4jnjapdKY2Qb7jOwvd22soc=" crossorigin="anonymous" media="screen" />
+  
+
+  
+    
+    <link rel="stylesheet" href="/css/font.min.227f65169235f7e8ae52f7f3199c2b98c67c043c04c31c46e7b18bb3f78c2bfd.css" integrity="sha256-In9lFpI19&#43;iuUvfzGZwrmMZ8BDwEwxxG57GLs/eMK/0=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/dvir_animated.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      dvirsegal
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://dvirsegal.github.io/posts/ml-net-heart-disease-prediction-11n8/">
+              ML.NET: Heart disease prediction
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2019-04-11T00:00:00Z">
+                April 11, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/dvir-segal/">Dvir Segal</a></div>
+
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/machinelearning/">machinelearning</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/softwaredevelopment/">softwaredevelopment</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/softwareengineering/">softwareengineering</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+          <img src="https://cdn-images-1.medium.com/max/2560/1*CEwJ9Ai7LEytGq-tPmMafg.jpeg" alt="Featured image"/>
+        
+        <p>Microsoft announced ML.NET last May, and as an advocate user of the .NET framework with experience in Machine Learning, I knew that I’d have to give it a try knowingly that Python various frameworks (such as <a href="https://scikit-learn.org/stable/"  class="external-link" target="_blank" rel="noopener">scikit-learn</a>) rule this domain.</p>
+<p>ML.NET is a free, cross-platform, open source machine learning framework explicitly made for .NET developers. The preview release includes learners to handle binary classification, multi-class classification, and regression tasks. Additional ML tasks like a recommendation system, clustering, anomaly detection, ranking models, and deep learning architectures have been added.</p>
+<p>In this blog-post, my purpose is to play along with ML.NET capabilities and eventually demonstrating its ease of use. My goal is to predict a heart disease for a given patient based on an opensource dataset.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/800/0*YWGKpgPBnuFtBqSk.png" alt="" style="display: block; margin: 0 auto;" />
+    
+</div>
+
+<h4 id="getting-started">
+  Getting started
+  <a class="heading-link" href="#getting-started">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Assuming Visual Studio 2017 is installed on your system, open a new console application (.NET core) project:</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/800/1*bn1lfUteirJ5NZETRDEVbQ.png" alt="" style="display: block; margin: 0 auto;" />
+    
+</div>
+
+<p>Afterward, go to the ‘<strong>Tools</strong>’ menu and choose ‘<strong>Manage NuGet Packages for Solution…</strong>’:</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/800/1*4kkhpH7IyVTS38j4XjwVyA.png" alt="" style="display: block; margin: 0 auto;" />
+    
+</div>
+
+<p>There, browse for ‘<a href="https://www.nuget.org/packages/Microsoft.ML/"  class="external-link" target="_blank" rel="noopener">Microsoft.ML</a>’ and choose the latest stable version (at the time of writing these lines, the stable version is 0.11.0) to install it for the current solution. As a side note, if you prefer using the package manager console, just run the following command:</p>
+<blockquote>
+<p>Install-Package Microsoft.ML -Version 0.11.0</p>
+</blockquote>
+<p>Now that all prerequisites are in place, we can start doing some machine learning magic.</p>
+<h4 id="the-heart-diseasedataset">
+  The Heart Disease Dataset
+  <a class="heading-link" href="#the-heart-diseasedataset">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>For the binary classification task, I used the Heart Disease UCI dataset from <a href="https://www.kaggle.com/ronitf/heart-disease-uci"  class="external-link" target="_blank" rel="noopener">Kaggle</a> datasets; It contains 14 columns and 303 records.</p>
+
+
+
+
+<div style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/800/1*nQblVebCZ_IlBm5xzcmAmA.png" alt="Heart Disease Dataset Columns" style="display: block; margin: 0 auto;" />
+    <p style="margin: 0; text-align: center;"><em>Screenshot from Kaggle</em></p>
+</div>
+
+<p><a href="https://www.kaggle.com/ronitf/heart-disease-uci"  class="external-link" target="_blank" rel="noopener"><strong>Heart Disease UCI</strong></a></p>
+<p>I’ve manually split the CSV file into two files, smaller one for the test data and a larger one for the training data. Below, the test data CSV as an example.</p>
+<p>#####Test Data CSV</p>
+<script src="https://gist.github.com/dvirsegal/c6bd3ad78ac7b0a867dc5d2285effea3.js"></script>
+
+<p>ML.NET provides mapping attributes to model the dataset structure. It means each header is mapped to a <em>LoadColumn</em> attribute as follows:</p>
+<script src="https://gist.github.com/dvirsegal/033f29c7ef78695cf2547dd98a97e588.js"></script>
+
+<h4 id="training-themodel">
+  <strong>Training the model</strong>
+  <a class="heading-link" href="#training-themodel">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Training a model based on a given dataset requires to define a context as an entry point or as defined by ML.NET API:</p>
+<blockquote>
+<p>The <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.ml.mlcontext?view=ml-dotnet"  class="external-link" target="_blank" rel="noopener">MLContext</a> is a starting point for all ML.NET operations. It is instantiated by the user, provides mechanisms for logging and entry points for training, prediction, model operations, etc.</p>
+</blockquote>
+<p>Afterward, the training and test datasets are loaded using the context, based on the mapped structure.</p>
+<script src="https://gist.github.com/dvirsegal/cc17737d4ad07db9abda0e021f1a7769.js"></script>
+
+<p>Transform the data and add a learning algorithm for this task numeric values are assigned to text because only numbers can be processed during model training. In this case, the problem I try to predict is a type of Binary Classification (two classes, has and hasn’t diseased). The selected model is based on Decision Trees because they can be easily interpreted (by humans) as rules, have excellent <a href="http://www.cs.cornell.edu/~caruana/ctp/ct.papers/caruana.icml06.pdf"  class="external-link" target="_blank" rel="noopener">performance</a> and don’t require any assumptions on the data.</p>
+<script src="https://gist.github.com/dvirsegal/10439bfc2ecfafd596ff18d989778965.js"></script>
+
+<p>Eventually, the model is trained by using the <em>fit</em> method:</p>
+<script src="https://gist.github.com/dvirsegal/349d9e8914eb3bc58bb3ca0a4e924035.js"></script>
+
+<p>We’ve trained our model with a few steps, as simple as that.</p>
+<p>BTW, the framework provides capabilities for saving your model. According to the tutorial it is recommended to save it as a ZIP file.</p>
+<h4 id="testing">
+  Testing
+  <a class="heading-link" href="#testing">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Given the trained model, prediction can be made. <br>
+For that purpose, a sample <em>class</em> containing a list of patients is given as input to the model for prediction.</p>
+<script src="https://gist.github.com/dvirsegal/f276182fd0979ca9887f3fbd3adbcb8e.js"></script>
+
+<p>The result prediction structure shall be defined too, as follows:</p>
+<script src="https://gist.github.com/dvirsegal/d11b8f789029dd11156a5e8a20dcdaf7.js"></script>
+
+<p>In the below gist, I load the model from disk, create a prediction engine based on the resulting structure (defined above) and using the engine I predict the probability for heart disease on the list of patients.</p>
+<script src="https://gist.github.com/dvirsegal/dc5d1c01bb11fc82560c8f2a2a5a4ab5.js"></script>
+
+<p>Which returns the following (Prediction Output):</p>
+<script src="https://gist.github.com/dvirsegal/ac88a783c4d0b62d06e9c5a706923daf.js"></script>
+
+<p>In terms of the result accuracy, the code hits 78.95% accuracy, below are more evaluation parameters generated by the model’s Evaluate method:</p>
+<script src="https://gist.github.com/dvirsegal/8b1e8145955a84cb37e5cddcbffac716.js"></script>
+
+<p>Overall, ML.NET has it all, flexible, robust and supported by a big company that provides the engineering vision behind it. I recommend you to try it too, and for sure I’ll use it again soon.</p>
+<p>This blog-post was written based on the <a href="https://github.com/dotnet/machinelearning-samples/tree/master/samples/csharp/getting-started/BinaryClassification_HeartDiseasePrediction"  class="external-link" target="_blank" rel="noopener">Heart disease Classification</a> coding sample with some modification; more ML.NET Samples can be found at:</p>
+<p><a href="https://github.com/dotnet/machinelearning-samples/blob/master/README.md"  class="external-link" target="_blank" rel="noopener"><strong>Machine Learning Samples</strong> Samples for ML.NET, an open source and cross-platform machine learning framework</a></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Dvir Segal 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  <script data-goatcounter="https://dvirsegal.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

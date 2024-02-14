@@ -3,15 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://dvirsegal.github.io/authors/</loc>
-    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/codequality/</loc>
-    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/authors/dvir-segal/</loc>
-    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/</loc>
+    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/interview/</loc>
+    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/joboffer/</loc>
+    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/navigating-through-the-job-search-599b1bc4221f/</loc>
+    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/</loc>
+    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/softwaredevelopment/</loc>
+    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/softwareengineering/</loc>
+    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/</loc>
+    <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/codequality/</loc>
     <lastmod>2022-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/posts/failing-fast-to-increase-feedback-loops-6d08f013fa9b/</loc>
@@ -20,16 +41,7 @@
     <loc>http://dvirsegal.github.io/tags/integrationtest/</loc>
     <lastmod>2022-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/</loc>
-    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/softwareengineering/</loc>
-    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://dvirsegal.github.io/tags/sofwaredevelopment/</loc>
-    <lastmod>2022-11-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/</loc>
     <lastmod>2022-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/cohesion/</loc>
@@ -39,9 +51,6 @@
     <lastmod>2022-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/softwaredesign/</loc>
-    <lastmod>2022-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/softwaredevelopment/</loc>
     <lastmod>2022-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/careertips/</loc>
@@ -148,6 +157,9 @@
   </url><url>
     <loc>http://dvirsegal.github.io/tags/programming/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/look-into-the-past-improve-the-future-4jbk/</loc>
+    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/tags/careerdevelopment/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
@@ -257,6 +269,33 @@
     <loc>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://dvirsegal.github.io/tags/career-ladder/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/individual-contribut/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/leading-with-no-authority-khl/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/senior-engineer/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/software-team/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/team/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/teamwork/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/tech-lead/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://dvirsegal.github.io/tags/cleancode/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -286,6 +325,12 @@
   </url><url>
     <loc>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</loc>
     <lastmod>2019-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/tags/machinelearning/</loc>
+    <lastmod>2019-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://dvirsegal.github.io/posts/ml-net-heart-disease-prediction-11n8/</loc>
+    <lastmod>2019-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://dvirsegal.github.io/posts/it-s-all-about-everything-1lf5/</loc>
     <lastmod>2019-03-26T00:00:00+00:00</lastmod>
