@@ -6,8 +6,15 @@
     <description>Recent content in Posts on dvirsegal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://dvirsegal.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIFU at Work: Learn and Move On!</title>
+      <link>http://dvirsegal.github.io/posts/tifu-at-work-learn-and-move-on/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/tifu-at-work-learn-and-move-on/</guid>
+      <description>Everyone makes mistakes. If someone says otherwise, they’re probably not being straight with you. It’s bound to happen whether you’re new to a job or have been there for a while. You can find plenty of horror stories on Reddit and HackerNews. Take, for example, this post with a collection of those stories:&#xA;Ask HN: What&amp;rsquo;s the worst you&amp;rsquo;ve ever screwed up at work? | Hacker News&#xA;I felt that gut-wrenching moment when you realize a mistake has been made.</description>
+    </item>
     <item>
       <title>The Power of the Unit Tests</title>
       <link>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</link>
