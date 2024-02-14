@@ -37,6 +37,13 @@
       <description>Or let’s talk about cohesion&#xD;Link to heading&#xD;TL;DR To make a system cohesive, you must ensure that the parts that go together are close to one another.&#xA;I sometimes find that the cohesion (and coupling) concept is often considered way too academic, and developers tend to talk about other well-known concepts, such as DRY, YAGNI, KISS, and SRP. The list is long, and I can continue with more acronyms all day 😂 So, I’ve chosen to challenge myself and simplify it.</description>
     </item>
     <item>
+      <title>Where Do I Get Writing Ideas From?</title>
+      <link>http://dvirsegal.github.io/posts/where-do-i-get-writing-ideas-from-2jk2/</link>
+      <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/where-do-i-get-writing-ideas-from-2jk2/</guid>
+      <description>I’m stuck; I’ve no muse about what to write. I can’t find any idea.&#xA;Aha… the famous writer’s block.&#xA;What do I do in those cases? From where does the inspiration to write about stuff come from? Where do I find ideas? How do I find the time?&#xA;Regarding the second, you make time — it is all a matter of prioritization. I’ve written about time management in the past, and those methods help me to focus.</description>
+    </item>
+    <item>
       <title>In the quest for growth material</title>
       <link>http://dvirsegal.github.io/posts/in-the-quest-for-growth-material-1mfk/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
@@ -254,11 +261,25 @@
       <description>Collect the small wins along the way&#xA;Boost motivation, productivity, and creativity by celebrating daily progress&#xD;Link to heading&#xD;Teams must celebrate the small wins. It’s easy to forget there were probably more than a few minor achievements along the way that led to larger ones. We all have been there, caught up in what wasn’t achieved, or focusing on the big “accomplished” picture, eventually forgetting the path to getting there.</description>
     </item>
     <item>
+      <title>The Social Glue of the Team’s Lunch</title>
+      <link>http://dvirsegal.github.io/posts/the-social-glue-of-the-team-s-lunch-32ed/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/the-social-glue-of-the-team-s-lunch-32ed/</guid>
+      <description>Everybody has to eat, right? Families like to eat together, and friends frequently meet for dinner, and colleague regularly socialize over lunch.&#xA;Recent research by Cornell University found that employees who ate meals together had significantly better team performance at work than those who didn’t.&#xA;“During the study, we noticed that not sharing mealtimes was a signal that something deeper was wrong with the way the group worked , something that was then reflected in the team’s performance.</description>
+    </item>
+    <item>
       <title>Code comments are your code autobiography</title>
       <link>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</guid>
       <description>Writing about your code is redundant; the code is all you need. I can invest my time on unit tests or develop other features, and other excuses of why writing code comments is a waste of time. It’s a common belief among developers.&#xA;Well, you’ve invested all your efforts in cultivating the design of your code, why should you comment it, right? As a result, code documentation is either absent or useless.</description>
+    </item>
+    <item>
+      <title>The Privilege of Mentoring</title>
+      <link>http://dvirsegal.github.io/posts/the-privilege-of-mentoring-1gfd/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/the-privilege-of-mentoring-1gfd/</guid>
+      <description>Mentoring means cultivating and inspiring others, usually less experienced in the specific field of expertise. IMHO, an experienced engineer must hold the mentoring skill, as it’s critical to the careers of new SW employees and the success of the entire team. This skill is earned by hard work (that made you experienced), and it helps you to develop your career.&#xA;The trust between the mentor and mentee is that hidden ingredient in the recipe of building great teams, and in my perspective, being one is a privilege.</description>
     </item>
     <item>
       <title>Snoop Around Your Visual Tree</title>
@@ -280,6 +301,13 @@
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</guid>
       <description>Copy-pasting is one of those things that you do every day while working on a computer. By doing so, each time you invest a small portion of your daily routine.&#xA;Say you want to share a photo\text\whatever with a friend from a website, you copy it, either by right-clicking on it and copying it to the clipboard or using Ctrl+C and then paste it to your favorite sharing application and after doing so, you’ve realized you want to share it again with another person.</description>
+    </item>
+    <item>
+      <title>When in Doubt, Reverse Engineer It</title>
+      <link>http://dvirsegal.github.io/posts/when-in-doubt-reverse-engineer-it-1jdk/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/when-in-doubt-reverse-engineer-it-1jdk/</guid>
+      <description>Occasionally you’ll get into a situation where a problem happened in your application, and you don’t have access to your source code and\or symbols.&#xA;At that moment, one of your better options is to decompile your code and debug it. IMHO, one of the best free tools out there is dnSpy, developed by 0xd4d (respect).&#xA;According to him, dnSpy is an improved ILSpy decompiler that enhanced by Roslyn (C# / Visual Basic) compiler and many other open source libraries.</description>
     </item>
     <item>
       <title>ML.NET: Heart disease prediction</title>

@@ -43,5 +43,19 @@
       <guid>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</guid>
       <description>Being productive by taking control of your time&#xD;Link to heading&#xD;A gym workout, a reminder to walk the dog, meeting with your colleagues on that project presentation, a dentist appointment — are all on the same page. You can’t separate artificially between your work and personal calendars. Why? Because that’s how your life works. The goal is to see what your actual day looks like, to blend between work and personal life for finding the right balance that fits you.</description>
     </item>
+    <item>
+      <title>The Privilege of Mentoring</title>
+      <link>http://dvirsegal.github.io/posts/the-privilege-of-mentoring-1gfd/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/the-privilege-of-mentoring-1gfd/</guid>
+      <description>Mentoring means cultivating and inspiring others, usually less experienced in the specific field of expertise. IMHO, an experienced engineer must hold the mentoring skill, as it’s critical to the careers of new SW employees and the success of the entire team. This skill is earned by hard work (that made you experienced), and it helps you to develop your career.&#xA;The trust between the mentor and mentee is that hidden ingredient in the recipe of building great teams, and in my perspective, being one is a privilege.</description>
+    </item>
+    <item>
+      <title>When in Doubt, Reverse Engineer It</title>
+      <link>http://dvirsegal.github.io/posts/when-in-doubt-reverse-engineer-it-1jdk/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/when-in-doubt-reverse-engineer-it-1jdk/</guid>
+      <description>Occasionally you’ll get into a situation where a problem happened in your application, and you don’t have access to your source code and\or symbols.&#xA;At that moment, one of your better options is to decompile your code and debug it. IMHO, one of the best free tools out there is dnSpy, developed by 0xd4d (respect).&#xA;According to him, dnSpy is an improved ILSpy decompiler that enhanced by Roslyn (C# / Visual Basic) compiler and many other open source libraries.</description>
+    </item>
   </channel>
 </rss>

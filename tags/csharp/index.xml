@@ -22,5 +22,12 @@
       <guid>http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/</guid>
       <description>Back in 2016, I saw a demo at a conference about a new visual studio extension that presumes to change the way an engineer debugs, they called it, magic debugging. Little that I know, it turned my debugging way of thinking upside down, indeed a magical approach.&#xA;Before I’ll continue, I owe a disclaimer for the readers. A previous colleague of mine is one of OzCode’s co-founders (Omer Raviv). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓.</description>
     </item>
+    <item>
+      <title>When in Doubt, Reverse Engineer It</title>
+      <link>http://dvirsegal.github.io/posts/when-in-doubt-reverse-engineer-it-1jdk/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/when-in-doubt-reverse-engineer-it-1jdk/</guid>
+      <description>Occasionally you’ll get into a situation where a problem happened in your application, and you don’t have access to your source code and\or symbols.&#xA;At that moment, one of your better options is to decompile your code and debug it. IMHO, one of the best free tools out there is dnSpy, developed by 0xd4d (respect).&#xA;According to him, dnSpy is an improved ILSpy decompiler that enhanced by Roslyn (C# / Visual Basic) compiler and many other open source libraries.</description>
+    </item>
   </channel>
 </rss>
