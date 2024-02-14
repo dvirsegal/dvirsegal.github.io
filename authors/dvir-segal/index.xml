@@ -23,6 +23,13 @@
       <description>Or let’s talk about cohesion&#xD;Link to heading&#xD;TL;DR To make a system cohesive, you must ensure that the parts that go together are close to one another.&#xA;I sometimes find that the cohesion (and coupling) concept is often considered way too academic, and developers tend to talk about other well-known concepts, such as DRY, YAGNI, KISS, and SRP. The list is long, and I can continue with more acronyms all day 😂 So, I’ve chosen to challenge myself and simplify it.</description>
     </item>
     <item>
+      <title>In the quest for growth material</title>
+      <link>http://dvirsegal.github.io/posts/in-the-quest-for-growth-material-1mfk/</link>
+      <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/in-the-quest-for-growth-material-1mfk/</guid>
+      <description>Various methods I use to gain new knowledge&#xD;Link to heading&#xD;A few years ago, I started my journey; picture this, a recent undergraduate SW engineer on his first full-time day job. My team mainly consisted of seniors; I saw those “giants” that both have vast product knowledge and tons of it in software development. They even found the time to be up to date with general tech news. I thought to myself, how do they do that?</description>
+    </item>
+    <item>
       <title>How to use docker-compose, volumes, networks, and more</title>
       <link>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
@@ -42,6 +49,13 @@
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3/</guid>
       <description>I’ve heard a lot about dockers, even had some experience with it as part of my graduate degree. Still, as the old saying goes, learning is by doing. By doing, I mean using the stuff you want to learn as part of your daily work (instead of using it as part of a course in a semester since it will be forgotten). Actually, this is a technology that, in my perspective, should be in some familiarity level in each software engineer’s tech stack.</description>
+    </item>
+    <item>
+      <title>Is Code freeze still relevant?</title>
+      <link>http://dvirsegal.github.io/posts/is-code-freeze-still-relevant-9c077495b64/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/is-code-freeze-still-relevant-9c077495b64/</guid>
+      <description>When practicing CI/CD, does code freeze still matter?&#xD;Link to heading&#xD;Assuming you are familiar with the concept of code freeze, which is that dedicated time in a project when we (developers) are supposed to be more strict in making changes to the code or other resources for the good of moving the project towards a release or the end of an iteration.&#xA;I’ve recently wondered about that concept; I asked myself why do we need to stop everything when we have a full-scale CI\CD pipeline.</description>
     </item>
     <item>
       <title>Developer story: Getting used to macOS as a long-time Windows user</title>
@@ -70,6 +84,13 @@
       <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/how-to-cope-with-a-difficult-colleague-456/</guid>
       <description>It’s complicated; Dealing with workplace drama.&#xD;Link to heading&#xD;Everybody, at some point, will encounter a challenging colleague. Being able to deal with a person like that is part of developing conflict resolution skills and learning to overcome those setbacks.&#xA;In the following paragraphs, I will try to illustrate how I deal with these situations.&#xA;What do you mean by difficult people? 🤔&#xD;Link to heading&#xD;To be honest, we have to know that not everyone we struggle with is someone who tries to give us a hard time, as every relationship will have friction moments.</description>
+    </item>
+    <item>
+      <title>Is premature optimization really the root of all evil?</title>
+      <link>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</guid>
+      <description>First, make it right. Then make it fast.&#xD;Link to heading&#xD;Premature Optimization&#xA;Back in the seventies, Knuth wrote the above quote in his paper “Structured Programming with go to Statement” at times when computational power was slower and expensive than nowadays. Nevertheless, it doesn’t mean you shouldn’t take it in your consideration. Note that the quote doesn&amp;rsquo;t stand for itself, and to get its true meaning, you should read the paragraph that follows this famous saying:</description>
     </item>
     <item>
       <title>How demo-oriented programming makes you better</title>
@@ -175,6 +196,13 @@
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</guid>
       <description>Copy-pasting is one of those things that you do every day while working on a computer. By doing so, each time you invest a small portion of your daily routine.&#xA;Say you want to share a photo\text\whatever with a friend from a website, you copy it, either by right-clicking on it and copying it to the clipboard or using Ctrl+C and then paste it to your favorite sharing application and after doing so, you’ve realized you want to share it again with another person.</description>
+    </item>
+    <item>
+      <title>It’s all about Everything</title>
+      <link>http://dvirsegal.github.io/posts/it-s-all-about-everything-1lf5/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/it-s-all-about-everything-1lf5/</guid>
+      <description>Few years ago a teammate changed my perspective of my daily computer’s usage experience. Until that moment, I used to go and explore folder and files using Windows Explorer as Microsoft intended, but something was wrong with it, too many clicks and the start menu search need some improvements. Overall, it felt so different than my common internet browsing experience, where you open your favorite search engine and start typing whatever you’re looking for.</description>
     </item>
   </channel>
 </rss>

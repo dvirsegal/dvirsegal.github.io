@@ -15,5 +15,12 @@
       <guid>http://dvirsegal.github.io/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</guid>
       <description>Or let’s talk about cohesion&#xD;Link to heading&#xD;TL;DR To make a system cohesive, you must ensure that the parts that go together are close to one another.&#xA;I sometimes find that the cohesion (and coupling) concept is often considered way too academic, and developers tend to talk about other well-known concepts, such as DRY, YAGNI, KISS, and SRP. The list is long, and I can continue with more acronyms all day 😂 So, I’ve chosen to challenge myself and simplify it.</description>
     </item>
+    <item>
+      <title>Is premature optimization really the root of all evil?</title>
+      <link>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</guid>
+      <description>First, make it right. Then make it fast.&#xD;Link to heading&#xD;Premature Optimization&#xA;Back in the seventies, Knuth wrote the above quote in his paper “Structured Programming with go to Statement” at times when computational power was slower and expensive than nowadays. Nevertheless, it doesn’t mean you shouldn’t take it in your consideration. Note that the quote doesn&amp;rsquo;t stand for itself, and to get its true meaning, you should read the paragraph that follows this famous saying:</description>
+    </item>
   </channel>
 </rss>
