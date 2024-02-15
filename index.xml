@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dvirsegal</title>
+    <title>Dvir Segal&#39;s blog</title>
     <link>http://dvirsegal.github.io/</link>
-    <description>Recent content on dvirsegal</description>
+    <description>Recent content on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
@@ -331,11 +331,11 @@
       <description>Few years ago a teammate changed my perspective of my daily computer’s usage experience. Until that moment, I used to go and explore folder and files using Windows Explorer as Microsoft intended, but something was wrong with it, too many clicks and the start menu search need some improvements. Overall, it felt so different than my common internet browsing experience, where you open your favorite search engine and start typing whatever you’re looking for.</description>
     </item>
     <item>
-      <title></title>
+      <title>DVIR SEGAL</title>
       <link>http://dvirsegal.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://dvirsegal.github.io/about/</guid>
-      <description>Hey, I’m Dvir 🙋🏻‍♂️&#xA;I’m curious by nature.&#xA;I love reading and learning new stuff, mainly about SW development.&#xA;It feels like I’m on a sort of a quest for knowledge.&#xA;I genuinely believe there’s no such thing as a stupid question.&#xA;If you have one? don’t hesitate to reach out; my Twitter DM is open 🍻</description>
+      <description>&#xD;Software Engineer | Blogger&#xD;Link to heading&#xD;Hey, I’m Dvir 🙋🏻‍♂️&#xA;I’m curious by nature.&#xA;I love reading and learning new stuff, mainly about SW development.&#xA;It feels like I’m on a sort of a quest for knowledge.&#xA;I genuinely believe there’s no such thing as a stupid question.&#xA;If you have one? don’t hesitate to reach out; my Twitter DM is open 🍻 Work history&#xD;Link to heading&#xD;Experience&#xD;Link to heading&#xD;2023 - Current&#xD;Link to heading&#xD;Senior SW Engineer @ Plus500 2021 - 2023&#xD;Link to heading&#xD;Senior SW Engineer @ Igentify 2019 - 2021&#xD;Link to heading&#xD;SW Tech Lead @ Philips 2018-2019&#xD;Link to heading&#xD;Senior SW Engineer @ Philips 2014-2018&#xD;Link to heading&#xD;SW Engineer @ Philips Education&#xD;Link to heading&#xD;2016-2018&#xD;Link to heading&#xD;MSc computer sciense @ University of Haifa 2010 - 2014&#xD;Link to heading&#xD;BSc computer sciense @ University of Haifa </description>
     </item>
   </channel>
 </rss>
