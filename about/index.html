@@ -200,7 +200,7 @@ If you have one? don’t hesitate to reach out; my Twitter DM is open 🍻 Work 
 
 </div><div class="column-right">
 </p>
-<figure><img src="/images/Picture1.png" width="260px"/>
+<figure class="img-fluid"><img src="/images/Picture1.png" width="260px"/>
 </figure>
 
 
@@ -224,13 +224,22 @@ If you have one? don’t hesitate to reach out; my Twitter DM is open 🍻 Work 
   .horizontal-gallery {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;  
   }
 
   .horizontal-gallery img {
-    width: 25%; 
-    margin-right: 100px; 
-    margin-top: 20px; 
-    margin-bottom: 20px; 
+    width: 25%;
+    margin-right: 70px;
+    margin-bottom: 40px;
+    max-width: 100%;  
+  }
+
+  @media (max-width: 768px) {
+     
+    .horizontal-gallery img {
+      width: 100%;  
+      margin-right: 0;  
+    }
   }
 </style>
 
