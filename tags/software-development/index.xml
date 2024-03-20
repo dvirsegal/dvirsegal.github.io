@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>software-development on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/software-development/</link>
-    <description>Recent content in software-development on Dvir Segal&#39;s blog</description>
+    <title>Software-Development on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/software-development/</link>
+    <description>Recent content in Software-Development on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Preserve, Protect &amp; Defend Your Code</title>
-      <link>http://dvirsegal.github.io/posts/preserve-protect-defend-your-code-1d5k/</link>
+      <link>http://localhost:1313/posts/preserve-protect-defend-your-code-1d5k/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/preserve-protect-defend-your-code-1d5k/</guid>
+      <guid>http://localhost:1313/posts/preserve-protect-defend-your-code-1d5k/</guid>
       <description>Considering security measures through development stages&#xD;Link to heading&#xD;Software development is a complicated task that balance business and technical needs. Furthermore, the organization has to ensure the product complies with laws, regulations, and customer’s requirements while presenting robustness to cyber-attacks based on the customer’s risk-taking willingness.&#xA;Hence, I found it important and relevant than ever before based on the growing risks to develop while security in your mind. Nowadays, the accepted approach integrates security measures through all the product development through different stages.</description>
     </item>
     <item>
       <title>Effort estimation — it’s complicated</title>
-      <link>http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/</link>
+      <link>http://localhost:1313/posts/effort-estimation-it-s-complicated-4bdb/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/</guid>
+      <guid>http://localhost:1313/posts/effort-estimation-it-s-complicated-4bdb/</guid>
       <description>Effort estimation — it’s complicated&#xD;Link to heading&#xD;On the dilemma of evaluating software development effort&#xD;Link to heading&#xD;For the past few months, estimating effort, a long-standing dilemma of the software industry, bothers me. How should we, as SW engineers, deal with the accuracy of effort estimations? The answer is complicated and has implications over developers’ career growth, having an impact on personal development. There is much at stake.</description>
     </item>
     <item>
       <title>Every code has its audience</title>
-      <link>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</link>
+      <link>http://localhost:1313/posts/every-code-has-its-audience-55e1/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</guid>
+      <guid>http://localhost:1313/posts/every-code-has-its-audience-55e1/</guid>
       <description>My humble opinion on who should be included in your code review&#xD;Link to heading&#xD;An educated guess that from time to time, you’ve encountered the question of who should be involved in code reviews. Well, my colleagues and I found ourselves dealing with it, and the arguments about what’s the proper way, go in various directions; Hence I’ve decided to get to the bottom of this critical subject and write my views.</description>
     </item>
     <item>
       <title>Fusion Log Viewer: The binocular to assembly binding</title>
-      <link>http://dvirsegal.github.io/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</link>
+      <link>http://localhost:1313/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</guid>
+      <guid>http://localhost:1313/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</guid>
       <description>Investigating .NET assembly loading (binding) issues&#xD;Link to heading&#xD;Once in a while, you encounter that peculiar problem when you run your application and receive an exception saying TypeLoadException or FileNotFoundException even though the DLLs that your application relies on, are right there!&#xA;The first suspect that may jump to your head is an assembly binding issue since it happens at the moment you run your application. It might be a mix of old DLLs with new ones, mismatch in version numbers or cultures, missing assemblies at the application’s folder, or even a probing failure, either of each — fusion log viewer can assist in identifying the case.</description>
     </item>
     <item>
       <title>OzCode: A New Way to Debug Your Code</title>
-      <link>http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/</link>
+      <link>http://localhost:1313/posts/ozcode-a-new-way-to-debug-your-code-l6n/</link>
       <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/</guid>
+      <guid>http://localhost:1313/posts/ozcode-a-new-way-to-debug-your-code-l6n/</guid>
       <description>Back in 2016, I saw a demo at a conference about a new visual studio extension that presumes to change the way an engineer debugs, they called it, magic debugging. Little that I know, it turned my debugging way of thinking upside down, indeed a magical approach.&#xA;Before I’ll continue, I owe a disclaimer for the readers. A previous colleague of mine is one of OzCode’s co-founders (Omer Raviv). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓.</description>
     </item>
     <item>
       <title>Ditto, the clipboard manager that saved me</title>
-      <link>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</link>
+      <link>http://localhost:1313/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</link>
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</guid>
+      <guid>http://localhost:1313/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</guid>
       <description>Copy-pasting is one of those things that you do every day while working on a computer. By doing so, each time you invest a small portion of your daily routine.&#xA;Say you want to share a photo\text\whatever with a friend from a website, you copy it, either by right-clicking on it and copying it to the clipboard or using Ctrl+C and then paste it to your favorite sharing application and after doing so, you’ve realized you want to share it again with another person.</description>
     </item>
     <item>
       <title>It’s all about Everything</title>
-      <link>http://dvirsegal.github.io/posts/it-s-all-about-everything-1lf5/</link>
+      <link>http://localhost:1313/posts/it-s-all-about-everything-1lf5/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/it-s-all-about-everything-1lf5/</guid>
+      <guid>http://localhost:1313/posts/it-s-all-about-everything-1lf5/</guid>
       <description>Few years ago a teammate changed my perspective of my daily computer’s usage experience. Until that moment, I used to go and explore folder and files using Windows Explorer as Microsoft intended, but something was wrong with it, too many clicks and the start menu search need some improvements. Overall, it felt so different than my common internet browsing experience, where you open your favorite search engine and start typing whatever you’re looking for.</description>
     </item>
   </channel>

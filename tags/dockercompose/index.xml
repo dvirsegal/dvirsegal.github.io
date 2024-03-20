@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dockercompose on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/dockercompose/</link>
-    <description>Recent content in dockercompose on Dvir Segal&#39;s blog</description>
+    <title>Dockercompose on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/dockercompose/</link>
+    <description>Recent content in Dockercompose on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 30 Aug 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/dockercompose/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/dockercompose/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use docker-compose, volumes, networks, and more</title>
-      <link>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</link>
+      <link>http://localhost:1313/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</guid>
+      <guid>http://localhost:1313/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</guid>
       <description>This is the last post in the simplify docker series ( if you haven&amp;rsquo;t read the previous ones, go ahead and read them, it will make more sense afterward — part I &amp;amp; part II). This time I’ll cover networks, docker-compose, docker volumes, and more.&#xA;What is it all about with docker-compose?&#xD;Link to heading&#xD;Docker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML here).</description>
     </item>
   </channel>

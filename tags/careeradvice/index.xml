@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>careeradvice on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/careeradvice/</link>
-    <description>Recent content in careeradvice on Dvir Segal&#39;s blog</description>
+    <title>Careeradvice on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/careeradvice/</link>
+    <description>Recent content in Careeradvice on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 31 Oct 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/careeradvice/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/careeradvice/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Switch Tech Stacks: Boost Your Career Growth</title>
-      <link>http://dvirsegal.github.io/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</link>
+      <link>http://localhost:1313/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</link>
       <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</guid>
+      <guid>http://localhost:1313/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</guid>
       <description>My humble effort on managing your career&#xD;Link to heading&#xD;A few months ago, I switched jobs. As part of this move, I have changed my daily programming language from C#, which I have been using for over eight years, to Java. It might confuse some people and raise a few eyebrows here and there asking why I would drop my experience just to start with a new language.</description>
     </item>
     <item>
       <title>How to cope with a difficult colleague</title>
-      <link>http://dvirsegal.github.io/posts/how-to-cope-with-a-difficult-colleague-456/</link>
+      <link>http://localhost:1313/posts/how-to-cope-with-a-difficult-colleague-456/</link>
       <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-cope-with-a-difficult-colleague-456/</guid>
+      <guid>http://localhost:1313/posts/how-to-cope-with-a-difficult-colleague-456/</guid>
       <description>It’s complicated; Dealing with workplace drama.&#xD;Link to heading&#xD;Everybody, at some point, will encounter a challenging colleague. Being able to deal with a person like that is part of developing conflict resolution skills and learning to overcome those setbacks.&#xA;In the following paragraphs, I will try to illustrate how I deal with these situations.&#xA;What do you mean by difficult people? 🤔&#xD;Link to heading&#xD;To be honest, we have to know that not everyone we struggle with is someone who tries to give us a hard time, as every relationship will have friction moments.</description>
     </item>
   </channel>

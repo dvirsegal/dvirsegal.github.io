@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>softwaredesign on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/softwaredesign/</link>
-    <description>Recent content in softwaredesign on Dvir Segal&#39;s blog</description>
+    <title>Softwaredesign on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/softwaredesign/</link>
+    <description>Recent content in Softwaredesign on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 30 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/softwaredesign/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/softwaredesign/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to organize a drawer the right way?</title>
-      <link>http://dvirsegal.github.io/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</link>
+      <link>http://localhost:1313/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</link>
       <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</guid>
+      <guid>http://localhost:1313/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</guid>
       <description>Or let’s talk about cohesion&#xD;Link to heading&#xD;TL;DR To make a system cohesive, you must ensure that the parts that go together are close to one another.&#xA;I sometimes find that the cohesion (and coupling) concept is often considered way too academic, and developers tend to talk about other well-known concepts, such as DRY, YAGNI, KISS, and SRP. The list is long, and I can continue with more acronyms all day 😂 So, I’ve chosen to challenge myself and simplify it.</description>
     </item>
     <item>
       <title>Is premature optimization really the root of all evil?</title>
-      <link>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</link>
+      <link>http://localhost:1313/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</link>
       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</guid>
+      <guid>http://localhost:1313/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</guid>
       <description>First, make it right. Then make it fast.&#xD;Link to heading&#xD;Premature Optimization&#xA;Back in the seventies, Knuth wrote the above quote in his paper “Structured Programming with go to Statement” at times when computational power was slower and expensive than nowadays. Nevertheless, it doesn’t mean you shouldn’t take it in your consideration. Note that the quote doesn&amp;rsquo;t stand for itself, and to get its true meaning, you should read the paragraph that follows this famous saying:</description>
     </item>
     <item>
       <title>The Burden of Software Design</title>
-      <link>http://dvirsegal.github.io/posts/the-burden-of-software-design-3cbj/</link>
+      <link>http://localhost:1313/posts/the-burden-of-software-design-3cbj/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/the-burden-of-software-design-3cbj/</guid>
+      <guid>http://localhost:1313/posts/the-burden-of-software-design-3cbj/</guid>
       <description>The aspects of code complexity are broad; one of them result from the design of our code. Design weight is the cognitive effort reading and maintaining your code — a metaphor used for emphasizing how it weighs down your progress.&#xA;The main symptom (as I encountered) is code that forces you to remember specific areas to connect the dots between them. While relying on your memory has its benefits but also a capacity, leading to losing details, causing you to re-read with an effort to memorize it, reducing motivation to be engaged with the product.</description>
     </item>
   </channel>

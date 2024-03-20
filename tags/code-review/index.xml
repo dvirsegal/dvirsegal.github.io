@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>code-review on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/code-review/</link>
-    <description>Recent content in code-review on Dvir Segal&#39;s blog</description>
+    <title>Code-Review on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/code-review/</link>
+    <description>Recent content in Code-Review on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/code-review/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/code-review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code review guidelines light the way</title>
-      <link>http://dvirsegal.github.io/posts/code-review-guidelines-light-the-way-1e4/</link>
+      <link>http://localhost:1313/posts/code-review-guidelines-light-the-way-1e4/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/code-review-guidelines-light-the-way-1e4/</guid>
+      <guid>http://localhost:1313/posts/code-review-guidelines-light-the-way-1e4/</guid>
       <description>My humble opinion on the necessity of a check-in process&#xD;Link to heading&#xD;Are you familiar with the situation of getting a code review that is being delayed by your peer reviewer’s nitpicking for filling his code perfection aspirations? Unable to commit due to build server failure? Personal preferences overruled over technical facts?&#xA;Let me see your unit tests&#xA;All the above are examples of the necessity of a well-defined procedure, guiding us in various situations we encounter daily.</description>
     </item>
     <item>
       <title>Every code has its audience</title>
-      <link>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</link>
+      <link>http://localhost:1313/posts/every-code-has-its-audience-55e1/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</guid>
+      <guid>http://localhost:1313/posts/every-code-has-its-audience-55e1/</guid>
       <description>My humble opinion on who should be included in your code review&#xD;Link to heading&#xD;An educated guess that from time to time, you’ve encountered the question of who should be involved in code reviews. Well, my colleagues and I found ourselves dealing with it, and the arguments about what’s the proper way, go in various directions; Hence I’ve decided to get to the bottom of this critical subject and write my views.</description>
     </item>
   </channel>

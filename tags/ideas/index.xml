@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ideas on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/ideas/</link>
-    <description>Recent content in ideas on Dvir Segal&#39;s blog</description>
+    <title>Ideas on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/ideas/</link>
+    <description>Recent content in Ideas on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 28 Aug 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/ideas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ideas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Where Do I Get Writing Ideas From?</title>
-      <link>http://dvirsegal.github.io/posts/where-do-i-get-writing-ideas-from-2jk2/</link>
+      <link>http://localhost:1313/posts/where-do-i-get-writing-ideas-from-2jk2/</link>
       <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/where-do-i-get-writing-ideas-from-2jk2/</guid>
+      <guid>http://localhost:1313/posts/where-do-i-get-writing-ideas-from-2jk2/</guid>
       <description>I’m stuck; I’ve no muse about what to write. I can’t find any idea.&#xA;Aha… the famous writer’s block.&#xA;What do I do in those cases? From where does the inspiration to write about stuff come from? Where do I find ideas? How do I find the time?&#xA;Regarding the second, you make time — it is all a matter of prioritization. I’ve written about time management in the past, and those methods help me to focus.</description>
     </item>
   </channel>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>careertips on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/careertips/</link>
-    <description>Recent content in careertips on Dvir Segal&#39;s blog</description>
+    <title>Careertips on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/careertips/</link>
+    <description>Recent content in Careertips on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/careertips/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/careertips/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>In the quest for growth material</title>
-      <link>http://dvirsegal.github.io/posts/in-the-quest-for-growth-material-1mfk/</link>
+      <link>http://localhost:1313/posts/in-the-quest-for-growth-material-1mfk/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/in-the-quest-for-growth-material-1mfk/</guid>
+      <guid>http://localhost:1313/posts/in-the-quest-for-growth-material-1mfk/</guid>
       <description>Various methods I use to gain new knowledge&#xD;Link to heading&#xD;A few years ago, I started my journey; picture this, a recent undergraduate SW engineer on his first full-time day job. My team mainly consisted of seniors; I saw those “giants” that both have vast product knowledge and tons of it in software development. They even found the time to be up to date with general tech news. I thought to myself, how do they do that?</description>
     </item>
   </channel>

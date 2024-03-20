@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>wpf on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/wpf/</link>
-    <description>Recent content in wpf on Dvir Segal&#39;s blog</description>
+    <title>Wpf on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/wpf/</link>
+    <description>Recent content in Wpf on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/wpf/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/wpf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Snoop Around Your Visual Tree</title>
-      <link>http://dvirsegal.github.io/posts/snoop-around-your-visual-tree-c6c/</link>
+      <link>http://localhost:1313/posts/snoop-around-your-visual-tree-c6c/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/snoop-around-your-visual-tree-c6c/</guid>
+      <guid>http://localhost:1313/posts/snoop-around-your-visual-tree-c6c/</guid>
       <description>Binding issues? Struggle with that hard to solve UI bug? Trying to understand how to fit the entire string into TextBox’s dimensions? These situations and many others are common for us, .NET and WPF developers.&#xA;Most of the times, issues, as mentioned above, are solved by using a debugger.&#xA;Imagine it; you want to change the size of a specific graphic element. Well, you open the relevant project (using Everything tool 😉) in your favorite IDE, make some changes, compile, deploy, and rerun the application.</description>
     </item>
   </channel>

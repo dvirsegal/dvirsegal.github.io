@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>visual-studio on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/visual-studio/</link>
-    <description>Recent content in visual-studio on Dvir Segal&#39;s blog</description>
+    <title>Visual-Studio on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/visual-studio/</link>
+    <description>Recent content in Visual-Studio on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/visual-studio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/visual-studio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OzCode: A New Way to Debug Your Code</title>
-      <link>http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/</link>
+      <link>http://localhost:1313/posts/ozcode-a-new-way-to-debug-your-code-l6n/</link>
       <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/</guid>
+      <guid>http://localhost:1313/posts/ozcode-a-new-way-to-debug-your-code-l6n/</guid>
       <description>Back in 2016, I saw a demo at a conference about a new visual studio extension that presumes to change the way an engineer debugs, they called it, magic debugging. Little that I know, it turned my debugging way of thinking upside down, indeed a magical approach.&#xA;Before I’ll continue, I owe a disclaimer for the readers. A previous colleague of mine is one of OzCode’s co-founders (Omer Raviv). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓.</description>
     </item>
   </channel>

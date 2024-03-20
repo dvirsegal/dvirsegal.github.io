@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>personal-development on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/personal-development/</link>
-    <description>Recent content in personal-development on Dvir Segal&#39;s blog</description>
+    <title>Personal-Development on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/personal-development/</link>
+    <description>Recent content in Personal-Development on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/personal-development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/personal-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Every code has its audience</title>
-      <link>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</link>
+      <link>http://localhost:1313/posts/every-code-has-its-audience-55e1/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</guid>
+      <guid>http://localhost:1313/posts/every-code-has-its-audience-55e1/</guid>
       <description>My humble opinion on who should be included in your code review&#xD;Link to heading&#xD;An educated guess that from time to time, you’ve encountered the question of who should be involved in code reviews. Well, my colleagues and I found ourselves dealing with it, and the arguments about what’s the proper way, go in various directions; Hence I’ve decided to get to the bottom of this critical subject and write my views.</description>
     </item>
     <item>
       <title>Small Wins Matter</title>
-      <link>http://dvirsegal.github.io/posts/small-wins-matter-1b9o/</link>
+      <link>http://localhost:1313/posts/small-wins-matter-1b9o/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/small-wins-matter-1b9o/</guid>
+      <guid>http://localhost:1313/posts/small-wins-matter-1b9o/</guid>
       <description>Collect the small wins along the way&#xA;Boost motivation, productivity, and creativity by celebrating daily progress&#xD;Link to heading&#xD;Teams must celebrate the small wins. It’s easy to forget there were probably more than a few minor achievements along the way that led to larger ones. We all have been there, caught up in what wasn’t achieved, or focusing on the big “accomplished” picture, eventually forgetting the path to getting there.</description>
     </item>
     <item>
       <title>It’s all about Everything</title>
-      <link>http://dvirsegal.github.io/posts/it-s-all-about-everything-1lf5/</link>
+      <link>http://localhost:1313/posts/it-s-all-about-everything-1lf5/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/it-s-all-about-everything-1lf5/</guid>
+      <guid>http://localhost:1313/posts/it-s-all-about-everything-1lf5/</guid>
       <description>Few years ago a teammate changed my perspective of my daily computer’s usage experience. Until that moment, I used to go and explore folder and files using Windows Explorer as Microsoft intended, but something was wrong with it, too many clicks and the start menu search need some improvements. Overall, it felt so different than my common internet browsing experience, where you open your favorite search engine and start typing whatever you’re looking for.</description>
     </item>
   </channel>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>careerdevelopment on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/careerdevelopment/</link>
-    <description>Recent content in careerdevelopment on Dvir Segal&#39;s blog</description>
+    <title>Careerdevelopment on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/careerdevelopment/</link>
+    <description>Recent content in Careerdevelopment on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/careerdevelopment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/careerdevelopment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Congratulations and welcome aboard!</title>
-      <link>http://dvirsegal.github.io/posts/congratulations-and-welcome-aboard-3iba/</link>
+      <link>http://localhost:1313/posts/congratulations-and-welcome-aboard-3iba/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/congratulations-and-welcome-aboard-3iba/</guid>
+      <guid>http://localhost:1313/posts/congratulations-and-welcome-aboard-3iba/</guid>
       <description>The importance of a well crafted, humane onboarding process&#xD;Link to heading&#xD;You’ve prepared a new resume, searched for challenging positions, submitted your CV to various companies, participated in many interviews, asked your interviewers about the working environment, considered your culture fit. Eventually, you’ve received several job offers, prioritized and weigh them down …. and finally, you’ve agreed to take one. 🤗&#xA;Found a new job, yay&#xA;The exciting day has arrived — your first day on the job.</description>
     </item>
   </channel>

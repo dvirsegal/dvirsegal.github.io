@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>optimization on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/optimization/</link>
-    <description>Recent content in optimization on Dvir Segal&#39;s blog</description>
+    <title>Optimization on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/optimization/</link>
+    <description>Recent content in Optimization on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is premature optimization really the root of all evil?</title>
-      <link>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</link>
+      <link>http://localhost:1313/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</link>
       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</guid>
+      <guid>http://localhost:1313/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</guid>
       <description>First, make it right. Then make it fast.&#xD;Link to heading&#xD;Premature Optimization&#xA;Back in the seventies, Knuth wrote the above quote in his paper “Structured Programming with go to Statement” at times when computational power was slower and expensive than nowadays. Nevertheless, it doesn’t mean you shouldn’t take it in your consideration. Note that the quote doesn&amp;rsquo;t stand for itself, and to get its true meaning, you should read the paragraph that follows this famous saying:</description>
     </item>
   </channel>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>productivity-hacks on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/productivity-hacks/</link>
-    <description>Recent content in productivity-hacks on Dvir Segal&#39;s blog</description>
+    <title>Productivity-Hacks on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/productivity-hacks/</link>
+    <description>Recent content in Productivity-Hacks on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 26 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/productivity-hacks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/productivity-hacks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>It’s all about Everything</title>
-      <link>http://dvirsegal.github.io/posts/it-s-all-about-everything-1lf5/</link>
+      <link>http://localhost:1313/posts/it-s-all-about-everything-1lf5/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/it-s-all-about-everything-1lf5/</guid>
+      <guid>http://localhost:1313/posts/it-s-all-about-everything-1lf5/</guid>
       <description>Few years ago a teammate changed my perspective of my daily computer’s usage experience. Until that moment, I used to go and explore folder and files using Windows Explorer as Microsoft intended, but something was wrong with it, too many clicks and the start menu search need some improvements. Overall, it felt so different than my common internet browsing experience, where you open your favorite search engine and start typing whatever you’re looking for.</description>
     </item>
   </channel>

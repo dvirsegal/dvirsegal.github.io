@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>management on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/management/</link>
-    <description>Recent content in management on Dvir Segal&#39;s blog</description>
+    <title>Management on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/management/</link>
+    <description>Recent content in Management on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Privilege of Mentoring</title>
-      <link>http://dvirsegal.github.io/posts/the-privilege-of-mentoring-1gfd/</link>
+      <link>http://localhost:1313/posts/the-privilege-of-mentoring-1gfd/</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/the-privilege-of-mentoring-1gfd/</guid>
+      <guid>http://localhost:1313/posts/the-privilege-of-mentoring-1gfd/</guid>
       <description>Mentoring means cultivating and inspiring others, usually less experienced in the specific field of expertise. IMHO, an experienced engineer must hold the mentoring skill, as it’s critical to the careers of new SW employees and the success of the entire team. This skill is earned by hard work (that made you experienced), and it helps you to develop your career.&#xA;The trust between the mentor and mentee is that hidden ingredient in the recipe of building great teams, and in my perspective, being one is a privilege.</description>
     </item>
   </channel>

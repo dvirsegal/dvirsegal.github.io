@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>leadership on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/leadership/</link>
-    <description>Recent content in leadership on Dvir Segal&#39;s blog</description>
+    <title>Leadership on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/leadership/</link>
+    <description>Recent content in Leadership on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building trust through effective communication</title>
-      <link>http://dvirsegal.github.io/posts/building-trust-through-effective-communication-208c/</link>
+      <link>http://localhost:1313/posts/building-trust-through-effective-communication-208c/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/building-trust-through-effective-communication-208c/</guid>
+      <guid>http://localhost:1313/posts/building-trust-through-effective-communication-208c/</guid>
       <description>You can achieve almost anything by teamwork. Listening is a vital characteristic of a leader. Effectively communicating your thoughts is essential, as well. How you interact can positively and negatively affect the relationships you have in your work (and personal life too).&#xA;Effective communication is defined by various articles (#1, #2, #3, and more), and I challenge myself not to repeat them. I would like to give a different perspective on the matter.</description>
     </item>
     <item>
       <title>Arrange your time and your mind will follow</title>
-      <link>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</link>
+      <link>http://localhost:1313/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</guid>
+      <guid>http://localhost:1313/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</guid>
       <description>Being productive by taking control of your time&#xD;Link to heading&#xD;A gym workout, a reminder to walk the dog, meeting with your colleagues on that project presentation, a dentist appointment — are all on the same page. You can’t separate artificially between your work and personal calendars. Why? Because that’s how your life works. The goal is to see what your actual day looks like, to blend between work and personal life for finding the right balance that fits you.</description>
     </item>
     <item>
       <title>On the differences between being a tech lead and a senior engineer</title>
-      <link>http://dvirsegal.github.io/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</link>
+      <link>http://localhost:1313/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</guid>
+      <guid>http://localhost:1313/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</guid>
       <description>The differences between being a tech lead and a senior engineer&#xD;Link to heading&#xD;At the time, being an entry-level SW engineer, my colleagues and I were curious about the individual contributor career path. There are many questions to be answered, but some repeated frequently. Among them were — What is the meaning of being a tech lead? How’s it different from being an experienced team member who is familiar with all the bits and bytes of the language, framework, and domain that he uses daily?</description>
     </item>
     <item>
       <title>Small Wins Matter</title>
-      <link>http://dvirsegal.github.io/posts/small-wins-matter-1b9o/</link>
+      <link>http://localhost:1313/posts/small-wins-matter-1b9o/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/small-wins-matter-1b9o/</guid>
+      <guid>http://localhost:1313/posts/small-wins-matter-1b9o/</guid>
       <description>Collect the small wins along the way&#xA;Boost motivation, productivity, and creativity by celebrating daily progress&#xD;Link to heading&#xD;Teams must celebrate the small wins. It’s easy to forget there were probably more than a few minor achievements along the way that led to larger ones. We all have been there, caught up in what wasn’t achieved, or focusing on the big “accomplished” picture, eventually forgetting the path to getting there.</description>
     </item>
   </channel>

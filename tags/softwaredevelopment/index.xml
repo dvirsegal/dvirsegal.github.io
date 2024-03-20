@@ -1,158 +1,165 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>softwaredevelopment on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/softwaredevelopment/</link>
-    <description>Recent content in softwaredevelopment on Dvir Segal&#39;s blog</description>
+    <title>Softwaredevelopment on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/softwaredevelopment/</link>
+    <description>Recent content in Softwaredevelopment on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/softwaredevelopment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/softwaredevelopment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building LEGO without instructions</title>
+      <link>http://localhost:1313/posts/building-lego-without-instructions/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/building-lego-without-instructions/</guid>
+      <description>A few months ago, we had a hackathon at my work.&#xA;At the opening event, one of my colleagues said to me:&#xA;Hackathons are similar to building LEGO model without instructions.&#xA;It stuck with me. I pondered about it.&#xA;What crossed my mind is that hackathons are playgrounds for software engineers, where creativity is key. Imagine being handed a box of LEGO bricks, and the instructions are taken away; what would you build?</description>
+    </item>
     <item>
       <title>TIFU at Work: Learn and Move On!</title>
-      <link>http://dvirsegal.github.io/posts/tifu-at-work-learn-and-move-on/</link>
+      <link>http://localhost:1313/posts/tifu-at-work-learn-and-move-on/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/tifu-at-work-learn-and-move-on/</guid>
+      <guid>http://localhost:1313/posts/tifu-at-work-learn-and-move-on/</guid>
       <description>Everyone makes mistakes. If someone says otherwise, they’re probably not being straight with you. It’s bound to happen whether you’re new to a job or have been there for a while. You can find plenty of horror stories on Reddit and HackerNews. Take, for example, this post with a collection of those stories:&#xA;Ask HN: What&amp;rsquo;s the worst you&amp;rsquo;ve ever screwed up at work? | Hacker News&#xA;I felt that gut-wrenching moment when you realize a mistake has been made.</description>
     </item>
     <item>
       <title>The Power of the Unit Tests</title>
-      <link>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</link>
+      <link>http://localhost:1313/posts/the-power-of-the-unit-tests/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</guid>
+      <guid>http://localhost:1313/posts/the-power-of-the-unit-tests/</guid>
       <description>A humoristic post generated with the help of ChatGPT&#xD;Link to heading&#xD;Do you wanna see me test? U wanna see me unit test?&#xD;Link to heading&#xD;In the world of software development, unit testing is an essential process that ensures our code behaves precisely as we expect. But let’s be honest; unit testing is not the most glamorous part of coding. It’s the backstage crew, the hidden orchestrators behind a great performance.</description>
     </item>
     <item>
       <title>Navigating through the job search</title>
-      <link>http://dvirsegal.github.io/posts/navigating-through-the-job-search-599b1bc4221f/</link>
+      <link>http://localhost:1313/posts/navigating-through-the-job-search-599b1bc4221f/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/navigating-through-the-job-search-599b1bc4221f/</guid>
+      <guid>http://localhost:1313/posts/navigating-through-the-job-search-599b1bc4221f/</guid>
       <description>Essential tips and resources for a successful job hunt&#xD;Link to heading&#xD;I was laid off from my previous job. It came out of nowhere; I decided to take this change as an opportunity and make the best of it. Luckily, I received incredible support from my connections, and I want to give back by sharing some valuable lessons and resources I’ve gathered along my job search journey.&#xA;This blog post is based on a Twitter (Hebrew) thread I created, detailing my experience and offering practical advice to fellow software engineers (and not only) facing a similar situation.</description>
     </item>
     <item>
       <title>How to organize a drawer the right way?</title>
-      <link>http://dvirsegal.github.io/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</link>
+      <link>http://localhost:1313/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</link>
       <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</guid>
+      <guid>http://localhost:1313/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</guid>
       <description>Or let’s talk about cohesion&#xD;Link to heading&#xD;TL;DR To make a system cohesive, you must ensure that the parts that go together are close to one another.&#xA;I sometimes find that the cohesion (and coupling) concept is often considered way too academic, and developers tend to talk about other well-known concepts, such as DRY, YAGNI, KISS, and SRP. The list is long, and I can continue with more acronyms all day 😂 So, I’ve chosen to challenge myself and simplify it.</description>
     </item>
     <item>
       <title>Where Do I Get Writing Ideas From?</title>
-      <link>http://dvirsegal.github.io/posts/where-do-i-get-writing-ideas-from-2jk2/</link>
+      <link>http://localhost:1313/posts/where-do-i-get-writing-ideas-from-2jk2/</link>
       <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/where-do-i-get-writing-ideas-from-2jk2/</guid>
+      <guid>http://localhost:1313/posts/where-do-i-get-writing-ideas-from-2jk2/</guid>
       <description>I’m stuck; I’ve no muse about what to write. I can’t find any idea.&#xA;Aha… the famous writer’s block.&#xA;What do I do in those cases? From where does the inspiration to write about stuff come from? Where do I find ideas? How do I find the time?&#xA;Regarding the second, you make time — it is all a matter of prioritization. I’ve written about time management in the past, and those methods help me to focus.</description>
     </item>
     <item>
       <title>In the quest for growth material</title>
-      <link>http://dvirsegal.github.io/posts/in-the-quest-for-growth-material-1mfk/</link>
+      <link>http://localhost:1313/posts/in-the-quest-for-growth-material-1mfk/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/in-the-quest-for-growth-material-1mfk/</guid>
+      <guid>http://localhost:1313/posts/in-the-quest-for-growth-material-1mfk/</guid>
       <description>Various methods I use to gain new knowledge&#xD;Link to heading&#xD;A few years ago, I started my journey; picture this, a recent undergraduate SW engineer on his first full-time day job. My team mainly consisted of seniors; I saw those “giants” that both have vast product knowledge and tons of it in software development. They even found the time to be up to date with general tech news. I thought to myself, how do they do that?</description>
     </item>
     <item>
       <title>Should Devs Write Automation Tests?</title>
-      <link>http://dvirsegal.github.io/posts/should-devs-write-automation-tests-5fb4/</link>
+      <link>http://localhost:1313/posts/should-devs-write-automation-tests-5fb4/</link>
       <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/should-devs-write-automation-tests-5fb4/</guid>
+      <guid>http://localhost:1313/posts/should-devs-write-automation-tests-5fb4/</guid>
       <description>In every team I was part of, a debate started on this point: should the developers write automation tests as part of the development process? They’ve just finished implementing the requirements and wrote some unit tests; now, should they also write automated tests?&#xA;Well, the answer, “it depends”.&#xA;Depending on the people’s skillset, teams’ structure. When you have manual/exploratory testers with no skills/time/resources/etc. to write automated tests, you can rely on developers.</description>
     </item>
     <item>
       <title>Switch Tech Stacks: Boost Your Career Growth</title>
-      <link>http://dvirsegal.github.io/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</link>
+      <link>http://localhost:1313/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</link>
       <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</guid>
+      <guid>http://localhost:1313/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</guid>
       <description>My humble effort on managing your career&#xD;Link to heading&#xD;A few months ago, I switched jobs. As part of this move, I have changed my daily programming language from C#, which I have been using for over eight years, to Java. It might confuse some people and raise a few eyebrows here and there asking why I would drop my experience just to start with a new language.</description>
     </item>
     <item>
       <title>How to use docker-compose, volumes, networks, and more</title>
-      <link>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</link>
+      <link>http://localhost:1313/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</guid>
+      <guid>http://localhost:1313/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</guid>
       <description>This is the last post in the simplify docker series ( if you haven&amp;rsquo;t read the previous ones, go ahead and read them, it will make more sense afterward — part I &amp;amp; part II). This time I’ll cover networks, docker-compose, docker volumes, and more.&#xA;What is it all about with docker-compose?&#xD;Link to heading&#xD;Docker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML here).</description>
     </item>
     <item>
       <title>How to run, delete a Docker image</title>
-      <link>http://dvirsegal.github.io/posts/how-to-run-delete-a-docker-image-52dm/</link>
+      <link>http://localhost:1313/posts/how-to-run-delete-a-docker-image-52dm/</link>
       <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-run-delete-a-docker-image-52dm/</guid>
+      <guid>http://localhost:1313/posts/how-to-run-delete-a-docker-image-52dm/</guid>
       <description>I covered the basics of creating and building Docker images in part I (if you haven’t read that yet, I would recommend it since this part is based on it). In this part, I’ll explain how to run and delete an image of the container you’ve built.&#xA;let’s continue&#xA;Running an image is as simple as docker run -it image_name:tag . Let’s break it down; tag is the one you set when building it; note that if you remove it, then docker assumes you point to the latest.</description>
     </item>
     <item>
       <title>How to create &amp; build a Docker image</title>
-      <link>http://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3/</link>
+      <link>http://localhost:1313/posts/how-to-create-build-a-docker-image-56o3/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3/</guid>
+      <guid>http://localhost:1313/posts/how-to-create-build-a-docker-image-56o3/</guid>
       <description>I’ve heard a lot about dockers, even had some experience with it as part of my graduate degree. Still, as the old saying goes, learning is by doing. By doing, I mean using the stuff you want to learn as part of your daily work (instead of using it as part of a course in a semester since it will be forgotten). Actually, this is a technology that, in my perspective, should be in some familiarity level in each software engineer’s tech stack.</description>
     </item>
     <item>
       <title>Is Code freeze still relevant?</title>
-      <link>http://dvirsegal.github.io/posts/is-code-freeze-still-relevant-9c077495b64/</link>
+      <link>http://localhost:1313/posts/is-code-freeze-still-relevant-9c077495b64/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/is-code-freeze-still-relevant-9c077495b64/</guid>
+      <guid>http://localhost:1313/posts/is-code-freeze-still-relevant-9c077495b64/</guid>
       <description>When practicing CI/CD, does code freeze still matter?&#xD;Link to heading&#xD;Assuming you are familiar with the concept of code freeze, which is that dedicated time in a project when we (developers) are supposed to be more strict in making changes to the code or other resources for the good of moving the project towards a release or the end of an iteration.&#xA;I’ve recently wondered about that concept; I asked myself why do we need to stop everything when we have a full-scale CI\CD pipeline.</description>
     </item>
     <item>
       <title>A brief introduction to YAML</title>
-      <link>http://dvirsegal.github.io/posts/are-we-all-yaml-engineers-now-538j/</link>
+      <link>http://localhost:1313/posts/are-we-all-yaml-engineers-now-538j/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/are-we-all-yaml-engineers-now-538j/</guid>
+      <guid>http://localhost:1313/posts/are-we-all-yaml-engineers-now-538j/</guid>
       <description>What is YAML? And how it works?&#xD;Link to heading&#xD;Recently I switched jobs, and as part of this change, I’ve been introduced to a whole new tech stack. RabbitMQ 🐰, Java Spring, Docker, etc. (meaning more subjects to write about 😂). Most of the technologies I use on a daily basis consume YAML as their configuration. In this post, I’ll try to illustrate what I’ve learned (and from where) while trying to understand this new world.</description>
     </item>
     <item>
       <title>How to deal with the kitchen sink syndrome</title>
-      <link>http://dvirsegal.github.io/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</link>
+      <link>http://localhost:1313/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</guid>
+      <guid>http://localhost:1313/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</guid>
       <description>But I’m a (scope) creep…what the hell am I doin’ here?&#xD;Link to heading&#xD;Here is a situation that I am pretty sure every team or individual contributor has encountered throughout his career. You get well-defined requirements, review them, ask questions, adjust them with your product owner, and prepared one heck of SW design. Soon after, the implementation phase begins, and a few hours or days before the end of the story, the business calls and asks for an extra feature (or change) to be implemented.</description>
     </item>
     <item>
       <title>Is premature optimization really the root of all evil?</title>
-      <link>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</link>
+      <link>http://localhost:1313/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</link>
       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</guid>
+      <guid>http://localhost:1313/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</guid>
       <description>First, make it right. Then make it fast.&#xD;Link to heading&#xD;Premature Optimization&#xA;Back in the seventies, Knuth wrote the above quote in his paper “Structured Programming with go to Statement” at times when computational power was slower and expensive than nowadays. Nevertheless, it doesn’t mean you shouldn’t take it in your consideration. Note that the quote doesn&amp;rsquo;t stand for itself, and to get its true meaning, you should read the paragraph that follows this famous saying:</description>
     </item>
     <item>
       <title>How demo-oriented programming makes you better</title>
-      <link>http://dvirsegal.github.io/posts/how-demo-oriented-programming-makes-you-better-44mo/</link>
+      <link>http://localhost:1313/posts/how-demo-oriented-programming-makes-you-better-44mo/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-demo-oriented-programming-makes-you-better-44mo/</guid>
+      <guid>http://localhost:1313/posts/how-demo-oriented-programming-makes-you-better-44mo/</guid>
       <description>On the focused effort of making a working prototype&#xD;Link to heading&#xD;There are many ways you can determine whether a new feature will add value to the product or turn out to be a complete waste of time. For instance, you can undertake user research, analyze the demands of the market, and study existing solutions. However, we (developers) have a fantastic tool in our sleeves: Developing a running project that demonstrates the proposed solution’s key ideas is your optimal option — in my opinion.</description>
     </item>
     <item>
       <title>Congratulations and welcome aboard!</title>
-      <link>http://dvirsegal.github.io/posts/congratulations-and-welcome-aboard-3iba/</link>
+      <link>http://localhost:1313/posts/congratulations-and-welcome-aboard-3iba/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/congratulations-and-welcome-aboard-3iba/</guid>
+      <guid>http://localhost:1313/posts/congratulations-and-welcome-aboard-3iba/</guid>
       <description>The importance of a well crafted, humane onboarding process&#xD;Link to heading&#xD;You’ve prepared a new resume, searched for challenging positions, submitted your CV to various companies, participated in many interviews, asked your interviewers about the working environment, considered your culture fit. Eventually, you’ve received several job offers, prioritized and weigh them down …. and finally, you’ve agreed to take one. 🤗&#xA;Found a new job, yay&#xA;The exciting day has arrived — your first day on the job.</description>
     </item>
     <item>
       <title>Everybody was cargo culting</title>
-      <link>http://dvirsegal.github.io/posts/everybody-was-cargo-culting-46n5/</link>
+      <link>http://localhost:1313/posts/everybody-was-cargo-culting-46n5/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/everybody-was-cargo-culting-46n5/</guid>
+      <guid>http://localhost:1313/posts/everybody-was-cargo-culting-46n5/</guid>
       <description>My personal experience to jump off the bandwagon (effect)&#xD;Link to heading&#xD;Imagine the following situation. One of your experienced colleagues talks about doing some work, which she’s passionate about and sure it will provide better results for the team. She has fire in her eyes when she talks about replacing technology X with Y.&#xA;You feel it right into your heart. Your colleagues seem to agree with her. She’s so right.</description>
     </item>
     <item>
       <title>Diving into the deep code waters</title>
-      <link>http://dvirsegal.github.io/posts/diving-into-the-deep-code-waters-57p9/</link>
+      <link>http://localhost:1313/posts/diving-into-the-deep-code-waters-57p9/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/diving-into-the-deep-code-waters-57p9/</guid>
+      <guid>http://localhost:1313/posts/diving-into-the-deep-code-waters-57p9/</guid>
       <description>Tools and techniques for exploring an unknown (large) codebase&#xD;Link to heading&#xD;You’ve received a new responsibility or walked into a new job where there is existing code to work with. The source control has been introduced to you, realizing you have a lot to learn. Now what? Asking yourself, how should I become acquainted with the new codebase? Which for some, may be intimidating. Below I’ll attempt to illustrate my techniques for getting familiarity with the code, leading to structured knowledge.</description>
     </item>
     <item>
       <title>Code comments are your code autobiography</title>
-      <link>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</link>
+      <link>http://localhost:1313/posts/code-comments-are-your-code-autobiography-3c7n/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</guid>
+      <guid>http://localhost:1313/posts/code-comments-are-your-code-autobiography-3c7n/</guid>
       <description>Writing about your code is redundant; the code is all you need. I can invest my time on unit tests or develop other features, and other excuses of why writing code comments is a waste of time. It’s a common belief among developers.&#xA;Well, you’ve invested all your efforts in cultivating the design of your code, why should you comment it, right? As a result, code documentation is either absent or useless.</description>
     </item>
     <item>
       <title>ML.NET: Heart disease prediction</title>
-      <link>http://dvirsegal.github.io/posts/ml-net-heart-disease-prediction-11n8/</link>
+      <link>http://localhost:1313/posts/ml-net-heart-disease-prediction-11n8/</link>
       <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/ml-net-heart-disease-prediction-11n8/</guid>
+      <guid>http://localhost:1313/posts/ml-net-heart-disease-prediction-11n8/</guid>
       <description>Microsoft announced ML.NET last May, and as an advocate user of the .NET framework with experience in Machine Learning, I knew that I’d have to give it a try knowingly that Python various frameworks (such as scikit-learn) rule this domain.&#xA;ML.NET is a free, cross-platform, open source machine learning framework explicitly made for .NET developers. The preview release includes learners to handle binary classification, multi-class classification, and regression tasks. Additional ML tasks like a recommendation system, clustering, anomaly detection, ranking models, and deep learning architectures have been added.</description>
     </item>
   </channel>

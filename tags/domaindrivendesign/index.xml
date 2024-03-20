@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>domaindrivendesign on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/domaindrivendesign/</link>
-    <description>Recent content in domaindrivendesign on Dvir Segal&#39;s blog</description>
+    <title>Domaindrivendesign on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/domaindrivendesign/</link>
+    <description>Recent content in Domaindrivendesign on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/domaindrivendesign/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/domaindrivendesign/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Burden of Software Design</title>
-      <link>http://dvirsegal.github.io/posts/the-burden-of-software-design-3cbj/</link>
+      <link>http://localhost:1313/posts/the-burden-of-software-design-3cbj/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/the-burden-of-software-design-3cbj/</guid>
+      <guid>http://localhost:1313/posts/the-burden-of-software-design-3cbj/</guid>
       <description>The aspects of code complexity are broad; one of them result from the design of our code. Design weight is the cognitive effort reading and maintaining your code — a metaphor used for emphasizing how it weighs down your progress.&#xA;The main symptom (as I encountered) is code that forces you to remember specific areas to connect the dots between them. While relying on your memory has its benefits but also a capacity, leading to losing details, causing you to re-read with an effort to memorize it, reducing motivation to be engaged with the product.</description>
     </item>
   </channel>

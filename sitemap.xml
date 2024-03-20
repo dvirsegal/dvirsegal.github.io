@@ -2,463 +2,469 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://dvirsegal.github.io/authors/</loc>
+    <loc>http://localhost:1313/authors/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/building-lego-without-instructions/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/careergrowth/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/dvir-segal/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hackathons/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/softwaredevelopment/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/softwareengineering/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fuckupnights/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/authors/dvir-segal/</loc>
+    <loc>http://localhost:1313/tags/softwareengineerlife/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/</loc>
+    <loc>http://localhost:1313/posts/tifu-at-work-learn-and-move-on/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/fuckupnights/</loc>
-    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/posts/</loc>
-    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/softwaredevelopment/</loc>
-    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/softwareengineering/</loc>
-    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/softwareengineerlife/</loc>
-    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/</loc>
-    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/posts/tifu-at-work-learn-and-move-on/</loc>
-    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/humor/</loc>
+    <loc>http://localhost:1313/tags/humor/</loc>
     <lastmod>2023-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</loc>
+    <loc>http://localhost:1313/posts/the-power-of-the-unit-tests/</loc>
     <lastmod>2023-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/unittesting/</loc>
+    <loc>http://localhost:1313/tags/unittesting/</loc>
     <lastmod>2023-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/interview/</loc>
+    <loc>http://localhost:1313/tags/interview/</loc>
     <lastmod>2023-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/joboffer/</loc>
+    <loc>http://localhost:1313/tags/joboffer/</loc>
     <lastmod>2023-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/navigating-through-the-job-search-599b1bc4221f/</loc>
+    <loc>http://localhost:1313/posts/navigating-through-the-job-search-599b1bc4221f/</loc>
     <lastmod>2023-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/codequality/</loc>
+    <loc>http://localhost:1313/tags/codequality/</loc>
     <lastmod>2022-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/failing-fast-to-increase-feedback-loops-6d08f013fa9b/</loc>
+    <loc>http://localhost:1313/posts/failing-fast-to-increase-feedback-loops-6d08f013fa9b/</loc>
     <lastmod>2022-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/integrationtest/</loc>
+    <loc>http://localhost:1313/tags/integrationtest/</loc>
     <lastmod>2022-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/sofwaredevelopment/</loc>
+    <loc>http://localhost:1313/tags/sofwaredevelopment/</loc>
     <lastmod>2022-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/cohesion/</loc>
+    <loc>http://localhost:1313/tags/cohesion/</loc>
     <lastmod>2022-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</loc>
+    <loc>http://localhost:1313/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</loc>
     <lastmod>2022-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/softwaredesign/</loc>
+    <loc>http://localhost:1313/tags/softwaredesign/</loc>
     <lastmod>2022-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/ideas/</loc>
+    <loc>http://localhost:1313/tags/ideas/</loc>
     <lastmod>2022-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/where-do-i-get-writing-ideas-from-2jk2/</loc>
+    <loc>http://localhost:1313/posts/where-do-i-get-writing-ideas-from-2jk2/</loc>
     <lastmod>2022-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/writerblock/</loc>
+    <loc>http://localhost:1313/tags/writerblock/</loc>
     <lastmod>2022-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/writersonwriting/</loc>
+    <loc>http://localhost:1313/tags/writersonwriting/</loc>
     <lastmod>2022-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/careertips/</loc>
+    <loc>http://localhost:1313/tags/careertips/</loc>
     <lastmod>2022-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/growthmindset/</loc>
+    <loc>http://localhost:1313/tags/growthmindset/</loc>
     <lastmod>2022-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/in-the-quest-for-growth-material-1mfk/</loc>
+    <loc>http://localhost:1313/posts/in-the-quest-for-growth-material-1mfk/</loc>
     <lastmod>2022-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/automation/</loc>
+    <loc>http://localhost:1313/tags/automation/</loc>
     <lastmod>2022-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/automationtesting/</loc>
+    <loc>http://localhost:1313/tags/automationtesting/</loc>
     <lastmod>2022-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/should-devs-write-automation-tests-5fb4/</loc>
+    <loc>http://localhost:1313/posts/should-devs-write-automation-tests-5fb4/</loc>
     <lastmod>2022-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/softwaretesting/</loc>
+    <loc>http://localhost:1313/tags/softwaretesting/</loc>
     <lastmod>2022-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/careeradvice/</loc>
+    <loc>http://localhost:1313/tags/careeradvice/</loc>
     <lastmod>2021-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/careergrowth/</loc>
+    <loc>http://localhost:1313/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</loc>
     <lastmod>2021-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</loc>
-    <lastmod>2021-10-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://dvirsegal.github.io/tags/devops/</loc>
+    <loc>http://localhost:1313/tags/devops/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/docker/</loc>
+    <loc>http://localhost:1313/tags/docker/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/dockercompose/</loc>
+    <loc>http://localhost:1313/tags/dockercompose/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</loc>
+    <loc>http://localhost:1313/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/dockerimage/</loc>
+    <loc>http://localhost:1313/tags/dockerimage/</loc>
     <lastmod>2021-08-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/how-to-run-delete-a-docker-image-52dm/</loc>
+    <loc>http://localhost:1313/posts/how-to-run-delete-a-docker-image-52dm/</loc>
     <lastmod>2021-08-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/agile/</loc>
+    <loc>http://localhost:1313/tags/agile/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/codefreeze/</loc>
+    <loc>http://localhost:1313/tags/codefreeze/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/dockerfiles/</loc>
+    <loc>http://localhost:1313/tags/dockerfiles/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3/</loc>
+    <loc>http://localhost:1313/posts/how-to-create-build-a-docker-image-56o3/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/is-code-freeze-still-relevant-9c077495b64/</loc>
+    <loc>http://localhost:1313/posts/is-code-freeze-still-relevant-9c077495b64/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/scrum/</loc>
+    <loc>http://localhost:1313/tags/scrum/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</loc>
+    <loc>http://localhost:1313/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</loc>
     <lastmod>2021-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/developertools/</loc>
+    <loc>http://localhost:1313/tags/developertools/</loc>
     <lastmod>2021-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/macos/</loc>
+    <loc>http://localhost:1313/tags/macos/</loc>
     <lastmod>2021-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/productivity/</loc>
+    <loc>http://localhost:1313/tags/productivity/</loc>
     <lastmod>2021-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/windows/</loc>
+    <loc>http://localhost:1313/tags/windows/</loc>
     <lastmod>2021-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/are-we-all-yaml-engineers-now-538j/</loc>
+    <loc>http://localhost:1313/posts/are-we-all-yaml-engineers-now-538j/</loc>
     <lastmod>2021-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/configuration/</loc>
+    <loc>http://localhost:1313/tags/configuration/</loc>
     <lastmod>2021-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/yaml/</loc>
+    <loc>http://localhost:1313/tags/yaml/</loc>
     <lastmod>2021-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</loc>
+    <loc>http://localhost:1313/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/requirements/</loc>
+    <loc>http://localhost:1313/tags/requirements/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/scopecreep/</loc>
+    <loc>http://localhost:1313/tags/scopecreep/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/how-to-cope-with-a-difficult-colleague-456/</loc>
+    <loc>http://localhost:1313/posts/how-to-cope-with-a-difficult-colleague-456/</loc>
     <lastmod>2021-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/toxic/</loc>
+    <loc>http://localhost:1313/tags/toxic/</loc>
     <lastmod>2021-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/work/</loc>
+    <loc>http://localhost:1313/tags/work/</loc>
     <lastmod>2021-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</loc>
+    <loc>http://localhost:1313/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</loc>
     <lastmod>2021-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/optimization/</loc>
+    <loc>http://localhost:1313/tags/optimization/</loc>
     <lastmod>2021-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/demo/</loc>
+    <loc>http://localhost:1313/tags/demo/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/how-demo-oriented-programming-makes-you-better-44mo/</loc>
+    <loc>http://localhost:1313/posts/how-demo-oriented-programming-makes-you-better-44mo/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/programming/</loc>
+    <loc>http://localhost:1313/tags/programming/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/look-into-the-past-improve-the-future-4jbk/</loc>
+    <loc>http://localhost:1313/posts/look-into-the-past-improve-the-future-4jbk/</loc>
     <lastmod>2020-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/careerdevelopment/</loc>
+    <loc>http://localhost:1313/tags/careerdevelopment/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/congratulations-and-welcome-aboard-3iba/</loc>
+    <loc>http://localhost:1313/posts/congratulations-and-welcome-aboard-3iba/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/hr/</loc>
+    <loc>http://localhost:1313/tags/hr/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/onboarding/</loc>
+    <loc>http://localhost:1313/tags/onboarding/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/a-letter-to-the-lonely-developer-458f/</loc>
+    <loc>http://localhost:1313/posts/a-letter-to-the-lonely-developer-458f/</loc>
     <lastmod>2020-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/bandwagoneffect/</loc>
+    <loc>http://localhost:1313/tags/bandwagoneffect/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/cargocult/</loc>
+    <loc>http://localhost:1313/tags/cargocult/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/everybody-was-cargo-culting-46n5/</loc>
+    <loc>http://localhost:1313/posts/everybody-was-cargo-culting-46n5/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/designweight/</loc>
+    <loc>http://localhost:1313/tags/designweight/</loc>
     <lastmod>2020-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/domaindrivendesign/</loc>
+    <loc>http://localhost:1313/tags/domaindrivendesign/</loc>
     <lastmod>2020-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/the-burden-of-software-design-3cbj/</loc>
+    <loc>http://localhost:1313/posts/the-burden-of-software-design-3cbj/</loc>
     <lastmod>2020-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/bestpractices/</loc>
+    <loc>http://localhost:1313/tags/bestpractices/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/code/</loc>
+    <loc>http://localhost:1313/tags/code/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/diving-into-the-deep-code-waters-57p9/</loc>
+    <loc>http://localhost:1313/posts/diving-into-the-deep-code-waters-57p9/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/preserve-protect-defend-your-code-1d5k/</loc>
+    <loc>http://localhost:1313/posts/preserve-protect-defend-your-code-1d5k/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/security/</loc>
+    <loc>http://localhost:1313/tags/security/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/software-development/</loc>
+    <loc>http://localhost:1313/tags/software-development/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/software-engineering/</loc>
+    <loc>http://localhost:1313/tags/software-engineering/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/software-life-cycle/</loc>
+    <loc>http://localhost:1313/tags/software-life-cycle/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/</loc>
+    <loc>http://localhost:1313/posts/effort-estimation-it-s-complicated-4bdb/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/noestimates/</loc>
+    <loc>http://localhost:1313/tags/noestimates/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/time-management/</loc>
+    <loc>http://localhost:1313/tags/time-management/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/best-practices/</loc>
+    <loc>http://localhost:1313/tags/best-practices/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/code-review-guidelines-light-the-way-1e4/</loc>
+    <loc>http://localhost:1313/posts/code-review-guidelines-light-the-way-1e4/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/code-review/</loc>
+    <loc>http://localhost:1313/tags/code-review/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/documentation/</loc>
+    <loc>http://localhost:1313/tags/documentation/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/building-trust-through-effective-communication-208c/</loc>
+    <loc>http://localhost:1313/posts/building-trust-through-effective-communication-208c/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/developers/</loc>
+    <loc>http://localhost:1313/tags/developers/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/leadership/</loc>
+    <loc>http://localhost:1313/tags/leadership/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/softskills/</loc>
+    <loc>http://localhost:1313/tags/softskills/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/tips/</loc>
+    <loc>http://localhost:1313/tags/tips/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</loc>
+    <loc>http://localhost:1313/posts/every-code-has-its-audience-55e1/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/personal-development/</loc>
+    <loc>http://localhost:1313/tags/personal-development/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/csharp/</loc>
+    <loc>http://localhost:1313/tags/csharp/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/debugging/</loc>
+    <loc>http://localhost:1313/tags/debugging/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/dotnet/</loc>
+    <loc>http://localhost:1313/tags/dotnet/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</loc>
+    <loc>http://localhost:1313/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</loc>
     <lastmod>2020-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/digital-notes-are-your-life-dashboard-2ep9/</loc>
+    <loc>http://localhost:1313/posts/digital-notes-are-your-life-dashboard-2ep9/</loc>
     <lastmod>2020-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/lists/</loc>
+    <loc>http://localhost:1313/tags/lists/</loc>
     <lastmod>2020-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/notes-to-self/</loc>
+    <loc>http://localhost:1313/tags/notes-to-self/</loc>
     <lastmod>2020-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/time-management-tips/</loc>
+    <loc>http://localhost:1313/tags/time-management-tips/</loc>
     <lastmod>2020-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/</loc>
+    <loc>http://localhost:1313/posts/ozcode-a-new-way-to-debug-your-code-l6n/</loc>
     <lastmod>2019-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/visual-studio/</loc>
+    <loc>http://localhost:1313/tags/visual-studio/</loc>
     <lastmod>2019-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</loc>
+    <loc>http://localhost:1313/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/career-ladder/</loc>
+    <loc>http://localhost:1313/tags/career-ladder/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/coworking/</loc>
+    <loc>http://localhost:1313/tags/coworking/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/food/</loc>
+    <loc>http://localhost:1313/tags/food/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/habit-building/</loc>
+    <loc>http://localhost:1313/tags/habit-building/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/individual-contribut/</loc>
+    <loc>http://localhost:1313/tags/individual-contribut/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/leading-with-no-authority-khl/</loc>
+    <loc>http://localhost:1313/posts/leading-with-no-authority-khl/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</loc>
+    <loc>http://localhost:1313/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/senior-engineer/</loc>
+    <loc>http://localhost:1313/tags/senior-engineer/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/small-wins-matter-1b9o/</loc>
+    <loc>http://localhost:1313/posts/small-wins-matter-1b9o/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/software-team/</loc>
+    <loc>http://localhost:1313/tags/software-team/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/team/</loc>
+    <loc>http://localhost:1313/tags/team/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/team-building/</loc>
+    <loc>http://localhost:1313/tags/team-building/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/teamwork/</loc>
+    <loc>http://localhost:1313/tags/teamwork/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/tech-lead/</loc>
+    <loc>http://localhost:1313/tags/tech-lead/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/the-social-glue-of-the-team-s-lunch-32ed/</loc>
+    <loc>http://localhost:1313/posts/the-social-glue-of-the-team-s-lunch-32ed/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/cleancode/</loc>
+    <loc>http://localhost:1313/tags/cleancode/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</loc>
+    <loc>http://localhost:1313/posts/code-comments-are-your-code-autobiography-3c7n/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/refactoring/</loc>
+    <loc>http://localhost:1313/tags/refactoring/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/management/</loc>
+    <loc>http://localhost:1313/tags/management/</loc>
     <lastmod>2019-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/mentorship/</loc>
+    <loc>http://localhost:1313/tags/mentorship/</loc>
     <lastmod>2019-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/the-privilege-of-mentoring-1gfd/</loc>
+    <loc>http://localhost:1313/posts/the-privilege-of-mentoring-1gfd/</loc>
     <lastmod>2019-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/open-source/</loc>
+    <loc>http://localhost:1313/tags/open-source/</loc>
     <lastmod>2019-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/snoop-around-your-visual-tree-c6c/</loc>
+    <loc>http://localhost:1313/posts/snoop-around-your-visual-tree-c6c/</loc>
     <lastmod>2019-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/software-developing/</loc>
+    <loc>http://localhost:1313/tags/software-developing/</loc>
     <lastmod>2019-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/wpf/</loc>
+    <loc>http://localhost:1313/tags/wpf/</loc>
     <lastmod>2019-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/deep-learning/</loc>
+    <loc>http://localhost:1313/tags/deep-learning/</loc>
     <lastmod>2019-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/estimating-partial-human-poses-178n/</loc>
+    <loc>http://localhost:1313/posts/estimating-partial-human-poses-178n/</loc>
     <lastmod>2019-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/machine-learning/</loc>
+    <loc>http://localhost:1313/tags/machine-learning/</loc>
     <lastmod>2019-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/openpose/</loc>
+    <loc>http://localhost:1313/tags/openpose/</loc>
     <lastmod>2019-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/tensorflow/</loc>
+    <loc>http://localhost:1313/tags/tensorflow/</loc>
     <lastmod>2019-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/clipboard/</loc>
+    <loc>http://localhost:1313/tags/clipboard/</loc>
     <lastmod>2019-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</loc>
+    <loc>http://localhost:1313/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</loc>
     <lastmod>2019-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/disassembly/</loc>
+    <loc>http://localhost:1313/tags/disassembly/</loc>
     <lastmod>2019-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/when-in-doubt-reverse-engineer-it-1jdk/</loc>
+    <loc>http://localhost:1313/posts/when-in-doubt-reverse-engineer-it-1jdk/</loc>
     <lastmod>2019-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/machinelearning/</loc>
+    <loc>http://localhost:1313/tags/machinelearning/</loc>
     <lastmod>2019-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/ml-net-heart-disease-prediction-11n8/</loc>
+    <loc>http://localhost:1313/posts/ml-net-heart-disease-prediction-11n8/</loc>
     <lastmod>2019-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/posts/it-s-all-about-everything-1lf5/</loc>
+    <loc>http://localhost:1313/posts/it-s-all-about-everything-1lf5/</loc>
     <lastmod>2019-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/tags/productivity-hacks/</loc>
+    <loc>http://localhost:1313/tags/productivity-hacks/</loc>
     <lastmod>2019-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://dvirsegal.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://dvirsegal.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://dvirsegal.github.io/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>

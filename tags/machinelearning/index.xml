@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>machinelearning on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/machinelearning/</link>
-    <description>Recent content in machinelearning on Dvir Segal&#39;s blog</description>
+    <title>Machinelearning on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/machinelearning/</link>
+    <description>Recent content in Machinelearning on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 11 Apr 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/machinelearning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/machinelearning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ML.NET: Heart disease prediction</title>
-      <link>http://dvirsegal.github.io/posts/ml-net-heart-disease-prediction-11n8/</link>
+      <link>http://localhost:1313/posts/ml-net-heart-disease-prediction-11n8/</link>
       <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/ml-net-heart-disease-prediction-11n8/</guid>
+      <guid>http://localhost:1313/posts/ml-net-heart-disease-prediction-11n8/</guid>
       <description>Microsoft announced ML.NET last May, and as an advocate user of the .NET framework with experience in Machine Learning, I knew that I’d have to give it a try knowingly that Python various frameworks (such as scikit-learn) rule this domain.&#xA;ML.NET is a free, cross-platform, open source machine learning framework explicitly made for .NET developers. The preview release includes learners to handle binary classification, multi-class classification, and regression tasks. Additional ML tasks like a recommendation system, clustering, anomaly detection, ranking models, and deep learning architectures have been added.</description>
     </item>
   </channel>

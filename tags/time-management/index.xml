@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>time-management on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/time-management/</link>
-    <description>Recent content in time-management on Dvir Segal&#39;s blog</description>
+    <title>Time-Management on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/time-management/</link>
+    <description>Recent content in Time-Management on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/time-management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/time-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Effort estimation — it’s complicated</title>
-      <link>http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/</link>
+      <link>http://localhost:1313/posts/effort-estimation-it-s-complicated-4bdb/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/</guid>
+      <guid>http://localhost:1313/posts/effort-estimation-it-s-complicated-4bdb/</guid>
       <description>Effort estimation — it’s complicated&#xD;Link to heading&#xD;On the dilemma of evaluating software development effort&#xD;Link to heading&#xD;For the past few months, estimating effort, a long-standing dilemma of the software industry, bothers me. How should we, as SW engineers, deal with the accuracy of effort estimations? The answer is complicated and has implications over developers’ career growth, having an impact on personal development. There is much at stake.</description>
     </item>
     <item>
       <title>Arrange your time and your mind will follow</title>
-      <link>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</link>
+      <link>http://localhost:1313/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</guid>
+      <guid>http://localhost:1313/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</guid>
       <description>Being productive by taking control of your time&#xD;Link to heading&#xD;A gym workout, a reminder to walk the dog, meeting with your colleagues on that project presentation, a dentist appointment — are all on the same page. You can’t separate artificially between your work and personal calendars. Why? Because that’s how your life works. The goal is to see what your actual day looks like, to blend between work and personal life for finding the right balance that fits you.</description>
     </item>
   </channel>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cargocult on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/cargocult/</link>
-    <description>Recent content in cargocult on Dvir Segal&#39;s blog</description>
+    <title>Cargocult on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/cargocult/</link>
+    <description>Recent content in Cargocult on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/cargocult/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cargocult/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Everybody was cargo culting</title>
-      <link>http://dvirsegal.github.io/posts/everybody-was-cargo-culting-46n5/</link>
+      <link>http://localhost:1313/posts/everybody-was-cargo-culting-46n5/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/everybody-was-cargo-culting-46n5/</guid>
+      <guid>http://localhost:1313/posts/everybody-was-cargo-culting-46n5/</guid>
       <description>My personal experience to jump off the bandwagon (effect)&#xD;Link to heading&#xD;Imagine the following situation. One of your experienced colleagues talks about doing some work, which she’s passionate about and sure it will provide better results for the team. She has fire in her eyes when she talks about replacing technology X with Y.&#xA;You feel it right into your heart. Your colleagues seem to agree with her. She’s so right.</description>
     </item>
   </channel>

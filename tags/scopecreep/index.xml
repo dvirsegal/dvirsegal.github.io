@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>scopecreep on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/scopecreep/</link>
-    <description>Recent content in scopecreep on Dvir Segal&#39;s blog</description>
+    <title>Scopecreep on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/scopecreep/</link>
+    <description>Recent content in Scopecreep on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/scopecreep/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/scopecreep/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to deal with the kitchen sink syndrome</title>
-      <link>http://dvirsegal.github.io/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</link>
+      <link>http://localhost:1313/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</guid>
+      <guid>http://localhost:1313/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</guid>
       <description>But I’m a (scope) creep…what the hell am I doin’ here?&#xD;Link to heading&#xD;Here is a situation that I am pretty sure every team or individual contributor has encountered throughout his career. You get well-defined requirements, review them, ask questions, adjust them with your product owner, and prepared one heck of SW design. Soon after, the implementation phase begins, and a few hours or days before the end of the story, the business calls and asks for an extra feature (or change) to be implemented.</description>
     </item>
   </channel>

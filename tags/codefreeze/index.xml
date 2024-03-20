@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>codefreeze on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/codefreeze/</link>
-    <description>Recent content in codefreeze on Dvir Segal&#39;s blog</description>
+    <title>Codefreeze on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/codefreeze/</link>
+    <description>Recent content in Codefreeze on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/codefreeze/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/codefreeze/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is Code freeze still relevant?</title>
-      <link>http://dvirsegal.github.io/posts/is-code-freeze-still-relevant-9c077495b64/</link>
+      <link>http://localhost:1313/posts/is-code-freeze-still-relevant-9c077495b64/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/is-code-freeze-still-relevant-9c077495b64/</guid>
+      <guid>http://localhost:1313/posts/is-code-freeze-still-relevant-9c077495b64/</guid>
       <description>When practicing CI/CD, does code freeze still matter?&#xD;Link to heading&#xD;Assuming you are familiar with the concept of code freeze, which is that dedicated time in a project when we (developers) are supposed to be more strict in making changes to the code or other resources for the good of moving the project towards a release or the end of an iteration.&#xA;I’ve recently wondered about that concept; I asked myself why do we need to stop everything when we have a full-scale CI\CD pipeline.</description>
     </item>
   </channel>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>programming on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/programming/</link>
-    <description>Recent content in programming on Dvir Segal&#39;s blog</description>
+    <title>Programming on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/programming/</link>
+    <description>Recent content in Programming on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How demo-oriented programming makes you better</title>
-      <link>http://dvirsegal.github.io/posts/how-demo-oriented-programming-makes-you-better-44mo/</link>
+      <link>http://localhost:1313/posts/how-demo-oriented-programming-makes-you-better-44mo/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-demo-oriented-programming-makes-you-better-44mo/</guid>
+      <guid>http://localhost:1313/posts/how-demo-oriented-programming-makes-you-better-44mo/</guid>
       <description>On the focused effort of making a working prototype&#xD;Link to heading&#xD;There are many ways you can determine whether a new feature will add value to the product or turn out to be a complete waste of time. For instance, you can undertake user research, analyze the demands of the market, and study existing solutions. However, we (developers) have a fantastic tool in our sleeves: Developing a running project that demonstrates the proposed solution’s key ideas is your optimal option — in my opinion.</description>
     </item>
     <item>
       <title>The Privilege of Mentoring</title>
-      <link>http://dvirsegal.github.io/posts/the-privilege-of-mentoring-1gfd/</link>
+      <link>http://localhost:1313/posts/the-privilege-of-mentoring-1gfd/</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/the-privilege-of-mentoring-1gfd/</guid>
+      <guid>http://localhost:1313/posts/the-privilege-of-mentoring-1gfd/</guid>
       <description>Mentoring means cultivating and inspiring others, usually less experienced in the specific field of expertise. IMHO, an experienced engineer must hold the mentoring skill, as it’s critical to the careers of new SW employees and the success of the entire team. This skill is earned by hard work (that made you experienced), and it helps you to develop your career.&#xA;The trust between the mentor and mentee is that hidden ingredient in the recipe of building great teams, and in my perspective, being one is a privilege.</description>
     </item>
   </channel>

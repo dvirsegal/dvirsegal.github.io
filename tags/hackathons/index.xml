@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hackathons on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/hackathons/</link>
+    <description>Recent content in Hackathons on Dvir Segal&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hackathons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building LEGO without instructions</title>
+      <link>http://localhost:1313/posts/building-lego-without-instructions/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/building-lego-without-instructions/</guid>
+      <description>A few months ago, we had a hackathon at my work.&#xA;At the opening event, one of my colleagues said to me:&#xA;Hackathons are similar to building LEGO model without instructions.&#xA;It stuck with me. I pondered about it.&#xA;What crossed my mind is that hackathons are playgrounds for software engineers, where creativity is key. Imagine being handed a box of LEGO bricks, and the instructions are taken away; what would you build?</description>
+    </item>
+  </channel>
+</rss>

@@ -2,710 +2,717 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>fuckupnights</title>
-      <link>http://dvirsegal.github.io/tags/fuckupnights/</link>
-      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/fuckupnights/</guid>
+      <title>Careergrowth</title>
+      <link>http://localhost:1313/tags/careergrowth/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/careergrowth/</guid>
       <description></description>
     </item>
     <item>
-      <title>softwaredevelopment</title>
-      <link>http://dvirsegal.github.io/tags/softwaredevelopment/</link>
-      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/softwaredevelopment/</guid>
+      <title>Hackathons</title>
+      <link>http://localhost:1313/tags/hackathons/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hackathons/</guid>
       <description></description>
     </item>
     <item>
-      <title>softwareengineering</title>
-      <link>http://dvirsegal.github.io/tags/softwareengineering/</link>
-      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/softwareengineering/</guid>
+      <title>Softwaredevelopment</title>
+      <link>http://localhost:1313/tags/softwaredevelopment/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/softwaredevelopment/</guid>
       <description></description>
     </item>
     <item>
-      <title>softwareengineerlife</title>
-      <link>http://dvirsegal.github.io/tags/softwareengineerlife/</link>
-      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/softwareengineerlife/</guid>
+      <title>Softwareengineering</title>
+      <link>http://localhost:1313/tags/softwareengineering/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/softwareengineering/</guid>
       <description></description>
     </item>
     <item>
-      <title>humor</title>
-      <link>http://dvirsegal.github.io/tags/humor/</link>
+      <title>Fuckupnights</title>
+      <link>http://localhost:1313/tags/fuckupnights/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fuckupnights/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Softwareengineerlife</title>
+      <link>http://localhost:1313/tags/softwareengineerlife/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/softwareengineerlife/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Humor</title>
+      <link>http://localhost:1313/tags/humor/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/humor/</guid>
+      <guid>http://localhost:1313/tags/humor/</guid>
       <description></description>
     </item>
     <item>
-      <title>unittesting</title>
-      <link>http://dvirsegal.github.io/tags/unittesting/</link>
+      <title>Unittesting</title>
+      <link>http://localhost:1313/tags/unittesting/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/unittesting/</guid>
+      <guid>http://localhost:1313/tags/unittesting/</guid>
       <description></description>
     </item>
     <item>
-      <title>interview</title>
-      <link>http://dvirsegal.github.io/tags/interview/</link>
+      <title>Interview</title>
+      <link>http://localhost:1313/tags/interview/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/interview/</guid>
+      <guid>http://localhost:1313/tags/interview/</guid>
       <description></description>
     </item>
     <item>
-      <title>joboffer</title>
-      <link>http://dvirsegal.github.io/tags/joboffer/</link>
+      <title>Joboffer</title>
+      <link>http://localhost:1313/tags/joboffer/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/joboffer/</guid>
+      <guid>http://localhost:1313/tags/joboffer/</guid>
       <description></description>
     </item>
     <item>
-      <title>codequality</title>
-      <link>http://dvirsegal.github.io/tags/codequality/</link>
+      <title>Codequality</title>
+      <link>http://localhost:1313/tags/codequality/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/codequality/</guid>
+      <guid>http://localhost:1313/tags/codequality/</guid>
       <description></description>
     </item>
     <item>
-      <title>integrationtest</title>
-      <link>http://dvirsegal.github.io/tags/integrationtest/</link>
+      <title>Integrationtest</title>
+      <link>http://localhost:1313/tags/integrationtest/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/integrationtest/</guid>
+      <guid>http://localhost:1313/tags/integrationtest/</guid>
       <description></description>
     </item>
     <item>
-      <title>sofwaredevelopment</title>
-      <link>http://dvirsegal.github.io/tags/sofwaredevelopment/</link>
+      <title>Sofwaredevelopment</title>
+      <link>http://localhost:1313/tags/sofwaredevelopment/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/sofwaredevelopment/</guid>
+      <guid>http://localhost:1313/tags/sofwaredevelopment/</guid>
       <description></description>
     </item>
     <item>
-      <title>cohesion</title>
-      <link>http://dvirsegal.github.io/tags/cohesion/</link>
+      <title>Cohesion</title>
+      <link>http://localhost:1313/tags/cohesion/</link>
       <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/cohesion/</guid>
+      <guid>http://localhost:1313/tags/cohesion/</guid>
       <description></description>
     </item>
     <item>
-      <title>softwaredesign</title>
-      <link>http://dvirsegal.github.io/tags/softwaredesign/</link>
+      <title>Softwaredesign</title>
+      <link>http://localhost:1313/tags/softwaredesign/</link>
       <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/softwaredesign/</guid>
+      <guid>http://localhost:1313/tags/softwaredesign/</guid>
       <description></description>
     </item>
     <item>
-      <title>ideas</title>
-      <link>http://dvirsegal.github.io/tags/ideas/</link>
+      <title>Ideas</title>
+      <link>http://localhost:1313/tags/ideas/</link>
       <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/ideas/</guid>
+      <guid>http://localhost:1313/tags/ideas/</guid>
       <description></description>
     </item>
     <item>
-      <title>writerblock</title>
-      <link>http://dvirsegal.github.io/tags/writerblock/</link>
+      <title>Writerblock</title>
+      <link>http://localhost:1313/tags/writerblock/</link>
       <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/writerblock/</guid>
+      <guid>http://localhost:1313/tags/writerblock/</guid>
       <description></description>
     </item>
     <item>
-      <title>writersonwriting</title>
-      <link>http://dvirsegal.github.io/tags/writersonwriting/</link>
+      <title>Writersonwriting</title>
+      <link>http://localhost:1313/tags/writersonwriting/</link>
       <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/writersonwriting/</guid>
+      <guid>http://localhost:1313/tags/writersonwriting/</guid>
       <description></description>
     </item>
     <item>
-      <title>careertips</title>
-      <link>http://dvirsegal.github.io/tags/careertips/</link>
+      <title>Careertips</title>
+      <link>http://localhost:1313/tags/careertips/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/careertips/</guid>
+      <guid>http://localhost:1313/tags/careertips/</guid>
       <description></description>
     </item>
     <item>
-      <title>growthmindset</title>
-      <link>http://dvirsegal.github.io/tags/growthmindset/</link>
+      <title>Growthmindset</title>
+      <link>http://localhost:1313/tags/growthmindset/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/growthmindset/</guid>
+      <guid>http://localhost:1313/tags/growthmindset/</guid>
       <description></description>
     </item>
     <item>
-      <title>automation</title>
-      <link>http://dvirsegal.github.io/tags/automation/</link>
+      <title>Automation</title>
+      <link>http://localhost:1313/tags/automation/</link>
       <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/automation/</guid>
+      <guid>http://localhost:1313/tags/automation/</guid>
       <description></description>
     </item>
     <item>
-      <title>automationtesting</title>
-      <link>http://dvirsegal.github.io/tags/automationtesting/</link>
+      <title>Automationtesting</title>
+      <link>http://localhost:1313/tags/automationtesting/</link>
       <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/automationtesting/</guid>
+      <guid>http://localhost:1313/tags/automationtesting/</guid>
       <description></description>
     </item>
     <item>
-      <title>softwaretesting</title>
-      <link>http://dvirsegal.github.io/tags/softwaretesting/</link>
+      <title>Softwaretesting</title>
+      <link>http://localhost:1313/tags/softwaretesting/</link>
       <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/softwaretesting/</guid>
+      <guid>http://localhost:1313/tags/softwaretesting/</guid>
       <description></description>
     </item>
     <item>
-      <title>careeradvice</title>
-      <link>http://dvirsegal.github.io/tags/careeradvice/</link>
+      <title>Careeradvice</title>
+      <link>http://localhost:1313/tags/careeradvice/</link>
       <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/careeradvice/</guid>
+      <guid>http://localhost:1313/tags/careeradvice/</guid>
       <description></description>
     </item>
     <item>
-      <title>careergrowth</title>
-      <link>http://dvirsegal.github.io/tags/careergrowth/</link>
-      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/careergrowth/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>devops</title>
-      <link>http://dvirsegal.github.io/tags/devops/</link>
+      <title>Devops</title>
+      <link>http://localhost:1313/tags/devops/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/devops/</guid>
+      <guid>http://localhost:1313/tags/devops/</guid>
       <description></description>
     </item>
     <item>
-      <title>docker</title>
-      <link>http://dvirsegal.github.io/tags/docker/</link>
+      <title>Docker</title>
+      <link>http://localhost:1313/tags/docker/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/docker/</guid>
+      <guid>http://localhost:1313/tags/docker/</guid>
       <description></description>
     </item>
     <item>
-      <title>dockercompose</title>
-      <link>http://dvirsegal.github.io/tags/dockercompose/</link>
+      <title>Dockercompose</title>
+      <link>http://localhost:1313/tags/dockercompose/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/dockercompose/</guid>
+      <guid>http://localhost:1313/tags/dockercompose/</guid>
       <description></description>
     </item>
     <item>
-      <title>dockerimage</title>
-      <link>http://dvirsegal.github.io/tags/dockerimage/</link>
+      <title>Dockerimage</title>
+      <link>http://localhost:1313/tags/dockerimage/</link>
       <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/dockerimage/</guid>
+      <guid>http://localhost:1313/tags/dockerimage/</guid>
       <description></description>
     </item>
     <item>
-      <title>agile</title>
-      <link>http://dvirsegal.github.io/tags/agile/</link>
+      <title>Agile</title>
+      <link>http://localhost:1313/tags/agile/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/agile/</guid>
+      <guid>http://localhost:1313/tags/agile/</guid>
       <description></description>
     </item>
     <item>
-      <title>codefreeze</title>
-      <link>http://dvirsegal.github.io/tags/codefreeze/</link>
+      <title>Codefreeze</title>
+      <link>http://localhost:1313/tags/codefreeze/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/codefreeze/</guid>
+      <guid>http://localhost:1313/tags/codefreeze/</guid>
       <description></description>
     </item>
     <item>
-      <title>dockerfiles</title>
-      <link>http://dvirsegal.github.io/tags/dockerfiles/</link>
+      <title>Dockerfiles</title>
+      <link>http://localhost:1313/tags/dockerfiles/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/dockerfiles/</guid>
+      <guid>http://localhost:1313/tags/dockerfiles/</guid>
       <description></description>
     </item>
     <item>
-      <title>scrum</title>
-      <link>http://dvirsegal.github.io/tags/scrum/</link>
+      <title>Scrum</title>
+      <link>http://localhost:1313/tags/scrum/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/scrum/</guid>
+      <guid>http://localhost:1313/tags/scrum/</guid>
       <description></description>
     </item>
     <item>
-      <title>developertools</title>
-      <link>http://dvirsegal.github.io/tags/developertools/</link>
+      <title>Developertools</title>
+      <link>http://localhost:1313/tags/developertools/</link>
       <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/developertools/</guid>
+      <guid>http://localhost:1313/tags/developertools/</guid>
       <description></description>
     </item>
     <item>
-      <title>macos</title>
-      <link>http://dvirsegal.github.io/tags/macos/</link>
+      <title>Macos</title>
+      <link>http://localhost:1313/tags/macos/</link>
       <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/macos/</guid>
+      <guid>http://localhost:1313/tags/macos/</guid>
       <description></description>
     </item>
     <item>
-      <title>productivity</title>
-      <link>http://dvirsegal.github.io/tags/productivity/</link>
+      <title>Productivity</title>
+      <link>http://localhost:1313/tags/productivity/</link>
       <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/productivity/</guid>
+      <guid>http://localhost:1313/tags/productivity/</guid>
       <description></description>
     </item>
     <item>
-      <title>windows</title>
-      <link>http://dvirsegal.github.io/tags/windows/</link>
+      <title>Windows</title>
+      <link>http://localhost:1313/tags/windows/</link>
       <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/windows/</guid>
+      <guid>http://localhost:1313/tags/windows/</guid>
       <description></description>
     </item>
     <item>
-      <title>configuration</title>
-      <link>http://dvirsegal.github.io/tags/configuration/</link>
+      <title>Configuration</title>
+      <link>http://localhost:1313/tags/configuration/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/configuration/</guid>
+      <guid>http://localhost:1313/tags/configuration/</guid>
       <description></description>
     </item>
     <item>
-      <title>yaml</title>
-      <link>http://dvirsegal.github.io/tags/yaml/</link>
+      <title>Yaml</title>
+      <link>http://localhost:1313/tags/yaml/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/yaml/</guid>
+      <guid>http://localhost:1313/tags/yaml/</guid>
       <description></description>
     </item>
     <item>
-      <title>requirements</title>
-      <link>http://dvirsegal.github.io/tags/requirements/</link>
+      <title>Requirements</title>
+      <link>http://localhost:1313/tags/requirements/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/requirements/</guid>
+      <guid>http://localhost:1313/tags/requirements/</guid>
       <description></description>
     </item>
     <item>
-      <title>scopecreep</title>
-      <link>http://dvirsegal.github.io/tags/scopecreep/</link>
+      <title>Scopecreep</title>
+      <link>http://localhost:1313/tags/scopecreep/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/scopecreep/</guid>
+      <guid>http://localhost:1313/tags/scopecreep/</guid>
       <description></description>
     </item>
     <item>
-      <title>toxic</title>
-      <link>http://dvirsegal.github.io/tags/toxic/</link>
+      <title>Toxic</title>
+      <link>http://localhost:1313/tags/toxic/</link>
       <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/toxic/</guid>
+      <guid>http://localhost:1313/tags/toxic/</guid>
       <description></description>
     </item>
     <item>
-      <title>work</title>
-      <link>http://dvirsegal.github.io/tags/work/</link>
+      <title>Work</title>
+      <link>http://localhost:1313/tags/work/</link>
       <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/work/</guid>
+      <guid>http://localhost:1313/tags/work/</guid>
       <description></description>
     </item>
     <item>
-      <title>optimization</title>
-      <link>http://dvirsegal.github.io/tags/optimization/</link>
+      <title>Optimization</title>
+      <link>http://localhost:1313/tags/optimization/</link>
       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/optimization/</guid>
+      <guid>http://localhost:1313/tags/optimization/</guid>
       <description></description>
     </item>
     <item>
-      <title>demo</title>
-      <link>http://dvirsegal.github.io/tags/demo/</link>
+      <title>Demo</title>
+      <link>http://localhost:1313/tags/demo/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/demo/</guid>
+      <guid>http://localhost:1313/tags/demo/</guid>
       <description></description>
     </item>
     <item>
-      <title>programming</title>
-      <link>http://dvirsegal.github.io/tags/programming/</link>
+      <title>Programming</title>
+      <link>http://localhost:1313/tags/programming/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/programming/</guid>
+      <guid>http://localhost:1313/tags/programming/</guid>
       <description></description>
     </item>
     <item>
-      <title>careerdevelopment</title>
-      <link>http://dvirsegal.github.io/tags/careerdevelopment/</link>
+      <title>Careerdevelopment</title>
+      <link>http://localhost:1313/tags/careerdevelopment/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/careerdevelopment/</guid>
+      <guid>http://localhost:1313/tags/careerdevelopment/</guid>
       <description></description>
     </item>
     <item>
-      <title>hr</title>
-      <link>http://dvirsegal.github.io/tags/hr/</link>
+      <title>Hr</title>
+      <link>http://localhost:1313/tags/hr/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/hr/</guid>
+      <guid>http://localhost:1313/tags/hr/</guid>
       <description></description>
     </item>
     <item>
-      <title>onboarding</title>
-      <link>http://dvirsegal.github.io/tags/onboarding/</link>
+      <title>Onboarding</title>
+      <link>http://localhost:1313/tags/onboarding/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/onboarding/</guid>
+      <guid>http://localhost:1313/tags/onboarding/</guid>
       <description></description>
     </item>
     <item>
-      <title>bandwagoneffect</title>
-      <link>http://dvirsegal.github.io/tags/bandwagoneffect/</link>
+      <title>Bandwagoneffect</title>
+      <link>http://localhost:1313/tags/bandwagoneffect/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/bandwagoneffect/</guid>
+      <guid>http://localhost:1313/tags/bandwagoneffect/</guid>
       <description></description>
     </item>
     <item>
-      <title>cargocult</title>
-      <link>http://dvirsegal.github.io/tags/cargocult/</link>
+      <title>Cargocult</title>
+      <link>http://localhost:1313/tags/cargocult/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/cargocult/</guid>
+      <guid>http://localhost:1313/tags/cargocult/</guid>
       <description></description>
     </item>
     <item>
-      <title>designweight</title>
-      <link>http://dvirsegal.github.io/tags/designweight/</link>
+      <title>Designweight</title>
+      <link>http://localhost:1313/tags/designweight/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/designweight/</guid>
+      <guid>http://localhost:1313/tags/designweight/</guid>
       <description></description>
     </item>
     <item>
-      <title>domaindrivendesign</title>
-      <link>http://dvirsegal.github.io/tags/domaindrivendesign/</link>
+      <title>Domaindrivendesign</title>
+      <link>http://localhost:1313/tags/domaindrivendesign/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/domaindrivendesign/</guid>
+      <guid>http://localhost:1313/tags/domaindrivendesign/</guid>
       <description></description>
     </item>
     <item>
-      <title>bestpractices</title>
-      <link>http://dvirsegal.github.io/tags/bestpractices/</link>
+      <title>Bestpractices</title>
+      <link>http://localhost:1313/tags/bestpractices/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/bestpractices/</guid>
+      <guid>http://localhost:1313/tags/bestpractices/</guid>
       <description></description>
     </item>
     <item>
-      <title>code</title>
-      <link>http://dvirsegal.github.io/tags/code/</link>
+      <title>Code</title>
+      <link>http://localhost:1313/tags/code/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/code/</guid>
+      <guid>http://localhost:1313/tags/code/</guid>
       <description></description>
     </item>
     <item>
-      <title>security</title>
-      <link>http://dvirsegal.github.io/tags/security/</link>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/security/</guid>
+      <guid>http://localhost:1313/tags/security/</guid>
       <description></description>
     </item>
     <item>
-      <title>software-development</title>
-      <link>http://dvirsegal.github.io/tags/software-development/</link>
+      <title>Software-Development</title>
+      <link>http://localhost:1313/tags/software-development/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/software-development/</guid>
+      <guid>http://localhost:1313/tags/software-development/</guid>
       <description></description>
     </item>
     <item>
-      <title>software-engineering</title>
-      <link>http://dvirsegal.github.io/tags/software-engineering/</link>
+      <title>Software-Engineering</title>
+      <link>http://localhost:1313/tags/software-engineering/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/software-engineering/</guid>
+      <guid>http://localhost:1313/tags/software-engineering/</guid>
       <description></description>
     </item>
     <item>
-      <title>software-life-cycle</title>
-      <link>http://dvirsegal.github.io/tags/software-life-cycle/</link>
+      <title>Software-Life-Cycle</title>
+      <link>http://localhost:1313/tags/software-life-cycle/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/software-life-cycle/</guid>
+      <guid>http://localhost:1313/tags/software-life-cycle/</guid>
       <description></description>
     </item>
     <item>
-      <title>noestimates</title>
-      <link>http://dvirsegal.github.io/tags/noestimates/</link>
+      <title>Noestimates</title>
+      <link>http://localhost:1313/tags/noestimates/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/noestimates/</guid>
+      <guid>http://localhost:1313/tags/noestimates/</guid>
       <description></description>
     </item>
     <item>
-      <title>time-management</title>
-      <link>http://dvirsegal.github.io/tags/time-management/</link>
+      <title>Time-Management</title>
+      <link>http://localhost:1313/tags/time-management/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/time-management/</guid>
+      <guid>http://localhost:1313/tags/time-management/</guid>
       <description></description>
     </item>
     <item>
-      <title>best-practices</title>
-      <link>http://dvirsegal.github.io/tags/best-practices/</link>
+      <title>Best-Practices</title>
+      <link>http://localhost:1313/tags/best-practices/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/best-practices/</guid>
+      <guid>http://localhost:1313/tags/best-practices/</guid>
       <description></description>
     </item>
     <item>
-      <title>code-review</title>
-      <link>http://dvirsegal.github.io/tags/code-review/</link>
+      <title>Code-Review</title>
+      <link>http://localhost:1313/tags/code-review/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/code-review/</guid>
+      <guid>http://localhost:1313/tags/code-review/</guid>
       <description></description>
     </item>
     <item>
-      <title>documentation</title>
-      <link>http://dvirsegal.github.io/tags/documentation/</link>
+      <title>Documentation</title>
+      <link>http://localhost:1313/tags/documentation/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/documentation/</guid>
+      <guid>http://localhost:1313/tags/documentation/</guid>
       <description></description>
     </item>
     <item>
-      <title>developers</title>
-      <link>http://dvirsegal.github.io/tags/developers/</link>
+      <title>Developers</title>
+      <link>http://localhost:1313/tags/developers/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/developers/</guid>
+      <guid>http://localhost:1313/tags/developers/</guid>
       <description></description>
     </item>
     <item>
-      <title>leadership</title>
-      <link>http://dvirsegal.github.io/tags/leadership/</link>
+      <title>Leadership</title>
+      <link>http://localhost:1313/tags/leadership/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/leadership/</guid>
+      <guid>http://localhost:1313/tags/leadership/</guid>
       <description></description>
     </item>
     <item>
-      <title>softskills</title>
-      <link>http://dvirsegal.github.io/tags/softskills/</link>
+      <title>Softskills</title>
+      <link>http://localhost:1313/tags/softskills/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/softskills/</guid>
+      <guid>http://localhost:1313/tags/softskills/</guid>
       <description></description>
     </item>
     <item>
-      <title>tips</title>
-      <link>http://dvirsegal.github.io/tags/tips/</link>
+      <title>Tips</title>
+      <link>http://localhost:1313/tags/tips/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/tips/</guid>
+      <guid>http://localhost:1313/tags/tips/</guid>
       <description></description>
     </item>
     <item>
-      <title>personal-development</title>
-      <link>http://dvirsegal.github.io/tags/personal-development/</link>
+      <title>Personal-Development</title>
+      <link>http://localhost:1313/tags/personal-development/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/personal-development/</guid>
+      <guid>http://localhost:1313/tags/personal-development/</guid>
       <description></description>
     </item>
     <item>
-      <title>csharp</title>
-      <link>http://dvirsegal.github.io/tags/csharp/</link>
+      <title>Csharp</title>
+      <link>http://localhost:1313/tags/csharp/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/csharp/</guid>
+      <guid>http://localhost:1313/tags/csharp/</guid>
       <description></description>
     </item>
     <item>
-      <title>debugging</title>
-      <link>http://dvirsegal.github.io/tags/debugging/</link>
+      <title>Debugging</title>
+      <link>http://localhost:1313/tags/debugging/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/debugging/</guid>
+      <guid>http://localhost:1313/tags/debugging/</guid>
       <description></description>
     </item>
     <item>
-      <title>dotnet</title>
-      <link>http://dvirsegal.github.io/tags/dotnet/</link>
+      <title>Dotnet</title>
+      <link>http://localhost:1313/tags/dotnet/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/dotnet/</guid>
+      <guid>http://localhost:1313/tags/dotnet/</guid>
       <description></description>
     </item>
     <item>
-      <title>lists</title>
-      <link>http://dvirsegal.github.io/tags/lists/</link>
+      <title>Lists</title>
+      <link>http://localhost:1313/tags/lists/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/lists/</guid>
+      <guid>http://localhost:1313/tags/lists/</guid>
       <description></description>
     </item>
     <item>
-      <title>notes-to-self</title>
-      <link>http://dvirsegal.github.io/tags/notes-to-self/</link>
+      <title>Notes-to-Self</title>
+      <link>http://localhost:1313/tags/notes-to-self/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/notes-to-self/</guid>
+      <guid>http://localhost:1313/tags/notes-to-self/</guid>
       <description></description>
     </item>
     <item>
-      <title>time-management-tips</title>
-      <link>http://dvirsegal.github.io/tags/time-management-tips/</link>
+      <title>Time-Management-Tips</title>
+      <link>http://localhost:1313/tags/time-management-tips/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/time-management-tips/</guid>
+      <guid>http://localhost:1313/tags/time-management-tips/</guid>
       <description></description>
     </item>
     <item>
-      <title>visual-studio</title>
-      <link>http://dvirsegal.github.io/tags/visual-studio/</link>
+      <title>Visual-Studio</title>
+      <link>http://localhost:1313/tags/visual-studio/</link>
       <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/visual-studio/</guid>
+      <guid>http://localhost:1313/tags/visual-studio/</guid>
       <description></description>
     </item>
     <item>
-      <title>career-ladder</title>
-      <link>http://dvirsegal.github.io/tags/career-ladder/</link>
+      <title>Career-Ladder</title>
+      <link>http://localhost:1313/tags/career-ladder/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/career-ladder/</guid>
+      <guid>http://localhost:1313/tags/career-ladder/</guid>
       <description></description>
     </item>
     <item>
-      <title>coworking</title>
-      <link>http://dvirsegal.github.io/tags/coworking/</link>
+      <title>Coworking</title>
+      <link>http://localhost:1313/tags/coworking/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/coworking/</guid>
+      <guid>http://localhost:1313/tags/coworking/</guid>
       <description></description>
     </item>
     <item>
-      <title>food</title>
-      <link>http://dvirsegal.github.io/tags/food/</link>
+      <title>Food</title>
+      <link>http://localhost:1313/tags/food/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/food/</guid>
+      <guid>http://localhost:1313/tags/food/</guid>
       <description></description>
     </item>
     <item>
-      <title>habit-building</title>
-      <link>http://dvirsegal.github.io/tags/habit-building/</link>
+      <title>Habit-Building</title>
+      <link>http://localhost:1313/tags/habit-building/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/habit-building/</guid>
+      <guid>http://localhost:1313/tags/habit-building/</guid>
       <description></description>
     </item>
     <item>
-      <title>individual-contribut</title>
-      <link>http://dvirsegal.github.io/tags/individual-contribut/</link>
+      <title>Individual-Contribut</title>
+      <link>http://localhost:1313/tags/individual-contribut/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/individual-contribut/</guid>
+      <guid>http://localhost:1313/tags/individual-contribut/</guid>
       <description></description>
     </item>
     <item>
-      <title>senior-engineer</title>
-      <link>http://dvirsegal.github.io/tags/senior-engineer/</link>
+      <title>Senior-Engineer</title>
+      <link>http://localhost:1313/tags/senior-engineer/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/senior-engineer/</guid>
+      <guid>http://localhost:1313/tags/senior-engineer/</guid>
       <description></description>
     </item>
     <item>
-      <title>software-team</title>
-      <link>http://dvirsegal.github.io/tags/software-team/</link>
+      <title>Software-Team</title>
+      <link>http://localhost:1313/tags/software-team/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/software-team/</guid>
+      <guid>http://localhost:1313/tags/software-team/</guid>
       <description></description>
     </item>
     <item>
-      <title>team</title>
-      <link>http://dvirsegal.github.io/tags/team/</link>
+      <title>Team</title>
+      <link>http://localhost:1313/tags/team/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/team/</guid>
+      <guid>http://localhost:1313/tags/team/</guid>
       <description></description>
     </item>
     <item>
-      <title>team-building</title>
-      <link>http://dvirsegal.github.io/tags/team-building/</link>
+      <title>Team-Building</title>
+      <link>http://localhost:1313/tags/team-building/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/team-building/</guid>
+      <guid>http://localhost:1313/tags/team-building/</guid>
       <description></description>
     </item>
     <item>
-      <title>teamwork</title>
-      <link>http://dvirsegal.github.io/tags/teamwork/</link>
+      <title>Teamwork</title>
+      <link>http://localhost:1313/tags/teamwork/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/teamwork/</guid>
+      <guid>http://localhost:1313/tags/teamwork/</guid>
       <description></description>
     </item>
     <item>
-      <title>tech-lead</title>
-      <link>http://dvirsegal.github.io/tags/tech-lead/</link>
+      <title>Tech-Lead</title>
+      <link>http://localhost:1313/tags/tech-lead/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/tech-lead/</guid>
+      <guid>http://localhost:1313/tags/tech-lead/</guid>
       <description></description>
     </item>
     <item>
-      <title>cleancode</title>
-      <link>http://dvirsegal.github.io/tags/cleancode/</link>
+      <title>Cleancode</title>
+      <link>http://localhost:1313/tags/cleancode/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/cleancode/</guid>
+      <guid>http://localhost:1313/tags/cleancode/</guid>
       <description></description>
     </item>
     <item>
-      <title>refactoring</title>
-      <link>http://dvirsegal.github.io/tags/refactoring/</link>
+      <title>Refactoring</title>
+      <link>http://localhost:1313/tags/refactoring/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/refactoring/</guid>
+      <guid>http://localhost:1313/tags/refactoring/</guid>
       <description></description>
     </item>
     <item>
-      <title>management</title>
-      <link>http://dvirsegal.github.io/tags/management/</link>
+      <title>Management</title>
+      <link>http://localhost:1313/tags/management/</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/management/</guid>
+      <guid>http://localhost:1313/tags/management/</guid>
       <description></description>
     </item>
     <item>
-      <title>mentorship</title>
-      <link>http://dvirsegal.github.io/tags/mentorship/</link>
+      <title>Mentorship</title>
+      <link>http://localhost:1313/tags/mentorship/</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/mentorship/</guid>
+      <guid>http://localhost:1313/tags/mentorship/</guid>
       <description></description>
     </item>
     <item>
-      <title>open-source</title>
-      <link>http://dvirsegal.github.io/tags/open-source/</link>
+      <title>Open-Source</title>
+      <link>http://localhost:1313/tags/open-source/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/open-source/</guid>
+      <guid>http://localhost:1313/tags/open-source/</guid>
       <description></description>
     </item>
     <item>
-      <title>software-developing</title>
-      <link>http://dvirsegal.github.io/tags/software-developing/</link>
+      <title>Software-Developing</title>
+      <link>http://localhost:1313/tags/software-developing/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/software-developing/</guid>
+      <guid>http://localhost:1313/tags/software-developing/</guid>
       <description></description>
     </item>
     <item>
-      <title>wpf</title>
-      <link>http://dvirsegal.github.io/tags/wpf/</link>
+      <title>Wpf</title>
+      <link>http://localhost:1313/tags/wpf/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/wpf/</guid>
+      <guid>http://localhost:1313/tags/wpf/</guid>
       <description></description>
     </item>
     <item>
-      <title>deep-learning</title>
-      <link>http://dvirsegal.github.io/tags/deep-learning/</link>
+      <title>Deep-Learning</title>
+      <link>http://localhost:1313/tags/deep-learning/</link>
       <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/deep-learning/</guid>
+      <guid>http://localhost:1313/tags/deep-learning/</guid>
       <description></description>
     </item>
     <item>
-      <title>machine-learning</title>
-      <link>http://dvirsegal.github.io/tags/machine-learning/</link>
+      <title>Machine-Learning</title>
+      <link>http://localhost:1313/tags/machine-learning/</link>
       <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/machine-learning/</guid>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
-      <title>openpose</title>
-      <link>http://dvirsegal.github.io/tags/openpose/</link>
+      <title>Openpose</title>
+      <link>http://localhost:1313/tags/openpose/</link>
       <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/openpose/</guid>
+      <guid>http://localhost:1313/tags/openpose/</guid>
       <description></description>
     </item>
     <item>
-      <title>tensorflow</title>
-      <link>http://dvirsegal.github.io/tags/tensorflow/</link>
+      <title>Tensorflow</title>
+      <link>http://localhost:1313/tags/tensorflow/</link>
       <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/tensorflow/</guid>
+      <guid>http://localhost:1313/tags/tensorflow/</guid>
       <description></description>
     </item>
     <item>
-      <title>clipboard</title>
-      <link>http://dvirsegal.github.io/tags/clipboard/</link>
+      <title>Clipboard</title>
+      <link>http://localhost:1313/tags/clipboard/</link>
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/clipboard/</guid>
+      <guid>http://localhost:1313/tags/clipboard/</guid>
       <description></description>
     </item>
     <item>
-      <title>disassembly</title>
-      <link>http://dvirsegal.github.io/tags/disassembly/</link>
+      <title>Disassembly</title>
+      <link>http://localhost:1313/tags/disassembly/</link>
       <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/disassembly/</guid>
+      <guid>http://localhost:1313/tags/disassembly/</guid>
       <description></description>
     </item>
     <item>
-      <title>machinelearning</title>
-      <link>http://dvirsegal.github.io/tags/machinelearning/</link>
+      <title>Machinelearning</title>
+      <link>http://localhost:1313/tags/machinelearning/</link>
       <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/machinelearning/</guid>
+      <guid>http://localhost:1313/tags/machinelearning/</guid>
       <description></description>
     </item>
     <item>
-      <title>productivity-hacks</title>
-      <link>http://dvirsegal.github.io/tags/productivity-hacks/</link>
+      <title>Productivity-Hacks</title>
+      <link>http://localhost:1313/tags/productivity-hacks/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/tags/productivity-hacks/</guid>
+      <guid>http://localhost:1313/tags/productivity-hacks/</guid>
       <description></description>
     </item>
   </channel>

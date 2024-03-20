@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>time-management-tips on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/time-management-tips/</link>
-    <description>Recent content in time-management-tips on Dvir Segal&#39;s blog</description>
+    <title>Time-Management-Tips on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/time-management-tips/</link>
+    <description>Recent content in Time-Management-Tips on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 14 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/time-management-tips/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/time-management-tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Digital Notes are your life dashboard</title>
-      <link>http://dvirsegal.github.io/posts/digital-notes-are-your-life-dashboard-2ep9/</link>
+      <link>http://localhost:1313/posts/digital-notes-are-your-life-dashboard-2ep9/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/digital-notes-are-your-life-dashboard-2ep9/</guid>
+      <guid>http://localhost:1313/posts/digital-notes-are-your-life-dashboard-2ep9/</guid>
       <description>As time goes by, I’ve started to find myself overwhelmed with things I would like to achieve. I looked for a solution to track my progress and goals. I tried various tools and found that writing each item and organize them in lists works for me. I felt immediate relief and “in-control” of my things. Curios of the reason why — it has drawn me to read about it and realizing that when writing things down, it frees your mind, clear space for more important topics.</description>
     </item>
   </channel>

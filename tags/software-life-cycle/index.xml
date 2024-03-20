@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>software-life-cycle on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/software-life-cycle/</link>
-    <description>Recent content in software-life-cycle on Dvir Segal&#39;s blog</description>
+    <title>Software-Life-Cycle on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/software-life-cycle/</link>
+    <description>Recent content in Software-Life-Cycle on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/software-life-cycle/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/software-life-cycle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Preserve, Protect &amp; Defend Your Code</title>
-      <link>http://dvirsegal.github.io/posts/preserve-protect-defend-your-code-1d5k/</link>
+      <link>http://localhost:1313/posts/preserve-protect-defend-your-code-1d5k/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/preserve-protect-defend-your-code-1d5k/</guid>
+      <guid>http://localhost:1313/posts/preserve-protect-defend-your-code-1d5k/</guid>
       <description>Considering security measures through development stages&#xD;Link to heading&#xD;Software development is a complicated task that balance business and technical needs. Furthermore, the organization has to ensure the product complies with laws, regulations, and customer’s requirements while presenting robustness to cyber-attacks based on the customer’s risk-taking willingness.&#xA;Hence, I found it important and relevant than ever before based on the growing risks to develop while security in your mind. Nowadays, the accepted approach integrates security measures through all the product development through different stages.</description>
     </item>
   </channel>

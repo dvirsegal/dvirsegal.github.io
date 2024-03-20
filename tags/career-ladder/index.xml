@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>career-ladder on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/career-ladder/</link>
-    <description>Recent content in career-ladder on Dvir Segal&#39;s blog</description>
+    <title>Career-Ladder on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/career-ladder/</link>
+    <description>Recent content in Career-Ladder on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/career-ladder/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/career-ladder/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On the differences between being a tech lead and a senior engineer</title>
-      <link>http://dvirsegal.github.io/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</link>
+      <link>http://localhost:1313/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</guid>
+      <guid>http://localhost:1313/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</guid>
       <description>The differences between being a tech lead and a senior engineer&#xD;Link to heading&#xD;At the time, being an entry-level SW engineer, my colleagues and I were curious about the individual contributor career path. There are many questions to be answered, but some repeated frequently. Among them were — What is the meaning of being a tech lead? How’s it different from being an experienced team member who is familiar with all the bits and bytes of the language, framework, and domain that he uses daily?</description>
     </item>
   </channel>

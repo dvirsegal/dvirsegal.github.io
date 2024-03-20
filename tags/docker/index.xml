@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>docker on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/docker/</link>
-    <description>Recent content in docker on Dvir Segal&#39;s blog</description>
+    <title>Docker on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/docker/</link>
+    <description>Recent content in Docker on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 30 Aug 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use docker-compose, volumes, networks, and more</title>
-      <link>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</link>
+      <link>http://localhost:1313/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</guid>
+      <guid>http://localhost:1313/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</guid>
       <description>This is the last post in the simplify docker series ( if you haven&amp;rsquo;t read the previous ones, go ahead and read them, it will make more sense afterward — part I &amp;amp; part II). This time I’ll cover networks, docker-compose, docker volumes, and more.&#xA;What is it all about with docker-compose?&#xD;Link to heading&#xD;Docker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML here).</description>
     </item>
     <item>
       <title>How to run, delete a Docker image</title>
-      <link>http://dvirsegal.github.io/posts/how-to-run-delete-a-docker-image-52dm/</link>
+      <link>http://localhost:1313/posts/how-to-run-delete-a-docker-image-52dm/</link>
       <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-run-delete-a-docker-image-52dm/</guid>
+      <guid>http://localhost:1313/posts/how-to-run-delete-a-docker-image-52dm/</guid>
       <description>I covered the basics of creating and building Docker images in part I (if you haven’t read that yet, I would recommend it since this part is based on it). In this part, I’ll explain how to run and delete an image of the container you’ve built.&#xA;let’s continue&#xA;Running an image is as simple as docker run -it image_name:tag . Let’s break it down; tag is the one you set when building it; note that if you remove it, then docker assumes you point to the latest.</description>
     </item>
     <item>
       <title>How to create &amp; build a Docker image</title>
-      <link>http://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3/</link>
+      <link>http://localhost:1313/posts/how-to-create-build-a-docker-image-56o3/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3/</guid>
+      <guid>http://localhost:1313/posts/how-to-create-build-a-docker-image-56o3/</guid>
       <description>I’ve heard a lot about dockers, even had some experience with it as part of my graduate degree. Still, as the old saying goes, learning is by doing. By doing, I mean using the stuff you want to learn as part of your daily work (instead of using it as part of a course in a semester since it will be forgotten). Actually, this is a technology that, in my perspective, should be in some familiarity level in each software engineer’s tech stack.</description>
     </item>
   </channel>

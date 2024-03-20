@@ -2,332 +2,339 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building LEGO without instructions</title>
+      <link>http://localhost:1313/posts/building-lego-without-instructions/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/building-lego-without-instructions/</guid>
+      <description>A few months ago, we had a hackathon at my work.&#xA;At the opening event, one of my colleagues said to me:&#xA;Hackathons are similar to building LEGO model without instructions.&#xA;It stuck with me. I pondered about it.&#xA;What crossed my mind is that hackathons are playgrounds for software engineers, where creativity is key. Imagine being handed a box of LEGO bricks, and the instructions are taken away; what would you build?</description>
+    </item>
     <item>
       <title>TIFU at Work: Learn and Move On!</title>
-      <link>http://dvirsegal.github.io/posts/tifu-at-work-learn-and-move-on/</link>
+      <link>http://localhost:1313/posts/tifu-at-work-learn-and-move-on/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/tifu-at-work-learn-and-move-on/</guid>
+      <guid>http://localhost:1313/posts/tifu-at-work-learn-and-move-on/</guid>
       <description>Everyone makes mistakes. If someone says otherwise, they’re probably not being straight with you. It’s bound to happen whether you’re new to a job or have been there for a while. You can find plenty of horror stories on Reddit and HackerNews. Take, for example, this post with a collection of those stories:&#xA;Ask HN: What&amp;rsquo;s the worst you&amp;rsquo;ve ever screwed up at work? | Hacker News&#xA;I felt that gut-wrenching moment when you realize a mistake has been made.</description>
     </item>
     <item>
       <title>The Power of the Unit Tests</title>
-      <link>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</link>
+      <link>http://localhost:1313/posts/the-power-of-the-unit-tests/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</guid>
+      <guid>http://localhost:1313/posts/the-power-of-the-unit-tests/</guid>
       <description>A humoristic post generated with the help of ChatGPT&#xD;Link to heading&#xD;Do you wanna see me test? U wanna see me unit test?&#xD;Link to heading&#xD;In the world of software development, unit testing is an essential process that ensures our code behaves precisely as we expect. But let’s be honest; unit testing is not the most glamorous part of coding. It’s the backstage crew, the hidden orchestrators behind a great performance.</description>
     </item>
     <item>
       <title>Navigating through the job search</title>
-      <link>http://dvirsegal.github.io/posts/navigating-through-the-job-search-599b1bc4221f/</link>
+      <link>http://localhost:1313/posts/navigating-through-the-job-search-599b1bc4221f/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/navigating-through-the-job-search-599b1bc4221f/</guid>
+      <guid>http://localhost:1313/posts/navigating-through-the-job-search-599b1bc4221f/</guid>
       <description>Essential tips and resources for a successful job hunt&#xD;Link to heading&#xD;I was laid off from my previous job. It came out of nowhere; I decided to take this change as an opportunity and make the best of it. Luckily, I received incredible support from my connections, and I want to give back by sharing some valuable lessons and resources I’ve gathered along my job search journey.&#xA;This blog post is based on a Twitter (Hebrew) thread I created, detailing my experience and offering practical advice to fellow software engineers (and not only) facing a similar situation.</description>
     </item>
     <item>
       <title>Failing fast to increase feedback loops</title>
-      <link>http://dvirsegal.github.io/posts/failing-fast-to-increase-feedback-loops-6d08f013fa9b/</link>
+      <link>http://localhost:1313/posts/failing-fast-to-increase-feedback-loops-6d08f013fa9b/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/failing-fast-to-increase-feedback-loops-6d08f013fa9b/</guid>
+      <guid>http://localhost:1313/posts/failing-fast-to-increase-feedback-loops-6d08f013fa9b/</guid>
       <description>How we used integration tests to improve confidence in our code&#xD;Link to heading&#xD;Picture this: your product owner brings you a set of new requirements, and together you review them. After some preparation and initial work, you get your design reviewed and approved by relevant stakeholders. Then, you enter your focus zone and start implementing it. While doing so, you want to gain confidence, so you add tons of unit tests to cover it, manually test it, and refactor your code based on your tests&amp;rsquo; results until you feel comfortable with the outcome.</description>
     </item>
     <item>
       <title>How to organize a drawer the right way?</title>
-      <link>http://dvirsegal.github.io/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</link>
+      <link>http://localhost:1313/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</link>
       <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</guid>
+      <guid>http://localhost:1313/posts/how-to-organize-a-drawer-the-right-way-4db782c07976/</guid>
       <description>Or let’s talk about cohesion&#xD;Link to heading&#xD;TL;DR To make a system cohesive, you must ensure that the parts that go together are close to one another.&#xA;I sometimes find that the cohesion (and coupling) concept is often considered way too academic, and developers tend to talk about other well-known concepts, such as DRY, YAGNI, KISS, and SRP. The list is long, and I can continue with more acronyms all day 😂 So, I’ve chosen to challenge myself and simplify it.</description>
     </item>
     <item>
       <title>Where Do I Get Writing Ideas From?</title>
-      <link>http://dvirsegal.github.io/posts/where-do-i-get-writing-ideas-from-2jk2/</link>
+      <link>http://localhost:1313/posts/where-do-i-get-writing-ideas-from-2jk2/</link>
       <pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/where-do-i-get-writing-ideas-from-2jk2/</guid>
+      <guid>http://localhost:1313/posts/where-do-i-get-writing-ideas-from-2jk2/</guid>
       <description>I’m stuck; I’ve no muse about what to write. I can’t find any idea.&#xA;Aha… the famous writer’s block.&#xA;What do I do in those cases? From where does the inspiration to write about stuff come from? Where do I find ideas? How do I find the time?&#xA;Regarding the second, you make time — it is all a matter of prioritization. I’ve written about time management in the past, and those methods help me to focus.</description>
     </item>
     <item>
       <title>In the quest for growth material</title>
-      <link>http://dvirsegal.github.io/posts/in-the-quest-for-growth-material-1mfk/</link>
+      <link>http://localhost:1313/posts/in-the-quest-for-growth-material-1mfk/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/in-the-quest-for-growth-material-1mfk/</guid>
+      <guid>http://localhost:1313/posts/in-the-quest-for-growth-material-1mfk/</guid>
       <description>Various methods I use to gain new knowledge&#xD;Link to heading&#xD;A few years ago, I started my journey; picture this, a recent undergraduate SW engineer on his first full-time day job. My team mainly consisted of seniors; I saw those “giants” that both have vast product knowledge and tons of it in software development. They even found the time to be up to date with general tech news. I thought to myself, how do they do that?</description>
     </item>
     <item>
       <title>Should Devs Write Automation Tests?</title>
-      <link>http://dvirsegal.github.io/posts/should-devs-write-automation-tests-5fb4/</link>
+      <link>http://localhost:1313/posts/should-devs-write-automation-tests-5fb4/</link>
       <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/should-devs-write-automation-tests-5fb4/</guid>
+      <guid>http://localhost:1313/posts/should-devs-write-automation-tests-5fb4/</guid>
       <description>In every team I was part of, a debate started on this point: should the developers write automation tests as part of the development process? They’ve just finished implementing the requirements and wrote some unit tests; now, should they also write automated tests?&#xA;Well, the answer, “it depends”.&#xA;Depending on the people’s skillset, teams’ structure. When you have manual/exploratory testers with no skills/time/resources/etc. to write automated tests, you can rely on developers.</description>
     </item>
     <item>
       <title>Switch Tech Stacks: Boost Your Career Growth</title>
-      <link>http://dvirsegal.github.io/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</link>
+      <link>http://localhost:1313/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</link>
       <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</guid>
+      <guid>http://localhost:1313/posts/switch-tech-stacks-boost-your-career-growth-3g6h/</guid>
       <description>My humble effort on managing your career&#xD;Link to heading&#xD;A few months ago, I switched jobs. As part of this move, I have changed my daily programming language from C#, which I have been using for over eight years, to Java. It might confuse some people and raise a few eyebrows here and there asking why I would drop my experience just to start with a new language.</description>
     </item>
     <item>
       <title>How to use docker-compose, volumes, networks, and more</title>
-      <link>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</link>
+      <link>http://localhost:1313/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</link>
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</guid>
+      <guid>http://localhost:1313/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</guid>
       <description>This is the last post in the simplify docker series ( if you haven&amp;rsquo;t read the previous ones, go ahead and read them, it will make more sense afterward — part I &amp;amp; part II). This time I’ll cover networks, docker-compose, docker volumes, and more.&#xA;What is it all about with docker-compose?&#xD;Link to heading&#xD;Docker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML here).</description>
     </item>
     <item>
       <title>How to run, delete a Docker image</title>
-      <link>http://dvirsegal.github.io/posts/how-to-run-delete-a-docker-image-52dm/</link>
+      <link>http://localhost:1313/posts/how-to-run-delete-a-docker-image-52dm/</link>
       <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-run-delete-a-docker-image-52dm/</guid>
+      <guid>http://localhost:1313/posts/how-to-run-delete-a-docker-image-52dm/</guid>
       <description>I covered the basics of creating and building Docker images in part I (if you haven’t read that yet, I would recommend it since this part is based on it). In this part, I’ll explain how to run and delete an image of the container you’ve built.&#xA;let’s continue&#xA;Running an image is as simple as docker run -it image_name:tag . Let’s break it down; tag is the one you set when building it; note that if you remove it, then docker assumes you point to the latest.</description>
     </item>
     <item>
       <title>How to create &amp; build a Docker image</title>
-      <link>http://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3/</link>
+      <link>http://localhost:1313/posts/how-to-create-build-a-docker-image-56o3/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3/</guid>
+      <guid>http://localhost:1313/posts/how-to-create-build-a-docker-image-56o3/</guid>
       <description>I’ve heard a lot about dockers, even had some experience with it as part of my graduate degree. Still, as the old saying goes, learning is by doing. By doing, I mean using the stuff you want to learn as part of your daily work (instead of using it as part of a course in a semester since it will be forgotten). Actually, this is a technology that, in my perspective, should be in some familiarity level in each software engineer’s tech stack.</description>
     </item>
     <item>
       <title>Is Code freeze still relevant?</title>
-      <link>http://dvirsegal.github.io/posts/is-code-freeze-still-relevant-9c077495b64/</link>
+      <link>http://localhost:1313/posts/is-code-freeze-still-relevant-9c077495b64/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/is-code-freeze-still-relevant-9c077495b64/</guid>
+      <guid>http://localhost:1313/posts/is-code-freeze-still-relevant-9c077495b64/</guid>
       <description>When practicing CI/CD, does code freeze still matter?&#xD;Link to heading&#xD;Assuming you are familiar with the concept of code freeze, which is that dedicated time in a project when we (developers) are supposed to be more strict in making changes to the code or other resources for the good of moving the project towards a release or the end of an iteration.&#xA;I’ve recently wondered about that concept; I asked myself why do we need to stop everything when we have a full-scale CI\CD pipeline.</description>
     </item>
     <item>
       <title>Developer story: Getting used to macOS as a long-time Windows user</title>
-      <link>http://dvirsegal.github.io/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</link>
+      <link>http://localhost:1313/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</link>
       <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</guid>
+      <guid>http://localhost:1313/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</guid>
       <description>It&amp;rsquo;s like learning to ride bicycles whole over again&#xD;Link to heading&#xD;As long as I recall my relationship with computers, I’ve been using Windows. I customized everything to the perfection that fits my needs. Whether it&amp;rsquo;s keyboard shortcuts, specific applications (like this one) that helped do my work, scripts, and more. If it can be modded or automated — I’ve done it.&#xA;Recently it all changed. 😱😱😱&#xA;I decided to take a new position.</description>
     </item>
     <item>
       <title>A brief introduction to YAML</title>
-      <link>http://dvirsegal.github.io/posts/are-we-all-yaml-engineers-now-538j/</link>
+      <link>http://localhost:1313/posts/are-we-all-yaml-engineers-now-538j/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/are-we-all-yaml-engineers-now-538j/</guid>
+      <guid>http://localhost:1313/posts/are-we-all-yaml-engineers-now-538j/</guid>
       <description>What is YAML? And how it works?&#xD;Link to heading&#xD;Recently I switched jobs, and as part of this change, I’ve been introduced to a whole new tech stack. RabbitMQ 🐰, Java Spring, Docker, etc. (meaning more subjects to write about 😂). Most of the technologies I use on a daily basis consume YAML as their configuration. In this post, I’ll try to illustrate what I’ve learned (and from where) while trying to understand this new world.</description>
     </item>
     <item>
       <title>How to deal with the kitchen sink syndrome</title>
-      <link>http://dvirsegal.github.io/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</link>
+      <link>http://localhost:1313/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</guid>
+      <guid>http://localhost:1313/posts/how-to-deal-with-the-kitchen-sink-syndrome-51ap/</guid>
       <description>But I’m a (scope) creep…what the hell am I doin’ here?&#xD;Link to heading&#xD;Here is a situation that I am pretty sure every team or individual contributor has encountered throughout his career. You get well-defined requirements, review them, ask questions, adjust them with your product owner, and prepared one heck of SW design. Soon after, the implementation phase begins, and a few hours or days before the end of the story, the business calls and asks for an extra feature (or change) to be implemented.</description>
     </item>
     <item>
       <title>How to cope with a difficult colleague</title>
-      <link>http://dvirsegal.github.io/posts/how-to-cope-with-a-difficult-colleague-456/</link>
+      <link>http://localhost:1313/posts/how-to-cope-with-a-difficult-colleague-456/</link>
       <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-to-cope-with-a-difficult-colleague-456/</guid>
+      <guid>http://localhost:1313/posts/how-to-cope-with-a-difficult-colleague-456/</guid>
       <description>It’s complicated; Dealing with workplace drama.&#xD;Link to heading&#xD;Everybody, at some point, will encounter a challenging colleague. Being able to deal with a person like that is part of developing conflict resolution skills and learning to overcome those setbacks.&#xA;In the following paragraphs, I will try to illustrate how I deal with these situations.&#xA;What do you mean by difficult people? 🤔&#xD;Link to heading&#xD;To be honest, we have to know that not everyone we struggle with is someone who tries to give us a hard time, as every relationship will have friction moments.</description>
     </item>
     <item>
       <title>Is premature optimization really the root of all evil?</title>
-      <link>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</link>
+      <link>http://localhost:1313/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</link>
       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</guid>
+      <guid>http://localhost:1313/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</guid>
       <description>First, make it right. Then make it fast.&#xD;Link to heading&#xD;Premature Optimization&#xA;Back in the seventies, Knuth wrote the above quote in his paper “Structured Programming with go to Statement” at times when computational power was slower and expensive than nowadays. Nevertheless, it doesn’t mean you shouldn’t take it in your consideration. Note that the quote doesn&amp;rsquo;t stand for itself, and to get its true meaning, you should read the paragraph that follows this famous saying:</description>
     </item>
     <item>
       <title>How demo-oriented programming makes you better</title>
-      <link>http://dvirsegal.github.io/posts/how-demo-oriented-programming-makes-you-better-44mo/</link>
+      <link>http://localhost:1313/posts/how-demo-oriented-programming-makes-you-better-44mo/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/how-demo-oriented-programming-makes-you-better-44mo/</guid>
+      <guid>http://localhost:1313/posts/how-demo-oriented-programming-makes-you-better-44mo/</guid>
       <description>On the focused effort of making a working prototype&#xD;Link to heading&#xD;There are many ways you can determine whether a new feature will add value to the product or turn out to be a complete waste of time. For instance, you can undertake user research, analyze the demands of the market, and study existing solutions. However, we (developers) have a fantastic tool in our sleeves: Developing a running project that demonstrates the proposed solution’s key ideas is your optimal option — in my opinion.</description>
     </item>
     <item>
       <title>Look into the past, improve the future</title>
-      <link>http://dvirsegal.github.io/posts/look-into-the-past-improve-the-future-4jbk/</link>
+      <link>http://localhost:1313/posts/look-into-the-past-improve-the-future-4jbk/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/look-into-the-past-improve-the-future-4jbk/</guid>
+      <guid>http://localhost:1313/posts/look-into-the-past-improve-the-future-4jbk/</guid>
       <description>Why a retrospective meeting is a best practice for any team&#xD;Link to heading&#xD;Does the team complain about bottlenecks that slow them down? The same things happen over and over again? Luckily there is a simple practice that, in my experience, can help instantly. What I actually mean is, does your team take part in a retrospective meeting? No?! 😱 Make sure to adapt it ASAP, no matter which software development methodology you follow.</description>
     </item>
     <item>
       <title>Congratulations and welcome aboard!</title>
-      <link>http://dvirsegal.github.io/posts/congratulations-and-welcome-aboard-3iba/</link>
+      <link>http://localhost:1313/posts/congratulations-and-welcome-aboard-3iba/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/congratulations-and-welcome-aboard-3iba/</guid>
+      <guid>http://localhost:1313/posts/congratulations-and-welcome-aboard-3iba/</guid>
       <description>The importance of a well crafted, humane onboarding process&#xD;Link to heading&#xD;You’ve prepared a new resume, searched for challenging positions, submitted your CV to various companies, participated in many interviews, asked your interviewers about the working environment, considered your culture fit. Eventually, you’ve received several job offers, prioritized and weigh them down …. and finally, you’ve agreed to take one. 🤗&#xA;Found a new job, yay&#xA;The exciting day has arrived — your first day on the job.</description>
     </item>
     <item>
       <title>A letter to the lonely developer</title>
-      <link>http://dvirsegal.github.io/posts/a-letter-to-the-lonely-developer-458f/</link>
+      <link>http://localhost:1313/posts/a-letter-to-the-lonely-developer-458f/</link>
       <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/a-letter-to-the-lonely-developer-458f/</guid>
+      <guid>http://localhost:1313/posts/a-letter-to-the-lonely-developer-458f/</guid>
       <description>Me against a bug, reminding myself how to solve any defect&#xD;Link to heading&#xD;Dear developer,&#xA;Don’t give up, keep up with your efforts to find other ways to understand the bug’s root cause. I know it can be frustrating. The agonies with the process can be ruff. But, you’ve got it, you solved many in the past, and you will solve this one too. It is part of your job.</description>
     </item>
     <item>
       <title>Everybody was cargo culting</title>
-      <link>http://dvirsegal.github.io/posts/everybody-was-cargo-culting-46n5/</link>
+      <link>http://localhost:1313/posts/everybody-was-cargo-culting-46n5/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/everybody-was-cargo-culting-46n5/</guid>
+      <guid>http://localhost:1313/posts/everybody-was-cargo-culting-46n5/</guid>
       <description>My personal experience to jump off the bandwagon (effect)&#xD;Link to heading&#xD;Imagine the following situation. One of your experienced colleagues talks about doing some work, which she’s passionate about and sure it will provide better results for the team. She has fire in her eyes when she talks about replacing technology X with Y.&#xA;You feel it right into your heart. Your colleagues seem to agree with her. She’s so right.</description>
     </item>
     <item>
       <title>The Burden of Software Design</title>
-      <link>http://dvirsegal.github.io/posts/the-burden-of-software-design-3cbj/</link>
+      <link>http://localhost:1313/posts/the-burden-of-software-design-3cbj/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/the-burden-of-software-design-3cbj/</guid>
+      <guid>http://localhost:1313/posts/the-burden-of-software-design-3cbj/</guid>
       <description>The aspects of code complexity are broad; one of them result from the design of our code. Design weight is the cognitive effort reading and maintaining your code — a metaphor used for emphasizing how it weighs down your progress.&#xA;The main symptom (as I encountered) is code that forces you to remember specific areas to connect the dots between them. While relying on your memory has its benefits but also a capacity, leading to losing details, causing you to re-read with an effort to memorize it, reducing motivation to be engaged with the product.</description>
     </item>
     <item>
       <title>Diving into the deep code waters</title>
-      <link>http://dvirsegal.github.io/posts/diving-into-the-deep-code-waters-57p9/</link>
+      <link>http://localhost:1313/posts/diving-into-the-deep-code-waters-57p9/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/diving-into-the-deep-code-waters-57p9/</guid>
+      <guid>http://localhost:1313/posts/diving-into-the-deep-code-waters-57p9/</guid>
       <description>Tools and techniques for exploring an unknown (large) codebase&#xD;Link to heading&#xD;You’ve received a new responsibility or walked into a new job where there is existing code to work with. The source control has been introduced to you, realizing you have a lot to learn. Now what? Asking yourself, how should I become acquainted with the new codebase? Which for some, may be intimidating. Below I’ll attempt to illustrate my techniques for getting familiarity with the code, leading to structured knowledge.</description>
     </item>
     <item>
       <title>Preserve, Protect &amp; Defend Your Code</title>
-      <link>http://dvirsegal.github.io/posts/preserve-protect-defend-your-code-1d5k/</link>
+      <link>http://localhost:1313/posts/preserve-protect-defend-your-code-1d5k/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/preserve-protect-defend-your-code-1d5k/</guid>
+      <guid>http://localhost:1313/posts/preserve-protect-defend-your-code-1d5k/</guid>
       <description>Considering security measures through development stages&#xD;Link to heading&#xD;Software development is a complicated task that balance business and technical needs. Furthermore, the organization has to ensure the product complies with laws, regulations, and customer’s requirements while presenting robustness to cyber-attacks based on the customer’s risk-taking willingness.&#xA;Hence, I found it important and relevant than ever before based on the growing risks to develop while security in your mind. Nowadays, the accepted approach integrates security measures through all the product development through different stages.</description>
     </item>
     <item>
       <title>Effort estimation — it’s complicated</title>
-      <link>http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/</link>
+      <link>http://localhost:1313/posts/effort-estimation-it-s-complicated-4bdb/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/effort-estimation-it-s-complicated-4bdb/</guid>
+      <guid>http://localhost:1313/posts/effort-estimation-it-s-complicated-4bdb/</guid>
       <description>Effort estimation — it’s complicated&#xD;Link to heading&#xD;On the dilemma of evaluating software development effort&#xD;Link to heading&#xD;For the past few months, estimating effort, a long-standing dilemma of the software industry, bothers me. How should we, as SW engineers, deal with the accuracy of effort estimations? The answer is complicated and has implications over developers’ career growth, having an impact on personal development. There is much at stake.</description>
     </item>
     <item>
       <title>Code review guidelines light the way</title>
-      <link>http://dvirsegal.github.io/posts/code-review-guidelines-light-the-way-1e4/</link>
+      <link>http://localhost:1313/posts/code-review-guidelines-light-the-way-1e4/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/code-review-guidelines-light-the-way-1e4/</guid>
+      <guid>http://localhost:1313/posts/code-review-guidelines-light-the-way-1e4/</guid>
       <description>My humble opinion on the necessity of a check-in process&#xD;Link to heading&#xD;Are you familiar with the situation of getting a code review that is being delayed by your peer reviewer’s nitpicking for filling his code perfection aspirations? Unable to commit due to build server failure? Personal preferences overruled over technical facts?&#xA;Let me see your unit tests&#xA;All the above are examples of the necessity of a well-defined procedure, guiding us in various situations we encounter daily.</description>
     </item>
     <item>
       <title>Building trust through effective communication</title>
-      <link>http://dvirsegal.github.io/posts/building-trust-through-effective-communication-208c/</link>
+      <link>http://localhost:1313/posts/building-trust-through-effective-communication-208c/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/building-trust-through-effective-communication-208c/</guid>
+      <guid>http://localhost:1313/posts/building-trust-through-effective-communication-208c/</guid>
       <description>You can achieve almost anything by teamwork. Listening is a vital characteristic of a leader. Effectively communicating your thoughts is essential, as well. How you interact can positively and negatively affect the relationships you have in your work (and personal life too).&#xA;Effective communication is defined by various articles (#1, #2, #3, and more), and I challenge myself not to repeat them. I would like to give a different perspective on the matter.</description>
     </item>
     <item>
       <title>Every code has its audience</title>
-      <link>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</link>
+      <link>http://localhost:1313/posts/every-code-has-its-audience-55e1/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/every-code-has-its-audience-55e1/</guid>
+      <guid>http://localhost:1313/posts/every-code-has-its-audience-55e1/</guid>
       <description>My humble opinion on who should be included in your code review&#xD;Link to heading&#xD;An educated guess that from time to time, you’ve encountered the question of who should be involved in code reviews. Well, my colleagues and I found ourselves dealing with it, and the arguments about what’s the proper way, go in various directions; Hence I’ve decided to get to the bottom of this critical subject and write my views.</description>
     </item>
     <item>
       <title>Fusion Log Viewer: The binocular to assembly binding</title>
-      <link>http://dvirsegal.github.io/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</link>
+      <link>http://localhost:1313/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</guid>
+      <guid>http://localhost:1313/posts/fusion-log-viewer-the-binocular-to-assembly-binding-4fe0/</guid>
       <description>Investigating .NET assembly loading (binding) issues&#xD;Link to heading&#xD;Once in a while, you encounter that peculiar problem when you run your application and receive an exception saying TypeLoadException or FileNotFoundException even though the DLLs that your application relies on, are right there!&#xA;The first suspect that may jump to your head is an assembly binding issue since it happens at the moment you run your application. It might be a mix of old DLLs with new ones, mismatch in version numbers or cultures, missing assemblies at the application’s folder, or even a probing failure, either of each — fusion log viewer can assist in identifying the case.</description>
     </item>
     <item>
       <title>Digital Notes are your life dashboard</title>
-      <link>http://dvirsegal.github.io/posts/digital-notes-are-your-life-dashboard-2ep9/</link>
+      <link>http://localhost:1313/posts/digital-notes-are-your-life-dashboard-2ep9/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/digital-notes-are-your-life-dashboard-2ep9/</guid>
+      <guid>http://localhost:1313/posts/digital-notes-are-your-life-dashboard-2ep9/</guid>
       <description>As time goes by, I’ve started to find myself overwhelmed with things I would like to achieve. I looked for a solution to track my progress and goals. I tried various tools and found that writing each item and organize them in lists works for me. I felt immediate relief and “in-control” of my things. Curios of the reason why — it has drawn me to read about it and realizing that when writing things down, it frees your mind, clear space for more important topics.</description>
     </item>
     <item>
       <title>OzCode: A New Way to Debug Your Code</title>
-      <link>http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/</link>
+      <link>http://localhost:1313/posts/ozcode-a-new-way-to-debug-your-code-l6n/</link>
       <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/ozcode-a-new-way-to-debug-your-code-l6n/</guid>
+      <guid>http://localhost:1313/posts/ozcode-a-new-way-to-debug-your-code-l6n/</guid>
       <description>Back in 2016, I saw a demo at a conference about a new visual studio extension that presumes to change the way an engineer debugs, they called it, magic debugging. Little that I know, it turned my debugging way of thinking upside down, indeed a magical approach.&#xA;Before I’ll continue, I owe a disclaimer for the readers. A previous colleague of mine is one of OzCode’s co-founders (Omer Raviv). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓.</description>
     </item>
     <item>
       <title>Arrange your time and your mind will follow</title>
-      <link>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</link>
+      <link>http://localhost:1313/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</guid>
+      <guid>http://localhost:1313/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</guid>
       <description>Being productive by taking control of your time&#xD;Link to heading&#xD;A gym workout, a reminder to walk the dog, meeting with your colleagues on that project presentation, a dentist appointment — are all on the same page. You can’t separate artificially between your work and personal calendars. Why? Because that’s how your life works. The goal is to see what your actual day looks like, to blend between work and personal life for finding the right balance that fits you.</description>
     </item>
     <item>
       <title>Leading with no authority</title>
-      <link>http://dvirsegal.github.io/posts/leading-with-no-authority-khl/</link>
+      <link>http://localhost:1313/posts/leading-with-no-authority-khl/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/leading-with-no-authority-khl/</guid>
+      <guid>http://localhost:1313/posts/leading-with-no-authority-khl/</guid>
       <description>As individual contributors, occasionally we encounter various situations where we need to lead without formal authority (sometimes we’ve been asked to). Formal training on leading others without the power to do so is rare. The fact, finding the right candidates for this critical task is challenging for any management, doesn’t assist much in the circumstances. The root cause relies on the required skill set for being one since a potential candidate doesn’t follow typical hiring procedures and job description.</description>
     </item>
     <item>
       <title>On the differences between being a tech lead and a senior engineer</title>
-      <link>http://dvirsegal.github.io/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</link>
+      <link>http://localhost:1313/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</guid>
+      <guid>http://localhost:1313/posts/on-the-differences-between-being-a-tech-lead-and-a-senior-engineer-1j3f/</guid>
       <description>The differences between being a tech lead and a senior engineer&#xD;Link to heading&#xD;At the time, being an entry-level SW engineer, my colleagues and I were curious about the individual contributor career path. There are many questions to be answered, but some repeated frequently. Among them were — What is the meaning of being a tech lead? How’s it different from being an experienced team member who is familiar with all the bits and bytes of the language, framework, and domain that he uses daily?</description>
     </item>
     <item>
       <title>Small Wins Matter</title>
-      <link>http://dvirsegal.github.io/posts/small-wins-matter-1b9o/</link>
+      <link>http://localhost:1313/posts/small-wins-matter-1b9o/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/small-wins-matter-1b9o/</guid>
+      <guid>http://localhost:1313/posts/small-wins-matter-1b9o/</guid>
       <description>Collect the small wins along the way&#xA;Boost motivation, productivity, and creativity by celebrating daily progress&#xD;Link to heading&#xD;Teams must celebrate the small wins. It’s easy to forget there were probably more than a few minor achievements along the way that led to larger ones. We all have been there, caught up in what wasn’t achieved, or focusing on the big “accomplished” picture, eventually forgetting the path to getting there.</description>
     </item>
     <item>
       <title>The Social Glue of the Team’s Lunch</title>
-      <link>http://dvirsegal.github.io/posts/the-social-glue-of-the-team-s-lunch-32ed/</link>
+      <link>http://localhost:1313/posts/the-social-glue-of-the-team-s-lunch-32ed/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/the-social-glue-of-the-team-s-lunch-32ed/</guid>
+      <guid>http://localhost:1313/posts/the-social-glue-of-the-team-s-lunch-32ed/</guid>
       <description>Everybody has to eat, right? Families like to eat together, and friends frequently meet for dinner, and colleague regularly socialize over lunch.&#xA;Recent research by Cornell University found that employees who ate meals together had significantly better team performance at work than those who didn’t.&#xA;“During the study, we noticed that not sharing mealtimes was a signal that something deeper was wrong with the way the group worked , something that was then reflected in the team’s performance.</description>
     </item>
     <item>
       <title>Code comments are your code autobiography</title>
-      <link>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</link>
+      <link>http://localhost:1313/posts/code-comments-are-your-code-autobiography-3c7n/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/code-comments-are-your-code-autobiography-3c7n/</guid>
+      <guid>http://localhost:1313/posts/code-comments-are-your-code-autobiography-3c7n/</guid>
       <description>Writing about your code is redundant; the code is all you need. I can invest my time on unit tests or develop other features, and other excuses of why writing code comments is a waste of time. It’s a common belief among developers.&#xA;Well, you’ve invested all your efforts in cultivating the design of your code, why should you comment it, right? As a result, code documentation is either absent or useless.</description>
     </item>
     <item>
       <title>The Privilege of Mentoring</title>
-      <link>http://dvirsegal.github.io/posts/the-privilege-of-mentoring-1gfd/</link>
+      <link>http://localhost:1313/posts/the-privilege-of-mentoring-1gfd/</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/the-privilege-of-mentoring-1gfd/</guid>
+      <guid>http://localhost:1313/posts/the-privilege-of-mentoring-1gfd/</guid>
       <description>Mentoring means cultivating and inspiring others, usually less experienced in the specific field of expertise. IMHO, an experienced engineer must hold the mentoring skill, as it’s critical to the careers of new SW employees and the success of the entire team. This skill is earned by hard work (that made you experienced), and it helps you to develop your career.&#xA;The trust between the mentor and mentee is that hidden ingredient in the recipe of building great teams, and in my perspective, being one is a privilege.</description>
     </item>
     <item>
       <title>Snoop Around Your Visual Tree</title>
-      <link>http://dvirsegal.github.io/posts/snoop-around-your-visual-tree-c6c/</link>
+      <link>http://localhost:1313/posts/snoop-around-your-visual-tree-c6c/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/snoop-around-your-visual-tree-c6c/</guid>
+      <guid>http://localhost:1313/posts/snoop-around-your-visual-tree-c6c/</guid>
       <description>Binding issues? Struggle with that hard to solve UI bug? Trying to understand how to fit the entire string into TextBox’s dimensions? These situations and many others are common for us, .NET and WPF developers.&#xA;Most of the times, issues, as mentioned above, are solved by using a debugger.&#xA;Imagine it; you want to change the size of a specific graphic element. Well, you open the relevant project (using Everything tool 😉) in your favorite IDE, make some changes, compile, deploy, and rerun the application.</description>
     </item>
     <item>
       <title>Estimating partial human poses</title>
-      <link>http://dvirsegal.github.io/posts/estimating-partial-human-poses-178n/</link>
+      <link>http://localhost:1313/posts/estimating-partial-human-poses-178n/</link>
       <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/estimating-partial-human-poses-178n/</guid>
+      <guid>http://localhost:1313/posts/estimating-partial-human-poses-178n/</guid>
       <description>A lot has been said on OpenPose. This real-time multi-person groundbreaking keypoints detection method has many features, along with:&#xA;2D real-time multi-person keypoint detection 3D real-time single-person keypoint detection Calibration toolbox Single-person tracking Supporting Python API, Unity Plugin, Cuda, OpenCL, and CPU only Moreover, more features are in the works by the team (Gines Hidalgo, Zhe Cao, Tomas Simon, Shih-En Wei, Hanbyul Joo, Yaser Sheikh, and Yaadhav Raaj) at Carnegie Mellon University.</description>
     </item>
     <item>
       <title>Ditto, the clipboard manager that saved me</title>
-      <link>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</link>
+      <link>http://localhost:1313/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</link>
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</guid>
+      <guid>http://localhost:1313/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</guid>
       <description>Copy-pasting is one of those things that you do every day while working on a computer. By doing so, each time you invest a small portion of your daily routine.&#xA;Say you want to share a photo\text\whatever with a friend from a website, you copy it, either by right-clicking on it and copying it to the clipboard or using Ctrl+C and then paste it to your favorite sharing application and after doing so, you’ve realized you want to share it again with another person.</description>
     </item>
     <item>
       <title>When in Doubt, Reverse Engineer It</title>
-      <link>http://dvirsegal.github.io/posts/when-in-doubt-reverse-engineer-it-1jdk/</link>
+      <link>http://localhost:1313/posts/when-in-doubt-reverse-engineer-it-1jdk/</link>
       <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/when-in-doubt-reverse-engineer-it-1jdk/</guid>
+      <guid>http://localhost:1313/posts/when-in-doubt-reverse-engineer-it-1jdk/</guid>
       <description>Occasionally you’ll get into a situation where a problem happened in your application, and you don’t have access to your source code and\or symbols.&#xA;At that moment, one of your better options is to decompile your code and debug it. IMHO, one of the best free tools out there is dnSpy, developed by 0xd4d (respect).&#xA;According to him, dnSpy is an improved ILSpy decompiler that enhanced by Roslyn (C# / Visual Basic) compiler and many other open source libraries.</description>
     </item>
     <item>
       <title>ML.NET: Heart disease prediction</title>
-      <link>http://dvirsegal.github.io/posts/ml-net-heart-disease-prediction-11n8/</link>
+      <link>http://localhost:1313/posts/ml-net-heart-disease-prediction-11n8/</link>
       <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/ml-net-heart-disease-prediction-11n8/</guid>
+      <guid>http://localhost:1313/posts/ml-net-heart-disease-prediction-11n8/</guid>
       <description>Microsoft announced ML.NET last May, and as an advocate user of the .NET framework with experience in Machine Learning, I knew that I’d have to give it a try knowingly that Python various frameworks (such as scikit-learn) rule this domain.&#xA;ML.NET is a free, cross-platform, open source machine learning framework explicitly made for .NET developers. The preview release includes learners to handle binary classification, multi-class classification, and regression tasks. Additional ML tasks like a recommendation system, clustering, anomaly detection, ranking models, and deep learning architectures have been added.</description>
     </item>
     <item>
       <title>It’s all about Everything</title>
-      <link>http://dvirsegal.github.io/posts/it-s-all-about-everything-1lf5/</link>
+      <link>http://localhost:1313/posts/it-s-all-about-everything-1lf5/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/it-s-all-about-everything-1lf5/</guid>
+      <guid>http://localhost:1313/posts/it-s-all-about-everything-1lf5/</guid>
       <description>Few years ago a teammate changed my perspective of my daily computer’s usage experience. Until that moment, I used to go and explore folder and files using Windows Explorer as Microsoft intended, but something was wrong with it, too many clicks and the start menu search need some improvements. Overall, it felt so different than my common internet browsing experience, where you open your favorite search engine and start typing whatever you’re looking for.</description>
     </item>
   </channel>

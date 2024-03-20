@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>windows on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/windows/</link>
-    <description>Recent content in windows on Dvir Segal&#39;s blog</description>
+    <title>Windows on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/windows/</link>
+    <description>Recent content in Windows on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Developer story: Getting used to macOS as a long-time Windows user</title>
-      <link>http://dvirsegal.github.io/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</link>
+      <link>http://localhost:1313/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</link>
       <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</guid>
+      <guid>http://localhost:1313/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</guid>
       <description>It&amp;rsquo;s like learning to ride bicycles whole over again&#xD;Link to heading&#xD;As long as I recall my relationship with computers, I’ve been using Windows. I customized everything to the perfection that fits my needs. Whether it&amp;rsquo;s keyboard shortcuts, specific applications (like this one) that helped do my work, scripts, and more. If it can be modded or automated — I’ve done it.&#xA;Recently it all changed. 😱😱😱&#xA;I decided to take a new position.</description>
     </item>
     <item>
       <title>Ditto, the clipboard manager that saved me</title>
-      <link>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</link>
+      <link>http://localhost:1313/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</link>
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</guid>
+      <guid>http://localhost:1313/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</guid>
       <description>Copy-pasting is one of those things that you do every day while working on a computer. By doing so, each time you invest a small portion of your daily routine.&#xA;Say you want to share a photo\text\whatever with a friend from a website, you copy it, either by right-clicking on it and copying it to the clipboard or using Ctrl+C and then paste it to your favorite sharing application and after doing so, you’ve realized you want to share it again with another person.</description>
     </item>
   </channel>

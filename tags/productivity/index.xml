@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>productivity on Dvir Segal&#39;s blog</title>
-    <link>http://dvirsegal.github.io/tags/productivity/</link>
-    <description>Recent content in productivity on Dvir Segal&#39;s blog</description>
+    <title>Productivity on Dvir Segal&#39;s blog</title>
+    <link>http://localhost:1313/tags/productivity/</link>
+    <description>Recent content in Productivity on Dvir Segal&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://dvirsegal.github.io/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Developer story: Getting used to macOS as a long-time Windows user</title>
-      <link>http://dvirsegal.github.io/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</link>
+      <link>http://localhost:1313/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</link>
       <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</guid>
+      <guid>http://localhost:1313/posts/developer-story-getting-used-to-macos-as-long-time-windows-s-user-30o0/</guid>
       <description>It&amp;rsquo;s like learning to ride bicycles whole over again&#xD;Link to heading&#xD;As long as I recall my relationship with computers, I’ve been using Windows. I customized everything to the perfection that fits my needs. Whether it&amp;rsquo;s keyboard shortcuts, specific applications (like this one) that helped do my work, scripts, and more. If it can be modded or automated — I’ve done it.&#xA;Recently it all changed. 😱😱😱&#xA;I decided to take a new position.</description>
     </item>
     <item>
       <title>Digital Notes are your life dashboard</title>
-      <link>http://dvirsegal.github.io/posts/digital-notes-are-your-life-dashboard-2ep9/</link>
+      <link>http://localhost:1313/posts/digital-notes-are-your-life-dashboard-2ep9/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/digital-notes-are-your-life-dashboard-2ep9/</guid>
+      <guid>http://localhost:1313/posts/digital-notes-are-your-life-dashboard-2ep9/</guid>
       <description>As time goes by, I’ve started to find myself overwhelmed with things I would like to achieve. I looked for a solution to track my progress and goals. I tried various tools and found that writing each item and organize them in lists works for me. I felt immediate relief and “in-control” of my things. Curios of the reason why — it has drawn me to read about it and realizing that when writing things down, it frees your mind, clear space for more important topics.</description>
     </item>
     <item>
       <title>Arrange your time and your mind will follow</title>
-      <link>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</link>
+      <link>http://localhost:1313/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</guid>
+      <guid>http://localhost:1313/posts/arrange-your-time-and-your-mind-will-follow-4ljh/</guid>
       <description>Being productive by taking control of your time&#xD;Link to heading&#xD;A gym workout, a reminder to walk the dog, meeting with your colleagues on that project presentation, a dentist appointment — are all on the same page. You can’t separate artificially between your work and personal calendars. Why? Because that’s how your life works. The goal is to see what your actual day looks like, to blend between work and personal life for finding the right balance that fits you.</description>
     </item>
     <item>
       <title>Small Wins Matter</title>
-      <link>http://dvirsegal.github.io/posts/small-wins-matter-1b9o/</link>
+      <link>http://localhost:1313/posts/small-wins-matter-1b9o/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/small-wins-matter-1b9o/</guid>
+      <guid>http://localhost:1313/posts/small-wins-matter-1b9o/</guid>
       <description>Collect the small wins along the way&#xA;Boost motivation, productivity, and creativity by celebrating daily progress&#xD;Link to heading&#xD;Teams must celebrate the small wins. It’s easy to forget there were probably more than a few minor achievements along the way that led to larger ones. We all have been there, caught up in what wasn’t achieved, or focusing on the big “accomplished” picture, eventually forgetting the path to getting there.</description>
     </item>
     <item>
       <title>Ditto, the clipboard manager that saved me</title>
-      <link>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</link>
+      <link>http://localhost:1313/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</link>
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</guid>
+      <guid>http://localhost:1313/posts/ditto-the-clipboard-manager-that-saved-me-1j8h/</guid>
       <description>Copy-pasting is one of those things that you do every day while working on a computer. By doing so, each time you invest a small portion of your daily routine.&#xA;Say you want to share a photo\text\whatever with a friend from a website, you copy it, either by right-clicking on it and copying it to the clipboard or using Ctrl+C and then paste it to your favorite sharing application and after doing so, you’ve realized you want to share it again with another person.</description>
     </item>
     <item>
       <title>It’s all about Everything</title>
-      <link>http://dvirsegal.github.io/posts/it-s-all-about-everything-1lf5/</link>
+      <link>http://localhost:1313/posts/it-s-all-about-everything-1lf5/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://dvirsegal.github.io/posts/it-s-all-about-everything-1lf5/</guid>
+      <guid>http://localhost:1313/posts/it-s-all-about-everything-1lf5/</guid>
       <description>Few years ago a teammate changed my perspective of my daily computer’s usage experience. Until that moment, I used to go and explore folder and files using Windows Explorer as Microsoft intended, but something was wrong with it, too many clicks and the start menu search need some improvements. Overall, it felt so different than my common internet browsing experience, where you open your favorite search engine and start typing whatever you’re looking for.</description>
     </item>
   </channel>
