@@ -4,10 +4,17 @@
     <title>Dvir Segal&#39;s blog</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Dvir Segal&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Write Boring Code</title>
+      <link>http://localhost:1313/posts/write-boring-code-e6a80c8311bb/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/write-boring-code-e6a80c8311bb/</guid>
+      <description>Debuggability is highly underrated&#xD;Link to heading&#xD;In the words of Brian Kernighan, the famous computer scientist and author of the book “The C Programming Language”:&#xA;Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.&#xA;This quote reflects a common experience many developers face while trying to write &amp;ldquo;smart&amp;rdquo; code.</description>
+    </item>
     <item>
       <title>Building LEGO without instructions</title>
       <link>http://localhost:1313/posts/building-lego-without-instructions/</link>

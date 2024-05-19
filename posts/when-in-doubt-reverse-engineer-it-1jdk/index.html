@@ -18,19 +18,26 @@ At that moment, one of your better options is to decompile your code and debug i
 According to him, dnSpy is an improved ILSpy decompiler that enhanced by Roslyn (C# / Visual Basic) compiler and many other open source libraries.">
 <meta name="keywords" content="blog,developer,personal">
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="When in Doubt, Reverse Engineer It"/>
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="When in Doubt, Reverse Engineer It">
 <meta name="twitter:description" content="Occasionally you’ll get into a situation where a problem happened in your application, and you don’t have access to your source code and\or symbols.
 At that moment, one of your better options is to decompile your code and debug it. IMHO, one of the best free tools out there is dnSpy, developed by 0xd4d (respect).
-According to him, dnSpy is an improved ILSpy decompiler that enhanced by Roslyn (C# / Visual Basic) compiler and many other open source libraries."/>
+According to him, dnSpy is an improved ILSpy decompiler that enhanced by Roslyn (C# / Visual Basic) compiler and many other open source libraries.">
 
-<meta property="og:title" content="When in Doubt, Reverse Engineer It" />
-<meta property="og:description" content="Occasionally you’ll get into a situation where a problem happened in your application, and you don’t have access to your source code and\or symbols.
+<meta property="og:url" content="http://localhost:1313/posts/when-in-doubt-reverse-engineer-it-1jdk/">
+  <meta property="og:site_name" content="Dvir Segal&#39;s blog">
+  <meta property="og:title" content="When in Doubt, Reverse Engineer It">
+  <meta property="og:description" content="Occasionally you’ll get into a situation where a problem happened in your application, and you don’t have access to your source code and\or symbols.
 At that moment, one of your better options is to decompile your code and debug it. IMHO, one of the best free tools out there is dnSpy, developed by 0xd4d (respect).
-According to him, dnSpy is an improved ILSpy decompiler that enhanced by Roslyn (C# / Visual Basic) compiler and many other open source libraries." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/when-in-doubt-reverse-engineer-it-1jdk/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2019-05-02T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-05-02T00:00:00+00:00" />
+According to him, dnSpy is an improved ILSpy decompiler that enhanced by Roslyn (C# / Visual Basic) compiler and many other open source libraries.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-05-02T00:00:00+00:00">
+    <meta property="article:modified_time" content="2019-05-02T00:00:00+00:00">
+    <meta property="article:tag" content="Software-Engineering">
+    <meta property="article:tag" content="Disassembly">
+    <meta property="article:tag" content="Csharp">
+    <meta property="article:tag" content="Dotnet">
 
 
 
@@ -220,9 +227,12 @@ At that moment, one of your better options is to decompile your code and debug i
 <p>Another option is to attach to a running process, similar to Visual Studio experience. Just launch dnSpy in X86 or x64 architecture, depending on the assembly.</p>
 <p>In the video below, you can see that Visual Studio experience I’ve previously mentioned. I wrote a simple application that adds a number and a new line to a <em>StringBuilder.</em> dnSpy allows me to step into assemblies (which decrypt themselves at runtime) and debug line by line. Locals, watch, autos windows are supported too.</p>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/qhVWXmrPQ5Y" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/qhVWXmrPQ5Y?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
 
 <p>More features are supported such as the ability to edit an assembly in such way you’ll be able to edit the current assembly’s metadata, methods and, classes.</p>
 
@@ -319,6 +329,9 @@ Basic IntelliSense implementation is supported, and even the C# Interactive wind
 
 
   
+  
+
+
 
   
 

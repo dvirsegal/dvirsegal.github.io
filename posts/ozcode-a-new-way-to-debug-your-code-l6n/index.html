@@ -17,17 +17,24 @@
 Before I’ll continue, I owe a disclaimer for the readers. A previous colleague of mine is one of OzCode’s co-founders (Omer Raviv). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓.">
 <meta name="keywords" content="blog,developer,personal">
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="OzCode: A New Way to Debug Your Code"/>
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="OzCode: A New Way to Debug Your Code">
 <meta name="twitter:description" content="Back in 2016, I saw a demo at a conference about a new visual studio extension that presumes to change the way an engineer debugs, they called it, magic debugging. Little that I know, it turned my debugging way of thinking upside down, indeed a magical approach.
-Before I’ll continue, I owe a disclaimer for the readers. A previous colleague of mine is one of OzCode’s co-founders (Omer Raviv). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓."/>
+Before I’ll continue, I owe a disclaimer for the readers. A previous colleague of mine is one of OzCode’s co-founders (Omer Raviv). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓.">
 
-<meta property="og:title" content="OzCode: A New Way to Debug Your Code" />
-<meta property="og:description" content="Back in 2016, I saw a demo at a conference about a new visual studio extension that presumes to change the way an engineer debugs, they called it, magic debugging. Little that I know, it turned my debugging way of thinking upside down, indeed a magical approach.
-Before I’ll continue, I owe a disclaimer for the readers. A previous colleague of mine is one of OzCode’s co-founders (Omer Raviv). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/ozcode-a-new-way-to-debug-your-code-l6n/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2019-12-24T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-12-24T00:00:00+00:00" />
+<meta property="og:url" content="http://localhost:1313/posts/ozcode-a-new-way-to-debug-your-code-l6n/">
+  <meta property="og:site_name" content="Dvir Segal&#39;s blog">
+  <meta property="og:title" content="OzCode: A New Way to Debug Your Code">
+  <meta property="og:description" content="Back in 2016, I saw a demo at a conference about a new visual studio extension that presumes to change the way an engineer debugs, they called it, magic debugging. Little that I know, it turned my debugging way of thinking upside down, indeed a magical approach.
+Before I’ll continue, I owe a disclaimer for the readers. A previous colleague of mine is one of OzCode’s co-founders (Omer Raviv). Although it might harm the credibility of this blog-post, I’ll take the risk; for the reason that these lines were written by a happy user 🤓.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-12-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2019-12-24T00:00:00+00:00">
+    <meta property="article:tag" content="Software-Development">
+    <meta property="article:tag" content="Csharp">
+    <meta property="article:tag" content="Visual-Studio">
+    <meta property="article:tag" content="Debugging">
 
 
 
@@ -231,9 +238,12 @@ Before I’ll continue, I owe a disclaimer for the readers. A previous colleague
 
 <p>Another useful option is the Export feature. You can extract each object internal into JSON/XML/C#, a helpful capability for creating mocked objects during unit testing, which saved me time. Also, the basic VS functionality is not neglect, you can instantly copy value or add a quick watch.</p>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/FODiFeh4HYc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/FODiFeh4HYc?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
 
 <h4 id="linq-debugging">
   LINQ Debugging
@@ -271,9 +281,12 @@ Before I’ll continue, I owe a disclaimer for the readers. A previous colleague
 
 <p>OzCode simulates the results of future code execution without actually running it. In such a way, you’ll be able to detect bugs by jumping into specific loop iteration to the exact moment of failure without the need to step over your code in real-time. Using the <strong>heads up display</strong> feature that highlights the evaluated value of your code, a powerful feature by itself (extremely UX-oriented), you can investigate what happened. It saves you time for re-running a defect’s scenario multiple times while hunting for root-cause.</p>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/ipcXvAKDd48" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ipcXvAKDd48?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
 
 <p>Note that time travel doesn’t work when accessing external resources such as a database or native code since it can’t be simulated without affecting the application’s state.</p>
 <h4 id="tracepoints">
@@ -347,9 +360,12 @@ Before I’ll continue, I owe a disclaimer for the readers. A previous colleague
 <p>Search for any object in memory. That simple.<br>
 It might be used to understand if an object is still alive and why.</p>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/KCraeS3afnw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/KCraeS3afnw?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
 
 <p>There are more features in OzCode, which I’ve not described, such as — quick attach to process, custom expressions, quicker breakpoints, and more. That being said, one can leverage his debugging skills and bring more value efficiently while using it, making OzCode a must-have tool in any C# developer’s toolbox.</p>
 <p>Note that, a free trial can be downloaded from <a href="https://oz-code.com/download/"  class="external-link" target="_blank" rel="noopener">here</a></p>
@@ -407,6 +423,9 @@ It might be used to understand if an object is still alive and why.</p>
 
 
   
+  
+
+
 
   
 

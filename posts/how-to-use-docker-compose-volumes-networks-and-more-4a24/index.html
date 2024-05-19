@@ -17,17 +17,24 @@
 What is it all about with docker-compose?Link to headingDocker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML here).">
 <meta name="keywords" content="blog,developer,personal">
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="How to use docker-compose, volumes, networks, and more"/>
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="How to use docker-compose, volumes, networks, and more">
 <meta name="twitter:description" content="This is the last post in the simplify docker series ( if you haven&rsquo;t read the previous ones, go ahead and read them, it will make more sense afterward — part I &amp; part II). This time I’ll cover networks, docker-compose, docker volumes, and more.
-What is it all about with docker-compose?Link to headingDocker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML here)."/>
+What is it all about with docker-compose?Link to headingDocker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML here).">
 
-<meta property="og:title" content="How to use docker-compose, volumes, networks, and more" />
-<meta property="og:description" content="This is the last post in the simplify docker series ( if you haven&rsquo;t read the previous ones, go ahead and read them, it will make more sense afterward — part I &amp; part II). This time I’ll cover networks, docker-compose, docker volumes, and more.
-What is it all about with docker-compose?Link to headingDocker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML here)." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-08-30T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-08-30T00:00:00+00:00" />
+<meta property="og:url" content="http://localhost:1313/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/">
+  <meta property="og:site_name" content="Dvir Segal&#39;s blog">
+  <meta property="og:title" content="How to use docker-compose, volumes, networks, and more">
+  <meta property="og:description" content="This is the last post in the simplify docker series ( if you haven’t read the previous ones, go ahead and read them, it will make more sense afterward — part I &amp; part II). This time I’ll cover networks, docker-compose, docker volumes, and more.
+What is it all about with docker-compose?Link to headingDocker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML here).">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-08-30T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-08-30T00:00:00+00:00">
+    <meta property="article:tag" content="Devops">
+    <meta property="article:tag" content="Docker">
+    <meta property="article:tag" content="Softwaredevelopment">
+    <meta property="article:tag" content="Dockercompose">
 
 
 
@@ -202,9 +209,12 @@ What is it all about with docker-compose?Link to headingDocker-compose allows 
 <p>Docker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML <a href="https://dev.to/dejavo/are-we-all-yaml-engineers-now-538j"  class="external-link" target="_blank" rel="noopener">here</a>). Afterward, you can start all the services your configuration created with just a single command.</p>
 <p>The following example is from <a href="https://gitlab.com/nanuchi/techworld-js-docker-demo-app"  class="external-link" target="_blank" rel="noopener">TechWorld with Nana</a> GitLab. BTW, Nana’s youtube channel is highly recommended. Below is her docker’s tutorial:</p>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/3c-iBn73dDE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/3c-iBn73dDE?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
 
 <p>In the below example, We would like to run a MongoDB container along with a mongo-express container. As we’ve seen in previous posts, the (longer) way to do it is:</p>
 <pre tabindex="0"><code>docker run -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password --name mongodb mongo
@@ -390,6 +400,9 @@ docker build — target=target_name -t container_name .</li>
 
 
   
+  
+
+
 
   
 
