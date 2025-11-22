@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Configuration on Dvir Segal&#39;s blog</title>
-    <link>http://localhost:1313/tags/configuration/</link>
-    <description>Recent content in Configuration on Dvir Segal&#39;s blog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/configuration/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A brief introduction to YAML</title>
-      <link>http://localhost:1313/posts/are-we-all-yaml-engineers-now-538j/</link>
-      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/are-we-all-yaml-engineers-now-538j/</guid>
-      <description>What is YAML? And how it works?&#xD;Link to heading&#xD;Recently I switched jobs, and as part of this change, I’ve been introduced to a whole new tech stack. RabbitMQ 🐰, Java Spring, Docker, etc. (meaning more subjects to write about 😂). Most of the technologies I use on a daily basis consume YAML as their configuration. In this post, I’ll try to illustrate what I’ve learned (and from where) while trying to understand this new world.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Configuration on Dvir Segal's blog</title><link>http://dvirsegal.github.io/tags/configuration/</link><description>Recent content in Configuration on Dvir Segal's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dvirsegal.github.io/tags/configuration/index.xml" rel="self" type="application/rss+xml"/><item><title>A brief introduction to YAML</title><link>http://dvirsegal.github.io/posts/are-we-all-yaml-engineers-now-538j/</link><pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate><guid>http://dvirsegal.github.io/posts/are-we-all-yaml-engineers-now-538j/</guid><description>&lt;h4 id="what-is-yaml-and-how-it-works"&gt;What is YAML? And how it works?&lt;/h4&gt;
+&lt;p&gt;Recently I switched jobs, and as part of this change, I’ve been introduced to a whole new tech stack. RabbitMQ 🐰, Java Spring, Docker, etc. (meaning more subjects to write about 😂). Most of the technologies I use on a daily basis consume YAML as their configuration. In this post, I’ll try to illustrate what I’ve learned (and from where) while trying to understand this new world.&lt;/p&gt;</description></item></channel></rss>

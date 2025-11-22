@@ -1,19 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Fuckupnights on Dvir Segal&#39;s blog</title>
-    <link>http://localhost:1313/tags/fuckupnights/</link>
-    <description>Recent content in Fuckupnights on Dvir Segal&#39;s blog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/fuckupnights/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>TIFU at Work: Learn and Move On!</title>
-      <link>http://localhost:1313/posts/tifu-at-work-learn-and-move-on/</link>
-      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tifu-at-work-learn-and-move-on/</guid>
-      <description>Everyone makes mistakes. If someone says otherwise, they’re probably not being straight with you. It’s bound to happen whether you’re new to a job or have been there for a while. You can find plenty of horror stories on Reddit and HackerNews. Take, for example, this post with a collection of those stories:&#xA;Ask HN: What&amp;rsquo;s the worst you&amp;rsquo;ve ever screwed up at work? | Hacker News&#xA;I felt that gut-wrenching moment when you realize a mistake has been made.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fuckupnights on Dvir Segal's blog</title><link>http://dvirsegal.github.io/tags/fuckupnights/</link><description>Recent content in Fuckupnights on Dvir Segal's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://dvirsegal.github.io/tags/fuckupnights/index.xml" rel="self" type="application/rss+xml"/><item><title>TIFU at Work: Learn and Move On!</title><link>http://dvirsegal.github.io/posts/tifu-at-work-learn-and-move-on/</link><pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate><guid>http://dvirsegal.github.io/posts/tifu-at-work-learn-and-move-on/</guid><description>&lt;p&gt;Everyone makes mistakes. If someone says otherwise, they’re probably not being straight with you. It’s bound to happen whether you’re new to a job or have been there for a while. You can find plenty of horror stories on Reddit and HackerNews. Take, for example, this post with a collection of those stories:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=7144934"&gt;Ask HN: What&amp;rsquo;s the worst you&amp;rsquo;ve ever screwed up at work? | Hacker News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I felt that gut-wrenching moment when you realize a mistake has been made. The sinking feeling in your stomach, the twinge of shame, or the self-critical thoughts might flood in.&lt;/p&gt;</description></item></channel></rss>

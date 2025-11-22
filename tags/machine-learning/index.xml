@@ -1,19 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Machine-Learning on Dvir Segal&#39;s blog</title>
-    <link>http://localhost:1313/tags/machine-learning/</link>
-    <description>Recent content in Machine-Learning on Dvir Segal&#39;s blog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 31 May 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Estimating partial human poses</title>
-      <link>http://localhost:1313/posts/estimating-partial-human-poses-178n/</link>
-      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/estimating-partial-human-poses-178n/</guid>
-      <description>A lot has been said on OpenPose. This real-time multi-person groundbreaking keypoints detection method has many features, along with:&#xA;2D real-time multi-person keypoint detection 3D real-time single-person keypoint detection Calibration toolbox Single-person tracking Supporting Python API, Unity Plugin, Cuda, OpenCL, and CPU only Moreover, more features are in the works by the team (Gines Hidalgo, Zhe Cao, Tomas Simon, Shih-En Wei, Hanbyul Joo, Yaser Sheikh, and Yaadhav Raaj) at Carnegie Mellon University.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Machine-Learning on Dvir Segal's blog</title><link>http://dvirsegal.github.io/tags/machine-learning/</link><description>Recent content in Machine-Learning on Dvir Segal's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 31 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://dvirsegal.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml"/><item><title>Estimating partial human poses</title><link>http://dvirsegal.github.io/posts/estimating-partial-human-poses-178n/</link><pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate><guid>http://dvirsegal.github.io/posts/estimating-partial-human-poses-178n/</guid><description>&lt;p&gt;A lot has been said on &lt;a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose"&gt;OpenPose&lt;/a&gt;. This real-time multi-person groundbreaking keypoints detection method has many features, along with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2D real-time multi-person keypoint detection&lt;/li&gt;
+&lt;li&gt;3D real-time single-person keypoint detection&lt;/li&gt;
+&lt;li&gt;Calibration toolbox&lt;/li&gt;
+&lt;li&gt;Single-person tracking&lt;/li&gt;
+&lt;li&gt;Supporting Python API, Unity Plugin, Cuda, OpenCL, and CPU only&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Moreover, more features are in the works by the team (&lt;a href="https://www.gineshidalgo.com/"&gt;Gines Hidalgo&lt;/a&gt;, &lt;a href="https://people.eecs.berkeley.edu/~zhecao"&gt;Zhe Cao&lt;/a&gt;, &lt;a href="http://www.cs.cmu.edu/~tsimon"&gt;Tomas Simon&lt;/a&gt;, &lt;a href="https://scholar.google.com/citations?user=sFQD3k4AAAAJ&amp;amp;hl=en"&gt;Shih-En Wei&lt;/a&gt;, &lt;a href="https://jhugestar.github.io/"&gt;Hanbyul Joo&lt;/a&gt;, &lt;a href="http://www.cs.cmu.edu/~yaser"&gt;Yaser Sheikh&lt;/a&gt;, and &lt;a href="https://www.raaj.tech/"&gt;Yaadhav Raaj&lt;/a&gt;) at &lt;a href="https://www.cmu.edu/"&gt;Carnegie Mellon University&lt;/a&gt;. The below link is being updated occasionally for new frameworks’ changes. Besides, it contains an installation guide, troubleshooting, and a quick start section. So, go ahead, have a look, and play with it.&lt;/p&gt;</description></item></channel></rss>

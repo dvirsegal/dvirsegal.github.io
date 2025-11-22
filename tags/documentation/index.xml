@@ -1,19 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Documentation on Dvir Segal&#39;s blog</title>
-    <link>http://localhost:1313/tags/documentation/</link>
-    <description>Recent content in Documentation on Dvir Segal&#39;s blog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Code review guidelines light the way</title>
-      <link>http://localhost:1313/posts/code-review-guidelines-light-the-way-1e4/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/code-review-guidelines-light-the-way-1e4/</guid>
-      <description>My humble opinion on the necessity of a check-in process&#xD;Link to heading&#xD;Are you familiar with the situation of getting a code review that is being delayed by your peer reviewer’s nitpicking for filling his code perfection aspirations? Unable to commit due to build server failure? Personal preferences overruled over technical facts?&#xA;Let me see your unit tests&#xA;All the above are examples of the necessity of a well-defined procedure, guiding us in various situations we encounter daily.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation on Dvir Segal's blog</title><link>http://dvirsegal.github.io/tags/documentation/</link><description>Recent content in Documentation on Dvir Segal's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://dvirsegal.github.io/tags/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Code review guidelines light the way</title><link>http://dvirsegal.github.io/posts/code-review-guidelines-light-the-way-1e4/</link><pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate><guid>http://dvirsegal.github.io/posts/code-review-guidelines-light-the-way-1e4/</guid><description>&lt;h4 id="my-humble-opinion-on-the-necessity-of-a-check-in-process"&gt;My humble opinion on the necessity of a check-in process&lt;/h4&gt;
+&lt;p&gt;Are you familiar with the situation of getting a code review that is being delayed by your peer reviewer’s nitpicking for filling his code perfection aspirations? Unable to commit due to build server failure? Personal preferences overruled over technical facts?&lt;/p&gt;
+
+
+
+
+&lt;div style="text-align: center;"&gt;
+ &lt;img src="https://cdn-images-1.medium.com/max/640/0*9Iek0l2zkotlvSZN" alt="Let me see your unit tests" style="display: block; margin: 0 auto;" /&gt;
+ &lt;p style="margin: 0; text-align: center;"&gt;&lt;em&gt;Let me see your unit tests&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;All the above are examples of the necessity of a well-defined procedure, guiding us in various situations we encounter daily. It defends our best interest, helps us understand how to handle them based on the collective experience of all SW engineers before us.&lt;/p&gt;</description></item></channel></rss>

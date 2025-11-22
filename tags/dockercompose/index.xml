@@ -1,19 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Dockercompose on Dvir Segal&#39;s blog</title>
-    <link>http://localhost:1313/tags/dockercompose/</link>
-    <description>Recent content in Dockercompose on Dvir Segal&#39;s blog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 30 Aug 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/dockercompose/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to use docker-compose, volumes, networks, and more</title>
-      <link>http://localhost:1313/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</link>
-      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</guid>
-      <description>This is the last post in the simplify docker series ( if you haven&amp;rsquo;t read the previous ones, go ahead and read them, it will make more sense afterward — part I &amp;amp; part II). This time I’ll cover networks, docker-compose, docker volumes, and more.&#xA;What is it all about with docker-compose?&#xD;Link to heading&#xD;Docker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML here).</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dockercompose on Dvir Segal's blog</title><link>http://dvirsegal.github.io/tags/dockercompose/</link><description>Recent content in Dockercompose on Dvir Segal's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 30 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dvirsegal.github.io/tags/dockercompose/index.xml" rel="self" type="application/rss+xml"/><item><title>How to use docker-compose, volumes, networks, and more</title><link>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</link><pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate><guid>http://dvirsegal.github.io/posts/how-to-use-docker-compose-volumes-networks-and-more-4a24/</guid><description>&lt;p&gt;This is the last post in the simplify docker series ( if you haven&amp;rsquo;t read the previous ones, go ahead and read them, it will make more sense afterward — &lt;a href="https://dvirsegal.github.io/posts/how-to-create-build-a-docker-image-56o3"&gt;part I&lt;/a&gt; &amp;amp; &lt;a href="https://dvirsegal.github.io/posts/how-to-run-delete-a-docker-image-52dm"&gt;part II&lt;/a&gt;). This time I’ll cover networks, docker-compose, docker volumes, and more.&lt;/p&gt;
+&lt;h4 id="what-is-it-all-about-with-docker-compose"&gt;What is it all about with docker-compose?&lt;/h4&gt;
+&lt;p&gt;Docker-compose allows you to define and run multi-container Docker applications. With Compose, you configure your app’s services using YAML files (more on YAML &lt;a href="https://dev.to/dejavo/are-we-all-yaml-engineers-now-538j"&gt;here&lt;/a&gt;). Afterward, you can start all the services your configuration created with just a single command.&lt;/p&gt;</description></item></channel></rss>

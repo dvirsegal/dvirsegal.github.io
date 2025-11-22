@@ -1,1 +1,0 @@
-# dvirsegal.github.io
