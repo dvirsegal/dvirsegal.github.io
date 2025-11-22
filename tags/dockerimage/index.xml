@@ -3,7 +3,7 @@
  
 &lt;/div&gt;
 
-&lt;p&gt;I covered the basics of creating and building Docker images in &lt;a href="https://dev.to/dejavo/how-to-create-build-a-docker-image-56o3"&gt;part I&lt;/a&gt; (if you haven’t read that yet, I would recommend it since this part is based on it). In this part, I’ll explain how to run and delete an image of the container you’ve built.&lt;/p&gt;
+&lt;p&gt;I covered the basics of creating and building Docker images in &lt;a href="https://dev.to/dejavo/how-to-create-build-a-docker-image-56o3" class="external-link" target="_blank" rel="noopener"&gt;part I&lt;/a&gt; (if you haven’t read that yet, I would recommend it since this part is based on it). In this part, I’ll explain how to run and delete an image of the container you’ve built.&lt;/p&gt;
 
 
 

@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Optimization on Dvir Segal's blog</title><link>http://dvirsegal.github.io/tags/optimization/</link><description>Recent content in Optimization on Dvir Segal's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dvirsegal.github.io/tags/optimization/index.xml" rel="self" type="application/rss+xml"/><item><title>Is premature optimization really the root of all evil?</title><link>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</link><pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate><guid>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</guid><description>&lt;h4 id="first-make-it-right-then-make-it-fast"&gt;First, make it right. Then make it fast.&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Optimization on Dvir Segal's blog</title><link>http://dvirsegal.github.io/tags/optimization/</link><description>Recent content in Optimization on Dvir Segal's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://dvirsegal.github.io/tags/optimization/index.xml" rel="self" type="application/rss+xml"/><item><title>Is premature optimization really the root of all evil?</title><link>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</link><pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate><guid>http://dvirsegal.github.io/posts/is-premature-optimization-really-the-root-of-all-evil-35d9/</guid><description>&lt;h4 id="first-make-it-right-then-make-it-fast"&gt;
+ First, make it right. Then make it fast.
+ &lt;a class="heading-link" href="#first-make-it-right-then-make-it-fast"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;
 
 
 
@@ -8,4 +14,4 @@
  &lt;p style="margin: 0; text-align: center;"&gt;&lt;em&gt;Premature Optimization&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Back in the seventies, Knuth wrote the above quote in his paper “&lt;a href="https://dl.acm.org/doi/abs/10.1145/356635.356640"&gt;Structured Programming with go to Statement&lt;/a&gt;” at times when computational power was slower and expensive than nowadays. Nevertheless, it doesn’t mean you shouldn’t take it in your consideration. Note that the quote doesn&amp;rsquo;t stand for itself, and to get its true meaning, you should read the paragraph that follows this famous saying:&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Back in the seventies, Knuth wrote the above quote in his paper “&lt;a href="https://dl.acm.org/doi/abs/10.1145/356635.356640" class="external-link" target="_blank" rel="noopener"&gt;Structured Programming with go to Statement&lt;/a&gt;” at times when computational power was slower and expensive than nowadays. Nevertheless, it doesn’t mean you shouldn’t take it in your consideration. Note that the quote doesn&amp;rsquo;t stand for itself, and to get its true meaning, you should read the paragraph that follows this famous saying:&lt;/p&gt;</description></item></channel></rss>

@@ -1,3 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Humor on Dvir Segal's blog</title><link>http://dvirsegal.github.io/tags/humor/</link><description>Recent content in Humor on Dvir Segal's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 14 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://dvirsegal.github.io/tags/humor/index.xml" rel="self" type="application/rss+xml"/><item><title>The Power of the Unit Tests</title><link>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</link><pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate><guid>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</guid><description>&lt;h6 id="a-humoristic-post-generated-with-the-help-of-chatgpt"&gt;A humoristic post generated with the help of ChatGPT&lt;/h6&gt;
-&lt;h4 id="do-you-wanna-see-me-test-u-wanna-see-me-unit-test"&gt;Do you wanna see me test? U wanna see me unit test?&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Humor on Dvir Segal's blog</title><link>http://dvirsegal.github.io/tags/humor/</link><description>Recent content in Humor on Dvir Segal's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 14 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://dvirsegal.github.io/tags/humor/index.xml" rel="self" type="application/rss+xml"/><item><title>The Power of the Unit Tests</title><link>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</link><pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate><guid>http://dvirsegal.github.io/posts/the-power-of-the-unit-tests/</guid><description>&lt;h6 id="a-humoristic-post-generated-with-the-help-of-chatgpt"&gt;
+ A humoristic post generated with the help of ChatGPT
+ &lt;a class="heading-link" href="#a-humoristic-post-generated-with-the-help-of-chatgpt"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h6&gt;
+&lt;h4 id="do-you-wanna-see-me-test-u-wanna-see-me-unit-test"&gt;
+ Do you wanna see me test? U wanna see me unit test?
+ &lt;a class="heading-link" href="#do-you-wanna-see-me-test-u-wanna-see-me-unit-test"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;
 &lt;p&gt;In the world of software development, unit testing is an essential process that ensures our code behaves precisely as we expect. But let’s be honest; unit testing is not the most glamorous part of coding. It’s the backstage crew, the hidden orchestrators behind a great performance. And just like the Eurovision Song Contest, our unit tests must be pitch-perfect to score the highest points in reliability and robustness.&lt;/p&gt;</description></item></channel></rss>
