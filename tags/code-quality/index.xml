@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code Quality on Dvir Segal's blog</title><link>http://dvirsegal.github.io/tags/code-quality/</link><description>Recent content in Code Quality on Dvir Segal's blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 28 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://dvirsegal.github.io/tags/code-quality/index.xml" rel="self" type="application/rss+xml"/><item><title>The Joy of Negative Code Lines</title><link>http://dvirsegal.github.io/posts/the-joy-of-negative-code-lines-5440ae1f26a6/</link><pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate><guid>http://dvirsegal.github.io/posts/the-joy-of-negative-code-lines-5440ae1f26a6/</guid><description>&lt;h3 id="a-guide-to-safely-deleting-code-and-reducing-technical-debt"&gt;
+ A guide to safely deleting code and reducing technical debt
+ &lt;a class="heading-link" href="#a-guide-to-safely-deleting-code-and-reducing-technical-debt"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;There is a common bias in our industry: the instinct to add.&lt;/p&gt;
+&lt;p&gt;As developers, when we face a problem, our default reaction is to write a new function or add a new library. It feels like progress. But while code drives value, it also carries a &lt;strong&gt;continuous maintenance cost.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Every line you write is a line that must be read by teammates, covered by tests, and secured against vulnerabilities. The most efficient system is the one that delivers maximum value with minimum code.&lt;/p&gt;</description></item></channel></rss>
