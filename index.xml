@@ -339,29 +339,15 @@ At that moment, one of your better options is to decompile your code and debug i
  &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
  &lt;/a&gt;
 &lt;/h2&gt;
-
-
-&lt;style&gt;
- div.splitbox {width:100%; overflow:auto;}
-
- div.splitbox div.column-left {
- width:48%;
- float:left;}
- div.splitbox div.column-right {
- width:48%;
- float:right;}
-
- @media only screen and (max-width: 600px) {
- div.splitbox div.column-left {
- width:100%;
- float:left;}
- div.splitbox div.column-right {
- width:100%;
- float:left;}
- }
- &lt;/style&gt;&lt;div class="splitbox"&gt;&lt;div class="column-left"&gt;
-
-&lt;p&gt;Hey, I’m Dvir 🙋🏻‍♂️&lt;/p&gt;
-&lt;p&gt;I’m curious by nature.&lt;/p&gt;
-&lt;p&gt;I love reading and learning new stuff, mainly about SW development.&lt;/p&gt;
-&lt;p&gt;It feels like I’m on a sort of a quest for knowledge.&lt;/p&gt;</description></item></channel></rss>
+&lt;div style="display: flex; align-items: center; gap: 50px; margin: 40px 0; flex-wrap: wrap-reverse;"&gt;
+&lt;div style="flex: 1; min-width: 300px;"&gt;
+&lt;h2 style="margin-top: 0; font-size: 2rem; margin-bottom: 30px;"&gt;Hey, I’m Dvir 🙋🏻‍♂️&lt;/h2&gt;
+&lt;p style="font-size: 1.75rem; line-height: 1.6; margin-bottom: 25px;"&gt;
+I’m curious by nature.
+&lt;/p&gt;
+&lt;p style="font-size: 1.75rem; line-height: 1.6; margin-bottom: 25px;"&gt;
+I view my career as a continuous quest for knowledge.
+&lt;/p&gt;
+&lt;p style="font-size: 1.75rem; line-height: 1.6; margin-bottom: 25px;"&gt;
+Diving deep into code, architecture, and the soft skills that drive engineering culture.
+&lt;/p&gt;</description></item></channel></rss>
