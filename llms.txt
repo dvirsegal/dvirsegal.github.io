@@ -1,0 +1,15 @@
+# Dvir Segal's Blog
+
+> Dvir Segal is a staff software engineer writing about software development, engineering culture, career growth, debugging, Docker, .NET, and developer productivity.
+
+The blog contains around 50 posts: practical guides (Docker, WPF, .NET tooling), career and growth essays (tech lead vs senior, mentoring, job search), and team culture pieces (code review, communication, retrospectives).
+
+## Content
+
+- [All posts](https://dvirsegal.github.io/posts/): Full archive of blog posts
+- [About Dvir](https://dvirsegal.github.io/about/): Who Dvir is and what he works on
+
+## Feeds and indexes
+
+- [Sitemap](https://dvirsegal.github.io/sitemap.xml): XML sitemap of all pages
+- [RSS](https://dvirsegal.github.io/index.xml): RSS feed of all posts
