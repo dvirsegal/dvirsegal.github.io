@@ -1,0 +1,11 @@
+{
+  "name": "Dvir Segal's blog",
+  "short_name": "Dvir Segal",
+  "icons": [
+    { "src": "/images/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/images/dvir_animated.png", "sizes": "256x256", "type": "image/png" }
+  ],
+  "theme_color": "#fafafa",
+  "background_color": "#fafafa",
+  "display": "browser"
+}
